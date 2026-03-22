@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+  
+  --color-brand-yellow: #FFD93D;
+  --color-brand-orange: #FF8400;
+  --color-brand-green: #6BCB77;
+  --color-brand-blue: #4D96FF;
+  --color-brand-pink: #FF6B6B;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FDF6EC] text-slate-800 font-sans;
+  }
+}
+
+@layer components {
+  .kid-card {
+    @apply bg-white rounded-3xl border-4 border-slate-800 shadow-[8px_8px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-1 active:translate-y-1 active:shadow-none;
+  }
+  
+  .kid-button {
+    @apply px-6 py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .kid-button-primary {
+    @apply px-6 py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed bg-brand-yellow text-slate-800 hover:bg-[#FFC900];
+  }
+
+  .kid-button-secondary {
+    @apply px-6 py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed bg-brand-blue text-white hover:bg-[#3B82F6];
+  }
+  
+  .kid-input {
+    @apply w-full px-6 py-4 rounded-2xl border-4 border-slate-800 bg-white font-sans text-xl focus:outline-none focus:ring-4 focus:ring-brand-yellow/30;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.map-island {
+  background: radial-gradient(circle at center, #A7F3D0 0%, #6EE7B7 70%, #34D399 100%);
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.4;
+}
+
+.map-path-svg {
+  filter: drop-shadow(0px 4px 0px rgba(0,0,0,0.1));
+}
+
