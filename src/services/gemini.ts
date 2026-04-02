@@ -63,24 +63,36 @@ export async function explainConcept(concept: string, grade: Grade): Promise<str
   return response.text || "Xin lỗi, mình không thể giải thích lúc này.";
 }
 
-export async function generateSpeech(text: string): Promise<string> {
-  const response = await ai.models.generateContent({
-    model: "gemini-2.5-flash-preview-tts",
-    contents: [{ parts: [{ text: `Hãy đọc đoạn văn sau bằng giọng đọc tiếng Việt truyền cảm, vui vẻ, phù hợp cho trẻ em: ${text}` }] }],
-    config: {
-      responseModalities: [Modality.AUDIO],
-      speechConfig: {
-        voiceConfig: {
-          // 'Puck', 'Charon', 'Kore', 'Fenrir', 'Zephyr'
-          prebuiltVoiceConfig: { voiceName: 'Kore' },
+export async function generateSpeech(text: string, retries = 2): Promise<string> {
+  try {
+    const response = await ai.models.generateContent({
+      model: "gemini-2.5-flash-preview-tts",
+      contents: [{ parts: [{ text: `Hãy đọc đoạn văn sau bằng giọng đọc tiếng Việt truyền cảm, vui vẻ, phù hợp cho trẻ em: ${text}` }] }],
+      config: {
+        responseModalities: [Modality.AUDIO],
+        speechConfig: {
+          voiceConfig: {
+            // 'Puck', 'Charon', 'Kore', 'Fenrir', 'Zephyr'
+            prebuiltVoiceConfig: { voiceName: 'Kore' },
+          },
         },
       },
-    },
-  });
+    });
 
-  const part = response.candidates?.[0]?.content?.parts?.[0];
-  if (part?.inlineData) {
-    return `data:${part.inlineData.mimeType};base64,${part.inlineData.data}`;
+    const part = response.candidates?.[0]?.content?.parts?.[0];
+    if (part?.inlineData) {
+      return `data:${part.inlineData.mimeType};base64,${part.inlineData.data}`;
+    }
+    return "";
+  } catch (error: any) {
+    if (retries > 0 && (error.message?.includes("429") || error.status === "RESOURCE_EXHAUSTED")) {
+      // Wait for 2 seconds before retrying
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      return generateSpeech(text, retries - 1);
+    }
+    if (!(error.message?.includes("429") || error.status === "RESOURCE_EXHAUSTED")) {
+      console.error("Speech generation failed", error);
+    }
+    throw error;
   }
-  return "";
 }

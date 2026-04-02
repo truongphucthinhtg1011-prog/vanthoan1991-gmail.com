@@ -96,42 +96,393 @@ const FIXED_QUIZ_QUESTIONS: MathProblem[] = [
 ];
 
 const FIXED_GEOMETRY_QUIZ_QUESTIONS: MathProblem[] = [
-  { id: 'g1', question: 'Câu 1: Tổng ba góc của một tam giác bằng', answer: '180°', options: ['90°', '180°', '270°', '360°'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g2', question: 'Câu 2: Tam giác có 3 cạnh bằng nhau là', answer: 'Tam giác đều', options: ['Tam giác vuông', 'Tam giác cân', 'Tam giác đều', 'Tam giác tù'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g3', question: 'Câu 3: Hai đường thẳng song song thì', answer: 'Không bao giờ cắt nhau', options: ['Cắt nhau tại 1 điểm', 'Không bao giờ cắt nhau', 'Trùng nhau', 'Vuông góc'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g4', question: 'Câu 4: Hình vuông có bao nhiêu trục đối xứng?', answer: '4', options: ['2', '3', '4', '1'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g5', question: 'Câu 5: Góc vuông có số đo', answer: '90°', options: ['45°', '60°', '90°', '120°'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g6', question: 'Câu 6: Hình chữ nhật có', answer: '4 góc vuông', options: ['4 cạnh bằng nhau', '4 góc vuông', '2 đường chéo không bằng nhau', 'Không có trục đối xứng'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g7', question: 'Câu 7: Tam giác vuông là tam giác có', answer: '1 góc 90°', options: ['3 góc bằng nhau', '1 góc 90°', '1 cạnh bằng nhau', '3 cạnh khác nhau'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g8', question: 'Câu 8: Hai góc kề bù có tổng bằng', answer: '180°', options: ['90°', '180°', '360°', '270°'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g9', question: 'Câu 9: Trong tam giác cân, hai góc ở đáy', answer: 'Bằng nhau', options: ['Bằng nhau', 'Khác nhau', 'Vuông', 'Bù nhau'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'g10', question: 'Câu 10: Hình tròn có tâm O, bán kính là', answer: 'Khoảng cách từ tâm đến điểm trên đường tròn', options: ['Khoảng cách giữa 2 điểm bất kỳ', 'Đường kính', 'Khoảng cách từ tâm đến điểm trên đường tròn', 'Chu vi'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g1', question: 'Câu 1: Hình nào không có cạnh?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình vuông', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g2', question: 'Câu 2: Hình nào có 3 cạnh?', answer: 'Hình tam giác', options: ['Hình tròn', 'Hình tam giác', 'Hình vuông'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g3', question: 'Câu 3: Hình nào có 4 cạnh bằng nhau?', answer: 'Hình vuông', options: ['Hình chữ nhật', 'Hình vuông', 'Hình tròn'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g4', question: 'Câu 4: Hình nào giống cái bánh xe?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình tam giác', 'Hình vuông'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g5', question: 'Câu 5: Hình nào giống quyển sách?', answer: 'Hình chữ nhật', options: ['Hình chữ nhật', 'Hình tròn', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g6', question: 'Câu 6: Hình vuông có mấy cạnh?', answer: '4', options: ['3', '4', '5'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g7', question: 'Câu 7: Hình tam giác có mấy cạnh?', answer: '3', options: ['2', '3', '4'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g8', question: 'Câu 8: Hình chữ nhật có mấy góc?', answer: '4', options: ['3', '4', '5'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g9', question: 'Câu 9: Hình nào có dạng cái đĩa?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình vuông', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'g10', question: 'Câu 10: Hình nào có 4 cạnh nhưng không bằng nhau?', answer: 'Hình chữ nhật', options: ['Hình vuông', 'Hình chữ nhật', 'Hình tròn'], difficulty: 'easy', topic: 'Hình phẳng' },
+];
+
+const FIXED_SOLID_SHAPES_QUIZ_QUESTIONS: MathProblem[] = [
+  { id: 's1', question: 'Câu 1: Hình nào có 4 cạnh bằng nhau?', answer: 'Hình vuông', options: ['Hình tròn', 'Hình vuông', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's2', question: 'Câu 2: Hình nào không có cạnh?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình vuông', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's3', question: 'Câu 3: Hình nào có 3 cạnh?', answer: 'Hình tam giác', options: ['Hình tam giác', 'Hình tròn', 'Hình vuông'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's4', question: 'Câu 4: Hình nào giống cái bánh xe?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình vuông', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's5', question: 'Câu 5: Hình nào giống quyển sách?', answer: 'Hình chữ nhật', options: ['Hình tròn', 'Hình chữ nhật', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's6', question: 'Câu 6: Hình vuông có mấy cạnh?', answer: '4', options: ['3', '4', '5'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's7', question: 'Câu 7: Hình tam giác có mấy cạnh?', answer: '3', options: ['3', '4', '2'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's8', question: 'Câu 8: Hình chữ nhật có mấy góc?', answer: '4', options: ['3', '4', '5'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's9', question: 'Câu 9: Hình nào có dạng quả bóng?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình vuông', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 's10', question: 'Câu 10: Hình nào có 4 cạnh nhưng không bằng nhau?', answer: 'Hình chữ nhật', options: ['Hình vuông', 'Hình chữ nhật', 'Hình tròn'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+];
+
+const FIXED_NUMBERS_TO_100_QUIZ_QUESTIONS: MathProblem[] = [
+  { id: 'nq1', question: 'Câu 1: Số nào lớn hơn 25?', answer: '26', options: ['24', '26', '23'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq2', question: 'Câu 2: Số nào bé hơn 40?', answer: '39', options: ['41', '39', '42'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq3', question: 'Câu 3: 30 gồm:', answer: '3 chục', options: ['3 chục', '30 đơn vị', '2 chục'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq4', question: 'Câu 4: 47 gồm:', answer: '4 chục 7 đơn vị', options: ['4 chục 7 đơn vị', '7 chục 4 đơn vị', '47 chục'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq5', question: 'Câu 5: Số liền sau của 19 là:', answer: '20', options: ['18', '20', '21'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq6', question: 'Câu 6: Số liền trước của 50 là:', answer: '49', options: ['49', '51', '48'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq7', question: 'Câu 7: Trong các số sau, số nào lớn nhất?', answer: '21', options: ['12', '21', '20'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq8', question: 'Câu 8: Trong các số sau, số nào bé nhất?', answer: '34', options: ['35', '53', '34'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq9', question: 'Câu 9: Số 60 có:', answer: '6 chục', options: ['6 chục', '6 đơn vị', '60 chục'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nq10', question: 'Câu 10: Số nào bằng 1 chục?', answer: '10', options: ['1', '10', '100'], difficulty: 'easy', topic: 'Các số đến 100' },
+];
+
+const FIXED_ADD_SUB_QUIZ_QUESTIONS: MathProblem[] = [
+  { id: 'asq1', question: '2 + 3 = ?', answer: '5', options: ['4', '5', '6'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq2', question: '5 − 2 = ?', answer: '3', options: ['2', '3', '4'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq3', question: '1 + 6 = ?', answer: '7', options: ['6', '7', '8'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq4', question: '7 − 3 = ?', answer: '4', options: ['3', '4', '5'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq5', question: '4 + 4 = ?', answer: '8', options: ['6', '7', '8'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq6', question: '9 − 5 = ?', answer: '4', options: ['3', '4', '5'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq7', question: '3 + 2 = ?', answer: '5', options: ['4', '5', '6'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq8', question: '6 − 1 = ?', answer: '5', options: ['4', '5', '6'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq9', question: '0 + 7 = ?', answer: '7', options: ['6', '7', '8'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asq10', question: '8 − 8 = ?', answer: '0', options: ['0', '1', '2'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+];
+
+const FIXED_ADD_SUB_100_QUIZ_QUESTIONS: MathProblem[] = [
+  { id: 'as100q1', question: 'Câu 1: 12 + 5 = ?', answer: '17', options: ['16', '17', '18'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q2', question: 'Câu 2: 20 − 4 = ?', answer: '16', options: ['15', '16', '17'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q3', question: 'Câu 3: 15 + 3 = ?', answer: '18', options: ['17', '18', '19'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q4', question: 'Câu 4: 30 − 10 = ?', answer: '20', options: ['20', '10', '15'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q5', question: 'Câu 5: 22 + 2 = ?', answer: '24', options: ['23', '24', '25'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q6', question: 'Câu 6: 40 − 5 = ?', answer: '35', options: ['34', '35', '36'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q7', question: 'Câu 7: 10 + 10 = ?', answer: '20', options: ['20', '21', '19'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q8', question: 'Câu 8: 18 − 8 = ?', answer: '10', options: ['9', '10', '11'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q9', question: 'Câu 9: 25 + 4 = ?', answer: '29', options: ['28', '29', '30'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100q10', question: 'Câu 10: 50 − 20 = ?', answer: '30', options: ['20', '30', '40'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+];
+
+const FIXED_ADD_SUB_100_FUN_QUESTIONS: MathProblem[] = [
+  { id: 'as100f1', question: 'Câu 1: 27 + 15 = ?', answer: '42', options: ['40', '42', '43'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f2', question: 'Câu 2: 45 − 23 = ?', answer: '22', options: ['22', '21', '23'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f3', question: 'Câu 3: 36 + 28 = ?', answer: '64', options: ['64', '63', '62'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f4', question: 'Câu 4: 70 − 35 = ?', answer: '35', options: ['35', '34', '36'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f5', question: 'Câu 5: 48 + 12 = ?', answer: '60', options: ['60', '59', '61'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f6', question: 'Câu 6: 90 − 27 = ?', answer: '63', options: ['63', '62', '61'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f7', question: 'Câu 7: 25 + 25 = ?', answer: '50', options: ['40', '50', '60'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f8', question: 'Câu 8: 60 − 18 = ?', answer: '42', options: ['42', '41', '43'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f9', question: 'Câu 9: 33 + 19 = ?', answer: '52', options: ['52', '51', '53'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100f10', question: 'Câu 10: 80 − 45 = ?', answer: '35', options: ['35', '34', '36'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 100' },
+];
+
+const FIXED_ADD_SUB_100_CONQUER_QUESTIONS: MathProblem[] = [
+  { id: 'as100c1', question: 'Câu 1: 14 + ? = 20', answer: '6', options: ['5', '6', '7'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c2', question: 'Câu 2: ? − 10 = 25', answer: '35', options: ['35', '30', '40'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c3', question: 'Câu 3: 50 + 20 − 10 = ?', answer: '60', options: ['60', '70', '80'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c4', question: 'Câu 4: 100 − 50 = ?', answer: '50', options: ['40', '50', '60'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c5', question: 'Câu 5: 35 + 5 − 10 = ?', answer: '30', options: ['30', '29', '31'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c6', question: 'Câu 6: 20 + 30 + 40 = ?', answer: '90', options: ['80', '90', '100'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c7', question: 'Câu 7: 80 − 20 − 30 = ?', answer: '30', options: ['30', '40', '50'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c8', question: 'Câu 8: 15 + 15 + 15 = ?', answer: '45', options: ['40', '45', '50'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c9', question: 'Câu 9: 60 + ? = 100', answer: '40', options: ['30', '40', '50'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+  { id: 'as100c10', question: 'Câu 10: 75 − 25 + 10 = ?', answer: '60', options: ['50', '60', '70'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 100' },
+];
+
+const FIXED_MEASUREMENT_QUIZ_QUESTIONS: MathProblem[] = [
+  { id: 'mq1', question: 'Câu 1: Đơn vị đo độ dài thường dùng là:', answer: 'cm', options: ['cm', 'kg', 'lít'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq2', question: 'Câu 2: Dụng cụ dùng để đo độ dài là:', answer: 'Thước kẻ', options: ['Thước kẻ', 'Cái bát', 'Cái ly'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq3', question: 'Câu 3: Vật nào dài hơn?', answer: 'Bút chì', options: ['Bút chì', 'Cục tẩy', 'Cái kẹp giấy'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq4', question: 'Câu 4: 1 dm bằng bao nhiêu cm?', answer: '10 cm', options: ['10 cm', '100 cm', '1 cm'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq5', question: 'Câu 5: Sợi dây dài hơn cái bút nghĩa là:', answer: 'Dây dài hơn', options: ['Dây ngắn hơn', 'Dây dài hơn', 'Bằng nhau'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq6', question: 'Câu 6: Vật nào ngắn hơn?', answer: 'Bút chì', options: ['Thước', 'Bút chì', 'Cái bảng'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq7', question: 'Câu 7: Đo độ dài bàn học dùng:', answer: 'Thước', options: ['Thước', 'Muỗng', 'Ly'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq8', question: 'Câu 8: 1 gang tay là:', answer: 'Đơn vị đo độ dài', options: ['Đơn vị đo độ dài', 'Đơn vị đo cân nặng', 'Đơn vị đo nước'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq9', question: 'Câu 9: So sánh: 5 cm … 7 cm', answer: '<', options: ['>', '<', '='], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mq10', question: 'Câu 10: Vật nào dài nhất?', answer: 'Cái bảng', options: ['Cái bút', 'Cái thước', 'Cái bảng'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+];
+
+const FIXED_MEASUREMENT_FUN_QUESTIONS: MathProblem[] = [
+  { id: 'mf1', question: 'Câu 1: 8 cm so với 6 cm:', answer: '>', options: ['>', '<', '='], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf2', question: 'Câu 2: Đo chiều dài bàn bằng đơn vị nào hợp lý?', answer: 'cm', options: ['cm', 'km', 'mm'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf3', question: 'Câu 3: Một đoạn dây dài 10 cm, cắt đi 4 cm, còn:', answer: '6 cm', options: ['5 cm', '6 cm', '7 cm'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf4', question: 'Câu 4: 1 dm = … cm', answer: '10', options: ['10', '100', '1'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf5', question: 'Câu 5: Đo chiều dài lớp học dùng đơn vị nào?', answer: 'm', options: ['cm', 'm', 'mm'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf6', question: 'Câu 6: So sánh: 1 dm … 9 cm', answer: '>', options: ['>', '<', '='], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf7', question: 'Câu 7: Vật nào dài hơn 10 cm?', answer: 'Bút chì', options: ['Bút chì', 'Cục tẩy', 'Cái kẹp giấy'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf8', question: 'Câu 8: Một que dài 7 cm, que khác dài 9 cm. Que nào dài hơn?', answer: '9 cm', options: ['7 cm', '9 cm', 'Bằng nhau'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf9', question: 'Câu 9: 2 dm = … cm', answer: '20', options: ['20', '2', '200'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+  { id: 'mf10', question: 'Câu 10: Một đoạn thẳng dài 5 cm, thêm 3 cm nữa được:', answer: '8 cm', options: ['7 cm', '8 cm', '9 cm'], difficulty: 'easy', topic: 'Độ dài & Đo lường' },
+];
+
+const FIXED_ADD_SUB_FUN_QUESTIONS: MathProblem[] = [
+  { id: 'asf1', question: '3 + 4 − 2 = ?', answer: '5', options: ['4', '5', '6'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf2', question: '6 − 2 + 1 = ?', answer: '5', options: ['4', '5', '6'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf3', question: '5 + 2 − 3 = ?', answer: '4', options: ['3', '4', '5'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf4', question: '7 − 4 + 2 = ?', answer: '5', options: ['4', '5', '6'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf5', question: '2 + 5 − 6 = ?', answer: '1', options: ['1', '2', '3'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf6', question: '9 − 3 − 2 = ?', answer: '4', options: ['3', '4', '5'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf7', question: '4 + 3 − 5 = ?', answer: '2', options: ['2', '3', '4'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf8', question: '8 − 6 + 3 = ?', answer: '5', options: ['4', '5', '6'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf9', question: '1 + 8 − 7 = ?', answer: '2', options: ['2', '3', '4'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asf10', question: '10 − 5 + 2 = ?', answer: '7', options: ['6', '7', '8'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 10' },
+];
+
+const FIXED_ADD_SUB_CONQUER_QUESTIONS: MathProblem[] = [
+  { id: 'asc1', question: 'Số nào lớn hơn: 6 hay 8?', answer: '8', options: ['6', '8'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc2', question: '3 + ? = 7', answer: '4', options: ['3', '4', '5'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc3', question: '9 − ? = 5', answer: '4', options: ['3', '4', '5'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc4', question: '2 + 2 + 2 = ?', answer: '6', options: ['5', '6', '7'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc5', question: '7 − 2 − 2 = ?', answer: '3', options: ['2', '3', '4'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc6', question: '4 + ? = 10', answer: '6', options: ['5', '6', '7'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc7', question: '8 − ? = 2', answer: '6', options: ['5', '6', '7'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc8', question: '1 + 2 + 3 = ?', answer: '6', options: ['5', '6', '7'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc9', question: '10 − 5 − 2 = ?', answer: '3', options: ['2', '3', '4'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
+  { id: 'asc10', question: 'Số nào bé hơn: 5 hay 3?', answer: '3', options: ['5', '3'], difficulty: 'medium', topic: 'Cộng, trừ phạm vi 10' },
 ];
 
 const FIXED_GEOMETRY_FUN_QUESTIONS: MathProblem[] = [
-  { id: 'gf1', question: 'Câu 11: Trong tam giác ABC, nếu ∠A = 60°, ∠B = 50° thì ∠C =', answer: '70°', options: ['60°', '50°', '70°', '80°'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf2', question: 'Câu 12: Hai đường thẳng song song bị cắt bởi một đường thẳng thì', answer: 'Góc đồng vị bằng nhau', options: ['Góc đồng vị bằng nhau', 'Góc so le trong không bằng nhau', 'Góc kề bù bằng nhau', 'Không có liên hệ'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf3', question: 'Câu 13: Trong hình bình hành, hai đường chéo', answer: 'Cắt nhau tại trung điểm', options: ['Bằng nhau', 'Vuông góc', 'Cắt nhau tại trung điểm', 'Không cắt nhau'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf4', question: 'Câu 14: Nếu một tam giác có 2 góc bằng 45° thì là tam giác', answer: 'Vuông cân', options: ['Vuông cân', 'Đều', 'Thường', 'Tù'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf5', question: 'Câu 15: Hình thang cân có', answer: 'Hai góc kề một đáy bằng nhau', options: ['Hai cạnh bên song song', 'Hai góc kề một đáy bằng nhau', 'Không có trục đối xứng', 'Hai đường chéo không bằng nhau'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf6', question: 'Câu 16: Góc ngoài của tam giác bằng', answer: 'Tổng 2 góc trong không kề', options: ['Tổng 3 góc trong', 'Hiệu 2 góc trong', 'Tổng 2 góc trong không kề', '90°'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf7', question: 'Câu 17: Nếu hai đường chéo hình thoi vuông góc thì', answer: 'Luôn đúng', options: ['Luôn đúng', 'Không đúng', 'Chỉ đúng khi là hình vuông', 'Không xác định'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf8', question: 'Câu 18: Trong tam giác vuông, cạnh huyền là', answer: 'Cạnh đối diện góc vuông', options: ['Cạnh nhỏ nhất', 'Cạnh đối diện góc vuông', 'Cạnh kề góc vuông', 'Đường cao'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf9', question: 'Câu 19: Hai tam giác bằng nhau khi', answer: 'Có 3 cạnh tương ứng bằng nhau', options: ['Có 1 cạnh bằng nhau', 'Có 3 cạnh tương ứng bằng nhau', 'Có 1 góc bằng nhau', 'Có diện tích bằng nhau'], difficulty: 'easy', topic: 'Hình phẳng' },
-  { id: 'gf10', question: 'Câu 20: Hình vuông là', answer: 'Cả A và B đúng', options: ['Hình thoi đặc biệt', 'Hình chữ nhật đặc biệt', 'Cả A và B đúng', 'Không đúng'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf1', question: 'Câu 1: Hình nào có nhiều hơn 3 cạnh?', answer: 'Hình vuông', options: ['Hình tam giác', 'Hình vuông', 'Hình tròn'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf2', question: 'Câu 2: Hình nào có ít cạnh nhất?', answer: 'Hình tròn', options: ['Hình vuông', 'Hình tam giác', 'Hình tròn'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf3', question: 'Câu 3: Trong các hình sau, hình nào có 4 góc?', answer: 'Hình chữ nhật', options: ['Hình tròn', 'Hình tam giác', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf4', question: 'Câu 4: Hình nào có thể ghép từ 2 hình tam giác?', answer: 'Hình vuông', options: ['Hình vuông', 'Hình tròn', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf5', question: 'Câu 5: Hình nào KHÔNG phải hình phẳng cơ bản?', answer: 'Hình cầu', options: ['Hình tròn', 'Hình vuông', 'Hình cầu'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf6', question: 'Câu 6: Hình nào có tất cả các cạnh bằng nhau?', answer: 'Hình vuông', options: ['Hình vuông', 'Hình chữ nhật', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf7', question: 'Câu 7: Hình nào có 4 cạnh và 4 góc?', answer: 'Hình chữ nhật', options: ['Hình tam giác', 'Hình chữ nhật', 'Hình tròn'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf8', question: 'Câu 8: Hình nào có thể lăn?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình vuông', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf9', question: 'Câu 9: Hình nào giống cửa sổ?', answer: 'Hình vuông', options: ['Hình tròn', 'Hình vuông', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình phẳng' },
+  { id: 'gf10', question: 'Câu 10: Hình nào không có góc?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình vuông', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình phẳng' },
+];
+
+const FIXED_SOLID_SHAPES_FUN_QUESTIONS: MathProblem[] = [
+  { id: 'sf1', question: 'Câu 1: Khối nào giống quả bóng?', answer: 'Khối cầu', options: ['Khối cầu', 'Khối lập phương', 'Khối trụ'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf2', question: 'Câu 2: Khối nào có dạng hộp sữa?', answer: 'Khối hộp chữ nhật', options: ['Khối trụ', 'Khối hộp chữ nhật', 'Khối cầu'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf3', question: 'Câu 3: Khối nào có 6 mặt bằng nhau?', answer: 'Khối lập phương', options: ['Khối cầu', 'Khối lập phương', 'Khối trụ'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf4', question: 'Câu 4: Khối nào lăn được?', answer: 'Khối cầu', options: ['Khối cầu', 'Khối lập phương', 'Khối hộp'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf5', question: 'Câu 5: Khối nào giống lon nước?', answer: 'Khối trụ', options: ['Khối trụ', 'Khối cầu', 'Khối lập phương'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf6', question: 'Câu 6: Khối nào không có cạnh?', answer: 'Khối cầu', options: ['Khối cầu', 'Khối lập phương', 'Khối hộp'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf7', question: 'Câu 7: Khối nào có thể xếp chồng dễ dàng?', answer: 'Khối lập phương', options: ['Khối lập phương', 'Khối cầu', 'Khối trụ'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf8', question: 'Câu 8: Khối nào vừa lăn vừa đứng được?', answer: 'Khối trụ', options: ['Khối cầu', 'Khối trụ', 'Khối lập phương'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf9', question: 'Câu 9: Khối nào giống viên xúc xắc?', answer: 'Khối lập phương', options: ['Khối cầu', 'Khối lập phương', 'Khối trụ'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
+  { id: 'sf10', question: 'Câu 10: Khối nào không lăn được?', answer: 'Khối lập phương', options: ['Khối lập phương', 'Khối cầu', 'Khối trụ'], difficulty: 'easy', topic: 'Hình khối & Vị trí' },
 ];
 
 const FIXED_GEOMETRY_CONQUER_QUESTIONS: MathProblem[] = [
-  { id: 'gc1', question: 'Câu 21: Cho tam giác ABC có AB = AC, suy ra', answer: '∠B = ∠C', options: ['∠B = ∠C', '∠A = ∠B', '∠A = ∠C', 'Không xác định'], difficulty: 'medium', topic: 'Hình phẳng' },
-  { id: 'gc2', question: 'Câu 22: Hai đường thẳng vuông góc tạo thành góc', answer: '90°', options: ['45°', '60°', '90°', '120°'], difficulty: 'medium', topic: 'Hình phẳng' },
-  { id: 'gc3', question: 'Câu 23: Nếu một tứ giác có 4 góc vuông thì là', answer: 'Hình chữ nhật', options: ['Hình vuông', 'Hình chữ nhật', 'Hình thang', 'Hình bình hành'], difficulty: 'medium', topic: 'Hình phẳng' },
-  { id: 'gc4', question: 'Câu 24: Hình có hai cặp cạnh đối song song là', answer: 'Hình bình hành', options: ['Hình thang', 'Hình bình hành', 'Hình tam giác', 'Hình tròn'], difficulty: 'medium', topic: 'Hình phẳng' },
-  { id: 'gc5', question: 'Câu 25: Trong tam giác, cạnh lớn nhất đối diện với', answer: 'Góc lớn nhất', options: ['Góc nhỏ nhất', 'Góc lớn nhất', 'Góc vuông', 'Góc tù'], difficulty: 'medium', topic: 'Hình phẳng' },
-  { id: 'gc6', question: 'Câu 26: Cho tam giác ABC có ∠A = 50°, ∠B = 60°. Tính ∠C.', answer: '70°', options: [], difficulty: 'hard', topic: 'Hình phẳng', explanation: 'Lời giải: ∠C = 180° - 50° - 60° = 70°' },
-  { id: 'gc7', question: 'Câu 27: Chứng minh rằng trong tam giác cân, hai góc ở đáy bằng nhau.', answer: 'Dùng định nghĩa tam giác cân (2 cạnh bằng nhau) → suy ra 2 góc đối diện bằng nhau.', options: [], difficulty: 'hard', topic: 'Hình phẳng', explanation: 'Gợi ý: Dùng định nghĩa tam giác cân (2 cạnh bằng nhau) → suy ra 2 góc đối diện bằng nhau.' },
-  { id: 'gc8', question: 'Câu 28: Cho hình chữ nhật ABCD, chứng minh AC = BD.', answer: 'Xét hai tam giác vuông ABC và BAD → cạnh – góc – cạnh.', options: [], difficulty: 'hard', topic: 'Hình phẳng', explanation: 'Gợi ý: Xét hai tam giác vuông ABC và BAD → cạnh – góc – cạnh.' },
-  { id: 'gc9', question: 'Câu 29: Cho tam giác vuông ABC vuông tại A, biết AB = 3, AC = 4. Tính BC.', answer: '5', options: [], difficulty: 'hard', topic: 'Hình phẳng', explanation: 'Lời giải: BC = 5 (định lý Pitago)' },
-  { id: 'gc10', question: 'Câu 30: Chứng minh tổng ba góc trong một tam giác bằng 180°.', answer: 'Vẽ đường thẳng song song với một cạnh qua đỉnh đối diện, dùng tính chất góc so le trong.', options: [], difficulty: 'hard', topic: 'Hình phẳng', explanation: 'Gợi ý: Vẽ đường thẳng song song với một cạnh qua đỉnh đối diện, dùng tính chất góc so le trong.' },
+  { id: 'gc1', question: 'Câu 1: Hình nào khác loại?', answer: 'Hình tròn', options: ['Hình vuông', 'Hình tròn', 'Hình chữ nhật'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc2', question: 'Câu 2: Hình nào có nhiều cạnh hơn hình tam giác?', answer: 'Hình vuông', options: ['Hình vuông', 'Hình tròn', 'Không có'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc3', question: 'Câu 3: Hình nào có 4 cạnh bằng nhau?', answer: 'Hình vuông', options: ['Hình chữ nhật', 'Hình vuông', 'Hình tròn'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc4', question: 'Câu 4: Hình nào KHÔNG có góc?', answer: 'Hình tròn', options: ['Hình tròn', 'Hình vuông', 'Hình tam giác'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc5', question: 'Câu 5: Hình nào giống cái bảng?', answer: 'Hình chữ nhật', options: ['Hình chữ nhật', 'Hình tròn', 'Hình tam giác'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc6', question: 'Câu 6: Hình nào có 4 góc vuông?', answer: 'Hình chữ nhật', options: ['Hình tròn', 'Hình tam giác', 'Hình chữ nhật'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc7', question: 'Câu 7: Hình nào có 3 góc?', answer: 'Hình tam giác', options: ['Hình vuông', 'Hình tam giác', 'Hình tròn'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc8', question: 'Câu 8: Hình nào giống cái phong bì thư?', answer: 'Hình chữ nhật', options: ['Hình chữ nhật', 'Hình tròn', 'Hình vuông'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc9', question: 'Câu 9: Hình nào có thể chia thành 2 hình vuông?', answer: 'Hình chữ nhật', options: ['Hình chữ nhật', 'Hình tròn', 'Hình tam giác'], difficulty: 'medium', topic: 'Hình phẳng' },
+  { id: 'gc10', question: 'Câu 10: Hình nào có 4 cạnh?', answer: 'Hình chữ nhật', options: ['Hình tam giác', 'Hình chữ nhật', 'Hình tròn'], difficulty: 'medium', topic: 'Hình phẳng' },
+];
+
+const FIXED_SOLID_SHAPES_CONQUER_QUESTIONS: MathProblem[] = [
+  { id: 'sc1', question: 'Câu 1: Con mèo ở dưới bàn nghĩa là:', answer: 'Dưới bàn', options: ['Trên bàn', 'Dưới bàn', 'Bên cạnh bàn'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc2', question: 'Câu 2: Quả bóng ở trên ghế nghĩa là:', answer: 'Trên ghế', options: ['Dưới ghế', 'Trên ghế', 'Trong ghế'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc3', question: 'Câu 3: Cái bút nằm bên cạnh quyển sách nghĩa là:', answer: 'Ở gần bên', options: ['Ở xa', 'Ở gần bên', 'Ở dưới'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc4', question: 'Câu 4: Quả bóng ở trong hộp nghĩa là:', answer: 'Trong hộp', options: ['Ngoài hộp', 'Trong hộp', 'Trên hộp'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc5', question: 'Câu 5: Con chó đứng trước nhà nghĩa là:', answer: 'Trước nhà', options: ['Sau nhà', 'Trước nhà', 'Trong nhà'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc6', question: 'Câu 6: Con chim đậu trên cành cây nghĩa là:', answer: 'Ở trên', options: ['Ở dưới', 'Ở trên', 'Ở trong'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc7', question: 'Câu 7: Đôi dép ở dưới gầm giường nghĩa là:', answer: 'Ở dưới', options: ['Ở trên', 'Ở dưới', 'Ở cạnh'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc8', question: 'Câu 8: Em bé đứng bên trái mẹ nghĩa là:', answer: 'Bên trái', options: ['Bên phải', 'Bên trái', 'Đằng sau'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc9', question: 'Câu 9: Quyển vở ở giữa cái bút và cái thước nghĩa là:', answer: 'Ở giữa', options: ['Ở trên', 'Ở giữa', 'Ở dưới'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+  { id: 'sc10', question: 'Câu 10: Chiếc xe đạp ở ngoài sân nghĩa là:', answer: 'Ngoài sân', options: ['Trong nhà', 'Ngoài sân', 'Trên mái nhà'], difficulty: 'medium', topic: 'Hình khối & Vị trí' },
+];
+
+const FIXED_NUMBERS_TO_100_CONQUER_QUESTIONS: MathProblem[] = [
+  { id: 'nc1', question: 'Câu 1: Số nào lớn nhất?', answer: '87', options: ['78', '87', '77'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc2', question: 'Câu 2: Số nào bé nhất?', answer: '9', options: ['90', '9', '19'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc3', question: 'Câu 3: Số 36 gồm:', answer: '3 chục 6 đơn vị', options: ['3 chục 6 đơn vị', '6 chục 3 đơn vị', '36 chục'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc4', question: 'Câu 4: Số liền sau của 99 là:', answer: '100', options: ['98', '100', '101'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc5', question: 'Câu 5: Số nào nằm giữa 49 và 51?', answer: '50', options: ['48', '50', '52'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc6', question: 'Câu 6: Số tròn chục lớn nhất có hai chữ số là:', answer: '90', options: ['90', '100', '80'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc7', question: 'Câu 7: Số 55 gồm:', answer: '5 chục 5 đơn vị', options: ['5 chục 5 đơn vị', '5 chục', '5 đơn vị'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc8', question: 'Câu 8: Số liền trước của 100 là:', answer: '99', options: ['99', '98', '101'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc9', question: 'Câu 9: Số nào bé hơn 70?', answer: '69', options: ['71', '69', '80'], difficulty: 'medium', topic: 'Các số đến 100' },
+  { id: 'nc10', question: 'Câu 10: 8 chục và 4 đơn vị viết là:', answer: '84', options: ['48', '84', '80'], difficulty: 'medium', topic: 'Các số đến 100' },
+];
+
+const FIXED_NUMBERS_TO_100_FUN_QUESTIONS: MathProblem[] = [
+  { id: 'nf1', question: 'Câu 1: 45 so với 54:', answer: '45 < 54', options: ['45 > 54', '45 < 54', '45 = 54'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf2', question: 'Câu 2: Số nào nằm giữa 38 và 40?', answer: '39', options: ['37', '39', '41'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf3', question: 'Câu 3: Số nào có 5 chục và 2 đơn vị?', answer: '52', options: ['25', '52', '50'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf4', question: 'Câu 4: Dãy số: 10, 20, 30, … số tiếp theo là:', answer: '40', options: ['35', '40', '50'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf5', question: 'Câu 5: Số nào lớn hơn 67 nhưng bé hơn 70?', answer: '68', options: ['66', '68', '70'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf6', question: 'Câu 6: Số 80 gồm:', answer: '8 chục', options: ['8 chục', '8 đơn vị', '80 đơn vị'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf7', question: 'Câu 7: Số nào nhỏ hơn 55?', answer: '54', options: ['56', '54', '57'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf8', question: 'Câu 8: 99 là:', answer: '9 chục 9 đơn vị', options: ['9 chục 9 đơn vị', '99 chục', '9 đơn vị'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf9', question: 'Câu 9: Số nào đứng trước 71?', answer: '70', options: ['70', '72', '69'], difficulty: 'easy', topic: 'Các số đến 100' },
+  { id: 'nf10', question: 'Câu 10: Số nào là số tròn chục?', answer: '40', options: ['34', '40', '45'], difficulty: 'easy', topic: 'Các số đến 100' },
+];
+
+const FIXED_MEASUREMENT_CONQUER_QUESTIONS: MathProblem[] = [
+  { id: 'mc1', question: 'Câu 1: Đơn vị nào dùng đo độ dài?', answer: 'cm', options: ['cm', 'kg', 'lít'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc2', question: 'Câu 2: So sánh: 10 cm … 1 dm', answer: '=', options: ['>', '<', '='], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc3', question: 'Câu 3: Vật nào ngắn nhất?', answer: 'Cục tẩy', options: ['Bút', 'Thước', 'Cục tẩy'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc4', question: 'Câu 4: Đo độ dài cần dùng:', answer: 'Thước', options: ['Thước', 'Nồi', 'Ly'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc5', question: 'Câu 5: 3 cm + 4 cm = ?', answer: '7 cm', options: ['6 cm', '7 cm', '8 cm'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc6', question: 'Câu 6: 10 cm còn gọi là:', answer: '1 dm', options: ['1 dm', '2 dm', '1 cm'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc7', question: 'Câu 7: 15 cm - 5 cm = ?', answer: '10 cm', options: ['10 cm', '20 cm', '11 cm'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc8', question: 'Câu 8: Số thích hợp: 1 dm = ... cm', answer: '10', options: ['1', '10', '100'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc9', question: 'Câu 9: Gang tay của em dài khoảng:', answer: '15 cm', options: ['1 cm', '15 cm', '100 cm'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+  { id: 'mc10', question: 'Câu 10: Chiều dài quyển sách Toán khoảng:', answer: '25 cm', options: ['25 cm', '25 dm', '25 m'], difficulty: 'medium', topic: 'Độ dài & Đo lường' },
+];
+
+const FIXED_TIME_CALENDAR_QUIZ_QUESTIONS: MathProblem[] = [
+  { id: 'tcq1', question: 'Câu 1: Một ngày có bao nhiêu giờ?', answer: '24 giờ', options: ['12 giờ', '24 giờ', '48 giờ'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq2', question: 'Câu 2: Buổi sáng diễn ra vào:', answer: 'Ban ngày', options: ['Ban đêm', 'Ban ngày', 'Buổi tối'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq3', question: 'Câu 3: Kim ngắn trên đồng hồ chỉ gì?', answer: 'Giờ', options: ['Giờ', 'Phút', 'Giây'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq4', question: 'Câu 4: Kim dài trên đồng hồ chỉ gì?', answer: 'Phút', options: ['Giờ', 'Phút', 'Ngày'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq5', question: 'Câu 5: Khi đồng hồ chỉ 3 giờ nghĩa là:', answer: '3 giờ', options: ['3 giờ', '6 giờ', '9 giờ'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq6', question: 'Câu 6: Một tuần có bao nhiêu ngày?', answer: '7 ngày', options: ['5 ngày', '6 ngày', '7 ngày'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq7', question: 'Câu 7: Ngày đầu tiên của tuần là:', answer: 'Thứ Hai', options: ['Thứ Hai', 'Chủ nhật', 'Thứ Ba'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq8', question: 'Câu 8: Buổi tối là thời gian:', answer: 'Cả hai', options: ['Học bài', 'Ngủ', 'Cả hai'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq9', question: 'Câu 9: Một ngày có mấy buổi chính?', answer: '4', options: ['2', '3', '4'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcq10', question: 'Câu 10: Lịch dùng để:', answer: 'Xem ngày tháng', options: ['Xem ngày tháng', 'Xem giờ', 'Xem cân nặng'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+];
+
+const FIXED_TIME_CALENDAR_FUN_QUESTIONS: MathProblem[] = [
+  { id: 'tcf1', question: 'Sau thứ Hai là:', answer: 'Thứ Ba', options: ['Thứ Ba', 'Thứ Tư', 'Chủ nhật'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf2', question: 'Trước thứ Sáu là:', answer: 'Thứ Năm', options: ['Thứ Tư', 'Thứ Năm', 'Thứ Bảy'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf3', question: 'Một ngày có mấy giờ?', answer: '24', options: ['12', '24', '36'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf4', question: '7 giờ sáng là:', answer: 'Buổi sáng', options: ['Buổi sáng', 'Buổi tối', 'Ban đêm'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf5', question: 'Đồng hồ có 2 kim chính là:', answer: 'Kim giờ và kim phút', options: ['Kim giờ và kim phút', 'Kim phút và kim giây', 'Kim giờ và kim giây'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf6', question: 'Chủ nhật là ngày thứ mấy trong tuần?', answer: 'Cuối tuần', options: ['Cuối tuần', 'Đầu tuần', 'Giữa tuần'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf7', question: 'Một tháng thường có:', answer: '30 hoặc 31 ngày', options: ['20 ngày', '30 hoặc 31 ngày', '40 ngày'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf8', question: '9 giờ tối thuộc:', answer: 'Buổi tối', options: ['Buổi sáng', 'Buổi chiều', 'Buổi tối'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf9', question: 'Nếu hôm nay là thứ Ba, ngày mai là:', answer: 'Thứ Tư', options: ['Thứ Hai', 'Thứ Tư', 'Thứ Năm'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+  { id: 'tcf10', question: 'Nếu hôm nay là thứ Sáu, hôm qua là:', answer: 'Thứ Năm', options: ['Thứ Năm', 'Thứ Bảy', 'Chủ nhật'], difficulty: 'easy', topic: 'Thời gian & Lịch' },
+];
+
+const FIXED_TIME_CALENDAR_CONQUER_QUESTIONS: MathProblem[] = [
+  { id: 'tcc1', question: 'Đồng hồ chỉ 4 giờ nghĩa là:', answer: '4 giờ', options: ['4 giờ', '5 giờ', '6 giờ'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc2', question: 'Một tuần có:', answer: '7 ngày', options: ['5 ngày', '6 ngày', '7 ngày'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc3', question: 'Sau Chủ nhật là:', answer: 'Thứ Hai', options: ['Thứ Hai', 'Thứ Ba', 'Thứ Sáu'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc4', question: 'Buổi chiều là khoảng thời gian:', answer: 'Sau buổi sáng', options: ['Sau buổi sáng', 'Trước buổi sáng', 'Sau buổi tối'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc5', question: 'Lịch giúp ta biết:', answer: 'Ngày', options: ['Giờ', 'Ngày', 'Cân nặng'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc6', question: 'Một ngày bắt đầu từ:', answer: 'Buổi sáng', options: ['Buổi sáng', 'Buổi trưa', 'Buổi tối'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc7', question: 'Khi kim dài chỉ số 12, kim ngắn chỉ số 8, lúc đó là:', answer: '8 giờ', options: ['8 giờ', '12 giờ', '4 giờ'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc8', question: 'Thứ Năm rồi đến thứ mấy?', answer: 'Thứ Sáu', options: ['Thứ Tư', 'Thứ Sáu', 'Thứ Bảy'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc9', question: 'Buổi trưa thường là lúc:', answer: 'Ăn cơm trưa', options: ['Đi học', 'Ăn cơm trưa', 'Đi ngủ tối'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+  { id: 'tcc10', question: 'Một năm có bao nhiêu tháng?', answer: '12 tháng', options: ['10 tháng', '11 tháng', '12 tháng'], difficulty: 'medium', topic: 'Thời gian & Lịch' },
+];
+
+const FIXED_REVIEW_QUIZ_QUESTIONS_G2: MathProblem[] = [
+  { id: 'rqg2-1', question: '25 + 3 = ?', answer: '28', options: ['27', '28', '29'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-2', question: '40 − 5 = ?', answer: '35', options: ['34', '35', '36'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-3', question: 'Số liền sau của 19 là:', answer: '20', options: ['18', '20', '21'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-4', question: 'Số liền trước của 50 là:', answer: '49', options: ['49', '48', '51'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-5', question: '10 + 20 = ?', answer: '30', options: ['20', '30', '40'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-6', question: '36 gồm:', answer: '3 chục 6 đơn vị', options: ['3 chục 6 đơn vị', '6 chục 3 đơn vị', '36 chục'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-7', question: 'Số nào lớn hơn 45?', answer: '46', options: ['44', '46', '43'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-8', question: '60 − 20 = ?', answer: '40', options: ['30', '40', '50'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-9', question: 'Số nào bé nhất?', answer: '10', options: ['12', '21', '10'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rqg2-10', question: '5 + 5 + 5 = ?', answer: '15', options: ['10', '15', '20'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+];
+
+const FIXED_REVIEW_ESSAY_QUESTIONS_G2: MathProblem[] = [
+  { id: 'reg2-1', question: 'Tính: 45 + 23 = …', answer: '68', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-2', question: 'Tính: 78 − 34 = …', answer: '44', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-3', question: 'Tính: 60 + 20 − 15 = …', answer: '65', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-4', question: 'Một bạn có 35 viên kẹo, cho bạn 12 viên. Hỏi còn lại bao nhiêu viên?', answer: '23', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-5', question: 'Sắp xếp các số sau theo thứ tự từ bé đến lớn: 45, 54, 40, 50', answer: '40, 45, 50, 54', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-6', question: 'Số lớn nhất có hai chữ số là số nào?', answer: '99', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-7', question: 'Tính: 10 + 30 + 5 = ...', answer: '45', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-8', question: 'Điền số thích hợp: 20, 25, 30, ..., 40', answer: '35', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-9', question: 'Lan có 20 quyển vở, mẹ mua thêm cho Lan 10 quyển nữa. Hỏi Lan có tất cả bao nhiêu quyển vở?', answer: '30', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'reg2-10', question: 'Tính: 100 - 50 = ...', answer: '50', options: [], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+];
+
+const FIXED_REVIEW_APP_QUESTIONS_G2: MathProblem[] = [
+  { id: 'rag2-1', question: '15 + ? = 25', answer: '10', options: ['5', '10', '15'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-2', question: '? − 20 = 30', answer: '50', options: ['40', '50', '60'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-3', question: '50 + 30 − 20 = ?', answer: '60', options: ['60', '70', '80'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-4', question: 'Số lớn nhất là:', answer: '98', options: ['89', '98', '88'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-5', question: 'Số bé nhất là:', answer: '7', options: ['70', '7', '17'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-6', question: '100 - ? = 40', answer: '60', options: ['50', '60', '70'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-7', question: '? + 15 = 30', answer: '15', options: ['15', '20', '25'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-8', question: '45 - 5 + 10 = ?', answer: '50', options: ['40', '50', '60'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-9', question: 'Số nào đứng trước số 100?', answer: '99', options: ['98', '99', '101'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+  { id: 'rag2-10', question: '20 + 20 + 20 = ?', answer: '60', options: ['40', '50', '60'], difficulty: 'easy', topic: 'Ôn tập & Bổ sung' },
+];
+
+const FIXED_ADD_SUB_20_QUIZ_QUESTIONS_G2: MathProblem[] = [
+  { id: 'as20q-1', question: '12 + 3 = ?', answer: '15', options: ['14', '15', '16'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-2', question: '15 − 5 = ?', answer: '10', options: ['9', '10', '11'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-3', question: '10 + 7 = ?', answer: '17', options: ['16', '17', '18'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-4', question: '18 − 8 = ?', answer: '10', options: ['9', '10', '11'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-5', question: '9 + 6 = ?', answer: '15', options: ['14', '15', '16'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-6', question: '14 − 4 = ?', answer: '10', options: ['9', '10', '11'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-7', question: '8 + 5 = ?', answer: '13', options: ['12', '13', '14'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-8', question: '13 − 3 = ?', answer: '10', options: ['9', '10', '11'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-9', question: '6 + 6 = ?', answer: '12', options: ['11', '12', '13'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20q-10', question: '20 − 10 = ?', answer: '10', options: ['5', '10', '15'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+];
+
+const FIXED_ADD_SUB_20_ESSAY_QUESTIONS_G2: MathProblem[] = [
+  { id: 'as20e-1', question: 'Tính: 14 + 5 = …', answer: '19', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-2', question: 'Tính: 19 − 7 = …', answer: '12', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-3', question: 'Tính: 8 + 9 − 6 = …', answer: '11', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-4', question: 'Một bạn có 16 viên kẹo, ăn 5 viên. Hỏi còn lại bao nhiêu viên?', answer: '11', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-5', question: 'Viết phép tính rồi tính: Có 9 quả táo, mua thêm 8 quả nữa. Hỏi có tất cả bao nhiêu quả?', answer: '9 + 8 = 17', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-6', question: 'Tính: 12 + 8 = …', answer: '20', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-7', question: 'Tính: 20 − 5 = …', answer: '15', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-8', question: 'Tính: 7 + 7 + 4 = …', answer: '18', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-9', question: 'Điền số thích hợp: 15 + … = 19', answer: '4', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20e-10', question: 'Điền số thích hợp: … − 6 = 10', answer: '16', options: [], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+];
+
+const FIXED_ADD_SUB_20_APP_QUESTIONS_G2: MathProblem[] = [
+  { id: 'as20a-1', question: '10 + ? = 18', answer: '8', options: ['6', '7', '8'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-2', question: '? − 6 = 12', answer: '18', options: ['16', '17', '18'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-3', question: '7 + 8 − 5 = ?', answer: '10', options: ['9', '10', '11'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-4', question: '20 − 10 + 4 = ?', answer: '14', options: ['12', '13', '14'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-5', question: '6 + 7 + 3 = ?', answer: '16', options: ['15', '16', '17'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-6', question: '15 - ? = 9', answer: '6', options: ['5', '6', '7'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-7', question: '? + 4 = 13', answer: '9', options: ['8', '9', '10'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-8', question: '11 + 5 - 4 = ?', answer: '12', options: ['11', '12', '13'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-9', question: '18 - 9 + 2 = ?', answer: '11', options: ['10', '11', '12'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+  { id: 'as20a-10', question: '5 + 5 + 5 + 5 = ?', answer: '20', options: ['15', '20', '25'], difficulty: 'easy', topic: 'Cộng, trừ phạm vi 20' },
+];
+
+const FIXED_KG_LIT_QUIZ_QUESTIONS_G2: MathProblem[] = [
+  { id: 'klq-1', question: 'Đơn vị đo cân nặng là:', answer: 'kg', options: ['kg', 'lít', 'cm'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-2', question: 'Đơn vị đo dung tích là:', answer: 'lít', options: ['kg', 'lít', 'm'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-3', question: 'Dụng cụ đo cân nặng là:', answer: 'Cân', options: ['Cân', 'Thước', 'Ly'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-4', question: '1 kg = … g', answer: '1000', options: ['100', '1000', '10'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-5', question: 'Vật nào nặng hơn?', answer: 'Cặp sách', options: ['Cục tẩy', 'Cặp sách', 'Bút chì'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-6', question: 'Chai nước thường đo bằng:', answer: 'lít', options: ['kg', 'lít', 'cm'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-7', question: 'Vật nào nhẹ hơn?', answer: 'Tờ giấy', options: ['Viên đá', 'Tờ giấy', 'Quyển sách'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-8', question: '1 lít là:', answer: 'Đơn vị đo dung tích', options: ['Đơn vị đo dung tích', 'Đơn vị đo chiều dài', 'Đơn vị đo cân nặng'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-9', question: 'Nước trong chai càng nhiều thì:', answer: 'Càng nặng', options: ['Càng nhẹ', 'Càng nặng', 'Không đổi'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'klq-10', question: 'Dụng cụ đo lít là:', answer: 'Ca đong', options: ['Ca đong', 'Cân', 'Thước'], difficulty: 'easy', topic: 'kg & Lít' },
+];
+
+const FIXED_KG_LIT_ESSAY_QUESTIONS_G2: MathProblem[] = [
+  { id: 'kle-1', question: 'Kể tên 2 vật được đo bằng kg.', answer: 'Gạo, thịt', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-2', question: 'Kể tên 2 vật được đo bằng lít.', answer: 'Nước, dầu ăn', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-3', question: '5 kg + 3 kg = …', answer: '8 kg', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-4', question: '6 lít − 2 lít = …', answer: '4 lít', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-5', question: 'Một can có 4 lít nước, thêm 3 lít nữa. Hỏi có tất cả bao nhiêu lít?', answer: '7 lít', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-6', question: '10 kg - 4 kg = ...', answer: '6 kg', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-7', question: '2 lít + 5 lít + 1 lít = ...', answer: '8 lít', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-8', question: 'Mẹ mua 5 kg gạo và 2 kg đỗ. Hỏi mẹ mua tất cả bao nhiêu ki-lô-gam?', answer: '7 kg', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-9', question: 'Một bình có 10 lít nước, rót ra 3 lít. Hỏi trong bình còn bao nhiêu lít nước?', answer: '7 lít', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kle-10', question: 'Điền đơn vị thích hợp (kg hoặc lít): Một bao gạo nặng 20 ...', answer: 'kg', options: [], difficulty: 'easy', topic: 'kg & Lít' },
+];
+
+const FIXED_KG_LIT_APP_QUESTIONS_G2: MathProblem[] = [
+  { id: 'kla-1', question: 'Đơn vị nào dùng đo cân nặng?', answer: 'kg', options: ['kg', 'lít', 'cm'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-2', question: '1 lít … 2 lít', answer: '<', options: ['>', '<', '='], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-3', question: '3 kg + 2 kg = ?', answer: '5 kg', options: ['4 kg', '5 kg', '6 kg'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-4', question: '4 lít − 1 lít = ?', answer: '3 lít', options: ['2 lít', '3 lít', '4 lít'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-5', question: 'Vật nào dùng để đo kg?', answer: 'Cân', options: ['Cân', 'Ca đong', 'Thước'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-6', question: '10 lít - 5 lít = ?', answer: '5 lít', options: ['4 lít', '5 lít', '6 lít'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-7', question: '7 kg + 3 kg = ?', answer: '10 kg', options: ['9 kg', '10 kg', '11 kg'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-8', question: 'Đơn vị nào dùng đo dung tích?', answer: 'lít', options: ['kg', 'lít', 'cm'], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-9', question: '5 kg ... 3 kg', answer: '>', options: ['>', '<', '='], difficulty: 'easy', topic: 'kg & Lít' },
+  { id: 'kla-10', question: 'Một túi đường nặng 1 ...', answer: 'kg', options: ['kg', 'lít', 'cm'], difficulty: 'easy', topic: 'kg & Lít' },
 ];
 
 const FIXED_FUN_QUESTIONS: MathProblem[] = [
@@ -656,18 +1007,56 @@ export default function App() {
   const [isFunPlayMode, setIsFunPlayMode] = useState(false);
   const [isConquerMode, setIsConquerMode] = useState(false);
   const [audioLoading, setAudioLoading] = useState(false);
+  const [audioCache, setAudioCache] = useState<Record<string, string>>({});
   const [activeQuestions, setActiveQuestions] = useState<MathProblem[]>([]);
+  const [useBrowserTTS, setUseBrowserTTS] = useState(false);
 
   const playQuestionAudio = async (text: string) => {
     if (audioLoading) return;
+    
+    // Check cache first
+    if (audioCache[text]) {
+      playBase64Audio(audioCache[text]);
+      return;
+    }
+
+    // If we've hit quota limits, use browser TTS directly
+    if (useBrowserTTS) {
+      speakWithBrowser(text);
+      return;
+    }
+
     setAudioLoading(true);
     try {
       const dataUrl = await generateSpeech(text);
-      playBase64Audio(dataUrl);
-    } catch (error) {
-      console.error("Speech generation failed", error);
+      if (dataUrl) {
+        setAudioCache(prev => ({ ...prev, [text]: dataUrl }));
+        playBase64Audio(dataUrl);
+      }
+    } catch (error: any) {
+      const isQuotaError = error.message?.includes("429") || error.status === "RESOURCE_EXHAUSTED";
+      
+      if (isQuotaError) {
+        console.warn("Gemini TTS quota exceeded, switching to browser TTS.");
+        setUseBrowserTTS(true);
+      } else {
+        console.error("Speech generation failed:", error);
+      }
+      
+      speakWithBrowser(text);
     } finally {
       setAudioLoading(false);
+    }
+  };
+
+  const speakWithBrowser = (text: string) => {
+    if ('speechSynthesis' in window) {
+      // Cancel any ongoing speech
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'vi-VN';
+      utterance.rate = 0.9; // Slightly slower for children
+      window.speechSynthesis.speak(utterance);
     }
   };
 
@@ -748,7 +1137,22 @@ export default function App() {
       setQuizIndex(0);
       setQuizScore(0);
       setEssayAnswer('');
-      const questions = (selectedTopic?.title === 'Hình phẳng') ? FIXED_GEOMETRY_CONQUER_QUESTIONS : FIXED_CONQUER_QUESTIONS;
+      let questions = FIXED_CONQUER_QUESTIONS;
+      if (selectedTopic?.title === 'Hình phẳng') {
+        questions = FIXED_GEOMETRY_CONQUER_QUESTIONS;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 10') {
+        questions = FIXED_ADD_SUB_CONQUER_QUESTIONS;
+      } else if (selectedTopic?.title === 'Hình khối & Vị trí') {
+        questions = FIXED_SOLID_SHAPES_CONQUER_QUESTIONS;
+      } else if (selectedTopic?.title === 'Các số đến 100') {
+        questions = FIXED_NUMBERS_TO_100_CONQUER_QUESTIONS;
+      } else if (selectedTopic?.title === 'Độ dài & Đo lường') {
+        questions = FIXED_MEASUREMENT_CONQUER_QUESTIONS;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 100') {
+        questions = FIXED_ADD_SUB_100_CONQUER_QUESTIONS;
+      } else if (selectedTopic?.title === 'Thời gian & Lịch') {
+        questions = FIXED_TIME_CALENDAR_CONQUER_QUESTIONS;
+      }
       setActiveQuestions(questions);
       setCurrentProblem(questions[0]);
       setIsCorrect(null);
@@ -767,7 +1171,22 @@ export default function App() {
       setQuizIndex(0);
       setQuizScore(0);
       setEssayAnswer('');
-      const questions = (selectedTopic?.title === 'Hình phẳng') ? FIXED_GEOMETRY_FUN_QUESTIONS : FIXED_FUN_QUESTIONS;
+      let questions = FIXED_FUN_QUESTIONS;
+      if (selectedTopic?.title === 'Hình phẳng') {
+        questions = FIXED_GEOMETRY_FUN_QUESTIONS;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 10') {
+        questions = FIXED_ADD_SUB_FUN_QUESTIONS;
+      } else if (selectedTopic?.title === 'Hình khối & Vị trí') {
+        questions = FIXED_SOLID_SHAPES_FUN_QUESTIONS;
+      } else if (selectedTopic?.title === 'Các số đến 100') {
+        questions = FIXED_NUMBERS_TO_100_FUN_QUESTIONS;
+      } else if (selectedTopic?.title === 'Độ dài & Đo lường') {
+        questions = FIXED_MEASUREMENT_FUN_QUESTIONS;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 100') {
+        questions = FIXED_ADD_SUB_100_FUN_QUESTIONS;
+      } else if (selectedTopic?.title === 'Thời gian & Lịch') {
+        questions = FIXED_TIME_CALENDAR_FUN_QUESTIONS;
+      }
       setActiveQuestions(questions);
       setCurrentProblem(questions[0]);
       setIsCorrect(null);
@@ -786,7 +1205,22 @@ export default function App() {
       setQuizIndex(0);
       setQuizScore(0);
       setTimeLeft(20);
-      const questions = (selectedTopic?.title === 'Hình phẳng') ? FIXED_GEOMETRY_QUIZ_QUESTIONS : FIXED_QUIZ_QUESTIONS;
+      let questions = FIXED_QUIZ_QUESTIONS;
+      if (selectedTopic?.title === 'Hình phẳng') {
+        questions = FIXED_GEOMETRY_QUIZ_QUESTIONS;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 10') {
+        questions = FIXED_ADD_SUB_QUIZ_QUESTIONS;
+      } else if (selectedTopic?.title === 'Hình khối & Vị trí') {
+        questions = FIXED_SOLID_SHAPES_QUIZ_QUESTIONS;
+      } else if (selectedTopic?.title === 'Các số đến 100') {
+        questions = FIXED_NUMBERS_TO_100_QUIZ_QUESTIONS;
+      } else if (selectedTopic?.title === 'Độ dài & Đo lường') {
+        questions = FIXED_MEASUREMENT_QUIZ_QUESTIONS;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 100') {
+        questions = FIXED_ADD_SUB_100_QUIZ_QUESTIONS;
+      } else if (selectedTopic?.title === 'Thời gian & Lịch') {
+        questions = FIXED_TIME_CALENDAR_QUIZ_QUESTIONS;
+      }
       setActiveQuestions(questions);
       setCurrentProblem(questions[0]);
       setIsCorrect(null);
@@ -795,6 +1229,93 @@ export default function App() {
       setState('playing');
       setLoading(false);
       return;
+    }
+
+    // Check if it's the fixed quiz for Grade 2 "Thử sức"
+    if (user.grade === 2 && (topic.toUpperCase().includes("THỬ SỨC") || topic.toUpperCase().includes("TRẮC NGHIỆM"))) {
+      setIsQuizMode(true);
+      setIsFunPlayMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setTimeLeft(20);
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Bổ sung') {
+        questions = FIXED_REVIEW_QUIZ_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 20') {
+        questions = FIXED_ADD_SUB_20_QUIZ_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'kg & Lít') {
+        questions = FIXED_KG_LIT_QUIZ_QUESTIONS_G2;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed essay for Grade 2 "Tự luận"
+    if (user.grade === 2 && topic.toUpperCase().includes("TỰ LUẬN")) {
+      setIsFunPlayMode(true);
+      setIsQuizMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setEssayAnswer('');
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Bổ sung') {
+        questions = FIXED_REVIEW_ESSAY_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 20') {
+        questions = FIXED_ADD_SUB_20_ESSAY_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'kg & Lít') {
+        questions = FIXED_KG_LIT_ESSAY_QUESTIONS_G2;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed application for Grade 2 "Ứng dụng"
+    if (user.grade === 2 && topic.toUpperCase().includes("ỨNG DỤNG")) {
+      setIsQuizMode(true);
+      setIsFunPlayMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setTimeLeft(20);
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Bổ sung') {
+        questions = FIXED_REVIEW_APP_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Cộng, trừ phạm vi 20') {
+        questions = FIXED_ADD_SUB_20_APP_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'kg & Lít') {
+        questions = FIXED_KG_LIT_APP_QUESTIONS_G2;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
     }
 
     setIsQuizMode(false);
@@ -1457,20 +1978,36 @@ export default function App() {
                     disabled={isTtsLoading}
                     onClick={async () => {
                       window.speechSynthesis.cancel();
+                      const cleanText = selectedReview.content.replace(/[#*`]/g, '');
+                      
+                      if (audioCache[cleanText]) {
+                        playBase64Audio(audioCache[cleanText]);
+                        return;
+                      }
+
+                      if (useBrowserTTS) {
+                        speakWithBrowser(cleanText);
+                        return;
+                      }
+
                       setIsTtsLoading(true);
                       try {
-                        const cleanText = selectedReview.content.replace(/[#*`]/g, '');
                         const dataUrl = await generateSpeech(cleanText);
                         if (dataUrl) {
+                          setAudioCache(prev => ({ ...prev, [cleanText]: dataUrl }));
                           playBase64Audio(dataUrl);
                         } else {
                           throw new Error("No audio data");
                         }
-                      } catch (error) {
-                        console.error("Gemini TTS failed, falling back to browser TTS:", error);
-                        const utterance = new SpeechSynthesisUtterance(selectedReview.content.replace(/[#*`]/g, ''));
-                        utterance.lang = 'vi-VN';
-                        window.speechSynthesis.speak(utterance);
+                      } catch (error: any) {
+                        const isQuotaError = error.message?.includes("429") || error.status === "RESOURCE_EXHAUSTED";
+                        if (isQuotaError) {
+                          console.warn("Gemini TTS quota exceeded, switching to browser TTS.");
+                          setUseBrowserTTS(true);
+                        } else {
+                          console.error("Gemini TTS failed:", error);
+                        }
+                        speakWithBrowser(cleanText);
                       } finally {
                         setIsTtsLoading(false);
                       }
