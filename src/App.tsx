@@ -485,6 +485,84 @@ const FIXED_KG_LIT_APP_QUESTIONS_G2: MathProblem[] = [
   { id: 'kla-10', question: 'Một túi đường nặng 1 ...', answer: 'kg', options: ['kg', 'lít', 'cm'], difficulty: 'easy', topic: 'kg & Lít' },
 ];
 
+const FIXED_ADD_SUB_100_QUIZ_QUESTIONS_G2: MathProblem[] = [
+  { id: 'as100q-1', question: '27 + 5 = ?', answer: '32', options: ['31', '32', '33', '30'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-2', question: '46 + 7 = ?', answer: '53', options: ['52', '53', '54', '51'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-3', question: '38 - 9 = ?', answer: '29', options: ['29', '30', '28', '27'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-4', question: '50 - 6 = ?', answer: '44', options: ['44', '45', '43', '46'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-5', question: '29 + 6 = ?', answer: '35', options: ['34', '35', '36', '33'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-6', question: '61 - 4 = ?', answer: '57', options: ['57', '56', '55', '58'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-7', question: '18 + 7 = ?', answer: '25', options: ['24', '25', '26', '23'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-8', question: '72 - 5 = ?', answer: '67', options: ['66', '67', '68', '69'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-9', question: '39 + 4 = ?', answer: '43', options: ['43', '42', '44', '41'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100q-10', question: '80 - 7 = ?', answer: '73', options: ['73', '72', '74', '75'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+];
+
+const FIXED_ADD_SUB_100_ESSAY_QUESTIONS_G2: MathProblem[] = [
+  { id: 'as100e-1', question: 'Đặt tính rồi tính: 36 + 8', answer: '44', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-2', question: 'Đặt tính rồi tính: 72 - 9', answer: '63', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-3', question: 'Một cửa hàng có 45 quả táo, bán đi 8 quả. Hỏi còn lại bao nhiêu quả táo?', answer: '37', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-4', question: 'Lan có 27 viên kẹo, mẹ cho thêm 9 viên. Hỏi Lan có tất cả bao nhiêu viên kẹo?', answer: '36', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-5', question: 'Tính: 58 + 7 - 6', answer: '59', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-6', question: 'Đặt tính rồi tính: 49 + 6', answer: '55', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-7', question: 'Đặt tính rồi tính: 80 - 4', answer: '76', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-8', question: 'Có 34 con chim đậu trên cành, 7 con bay đi. Hỏi còn lại bao nhiêu con chim?', answer: '27', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-9', question: 'Tìm x: x - 8 = 25', answer: '33', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100e-10', question: 'Tính: 62 - 5 + 8', answer: '65', options: [], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+];
+
+const FIXED_ADD_SUB_100_APP_QUESTIONS_G2: MathProblem[] = [
+  { id: 'as100a-1', question: '37 + 8 = ?', answer: '45', options: ['44', '45', '46', '43'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-2', question: '84 - 7 = ?', answer: '77', options: ['76', '77', '78', '75'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-3', question: '29 + 9 = ?', answer: '38', options: ['37', '38', '39', '36'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-4', question: '73 - 8 = ?', answer: '65', options: ['64', '65', '66', '67'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-5', question: '48 + 7 = ?', answer: '55', options: ['54', '55', '56', '53'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-6', question: '62 - 5 = ?', answer: '57', options: ['56', '57', '58', '55'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-7', question: '19 + 6 = ?', answer: '25', options: ['24', '25', '26', '23'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-8', question: '51 - 4 = ?', answer: '47', options: ['46', '47', '48', '45'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-9', question: '35 + 7 = ?', answer: '42', options: ['41', '42', '43', '40'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+  { id: 'as100a-10', question: '90 - 3 = ?', answer: '87', options: ['86', '87', '88', '89'], difficulty: 'easy', topic: 'Cộng, trừ có nhớ (100)' },
+];
+
+const FIXED_GEOMETRY_TIME_QUIZ_QUESTIONS_G2: MathProblem[] = [
+  { id: 'gtq-1', question: 'Hình nào có 3 cạnh?', answer: 'Hình tam giác', options: ['Hình vuông', 'Hình tam giác', 'Hình tròn', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-2', question: 'Hình vuông có mấy cạnh?', answer: '4', options: ['3', '4', '5', '2'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-3', question: 'Đồng hồ chỉ 3 giờ đúng là kim phút chỉ số mấy?', answer: '12', options: ['3', '6', '12', '9'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-4', question: '1 ngày có bao nhiêu giờ?', answer: '24', options: ['12', '24', '60', '30'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-5', question: 'Hình tròn có cạnh không?', answer: 'Không', options: ['Có', 'Không', 'Có 1 cạnh', 'Có 2 cạnh'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-6', question: '1 giờ có bao nhiêu phút?', answer: '60', options: ['100', '60', '30', '24'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-7', question: 'Hình chữ nhật có mấy cạnh?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-8', question: '1 tuần có bao nhiêu ngày?', answer: '7', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-9', question: 'Đồng hồ chỉ 6 giờ thì kim giờ chỉ số mấy?', answer: '6', options: ['3', '6', '12', '9'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gtq-10', question: 'Hình tam giác có mấy góc?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+];
+
+const FIXED_GEOMETRY_TIME_ESSAY_QUESTIONS_G2: MathProblem[] = [
+  { id: 'gte-1', question: 'Vẽ một đoạn thẳng dài 6 cm.', answer: 'Vẽ đoạn thẳng', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-2', question: 'Một hình tam giác có mấy cạnh?', answer: '3', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-3', question: 'Một hình tứ giác có mấy cạnh?', answer: '4', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-4', question: 'Kể tên các ngày trong tuần.', answer: 'Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy, Chủ Nhật', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-5', question: 'Đồng hồ chỉ 9 giờ đúng, kim phút chỉ vào số mấy?', answer: '12', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-6', question: 'Một giờ có bao nhiêu phút?', answer: '60', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-7', question: 'Nếu hôm nay là thứ Ba, thì ngày mai là thứ mấy?', answer: 'Thứ Tư', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-8', question: 'Vẽ một đường gấp khúc gồm 2 đoạn thẳng.', answer: 'Vẽ đường gấp khúc', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-9', question: 'Đồng hồ chỉ 11 giờ 30 phút, kim phút chỉ vào số mấy?', answer: '6', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gte-10', question: 'Kể tên 3 tháng trong một năm.', answer: 'Tháng 1, Tháng 2, Tháng 3', options: [], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+];
+
+const FIXED_GEOMETRY_TIME_APP_QUESTIONS_G2: MathProblem[] = [
+  { id: 'gta-1', question: 'Hình nào lăn được?', answer: 'Hình tròn', options: ['Hình vuông', 'Hình tròn', 'Hình tam giác', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-2', question: '30 phút = ? giờ', answer: '1/2 giờ', options: ['1 giờ', '1/2 giờ', '2 giờ', '3 giờ'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-3', question: '1 ngày có mấy buổi chính?', answer: '5', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-4', question: 'Hình nào có 4 cạnh nhưng không bằng nhau?', answer: 'Hình chữ nhật', options: ['Hình vuông', 'Hình chữ nhật', 'Hình tròn', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-5', question: '1 giờ kém 10 phút là mấy phút?', answer: '50', options: ['40', '50', '60', '30'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-6', question: 'Hình tam giác có mấy cạnh?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-7', question: 'Đồng hồ chỉ 12 giờ đúng, kim phút chỉ số mấy?', answer: '12', options: ['3', '6', '12', '9'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-8', question: 'Một tuần lễ có mấy ngày?', answer: '7', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-9', question: 'Hình vuông có mấy cạnh bằng nhau?', answer: '4', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+  { id: 'gta-10', question: '1 giờ có bao nhiêu phút?', answer: '60', options: ['100', '60', '30', '24'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
+];
+
 const FIXED_FUN_QUESTIONS: MathProblem[] = [
   { id: 'f1', question: 'Câu 1. Số nào đứng giữa 0 và 2?', answer: '1', options: [], difficulty: 'easy', topic: 'CHƠI  VUI' },
   { id: 'f2', question: 'Câu 2. Điền số thích hợp: 1, 2, 3, ___, 5', answer: '4', options: [], difficulty: 'easy', topic: 'CHƠI  VUI' },
@@ -592,392 +670,417 @@ const GRADE_5_TOPICS = [
 
 const Grade1Map = ({ topics, user, onSelect }: { topics: typeof GRADE_1_TOPICS, user: UserProfile, onSelect: (topic: any) => void }) => {
   return (
-    <div className="relative w-full aspect-[16/10] max-w-3xl mx-auto bg-white/50 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4">
-      {/* Island Background Decor */}
-      <div className="absolute top-10 left-10 w-40 h-40 map-island" />
-      <div className="absolute bottom-20 right-10 w-60 h-60 map-island" />
-      
-      {/* Path SVG */}
-      <svg className="absolute inset-0 w-full h-full pointer-events-none map-path-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path 
-          d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
-          fill="none" 
-          stroke="#E2E8F0" 
-          strokeWidth="4" 
-          strokeDasharray="2 4"
-          strokeLinecap="round"
-        />
-      </svg>
-
-      {topics.map((topic, index) => {
-        const isLocked = false; // All topics unlocked as per user request
-        const isCompleted = user.completedTopics.includes(topic.id);
+    <div className="map-container">
+      <div className="map-content max-w-3xl mx-auto bg-white/50 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4 relative">
+        {/* Island Background Decor */}
+        <div className="absolute top-10 left-10 w-40 h-40 map-island" />
+        <div className="absolute bottom-20 right-10 w-60 h-60 map-island" />
         
-        return (
-          <motion.button
-            key={topic.id}
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            whileHover={!isLocked ? { scale: 1.1 } : {}}
-            whileTap={!isLocked ? { scale: 0.95 } : {}}
-            onClick={() => onSelect(topic)}
-            className={`absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2`}
-            style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
-          >
-            <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-full border-4 border-slate-800 flex items-center justify-center shadow-lg transition-all ${topic.color}`}>
-              <topic.icon size={28} className="text-slate-800" />
-              
-              {/* Number Badge */}
-              <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-slate-800 flex items-center justify-center font-display font-bold text-sm text-slate-800 shadow-sm">
-                {index + 1}
-              </div>
+        {/* Path SVG */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none map-path-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path 
+            d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
+            fill="none" 
+            stroke="#E2E8F0" 
+            strokeWidth="4" 
+            strokeDasharray="2 4"
+            strokeLinecap="round"
+          />
+        </svg>
 
-              {/* Status Badge */}
-              {isCompleted && (
-                <div className="absolute -bottom-1 -right-1 bg-brand-green p-1 rounded-full border-2 border-slate-800 shadow-sm">
-                  <CheckCircle2 size={16} className="text-white" />
+        {topics.map((topic, index) => {
+          const isLocked = false; // All topics unlocked as per user request
+          const isCompleted = user.completedTopics.includes(topic.id);
+          
+          return (
+            <motion.button
+              key={topic.id}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              whileHover={!isLocked ? { scale: 1.1 } : {}}
+              whileTap={!isLocked ? { scale: 0.95 } : {}}
+              onClick={() => onSelect(topic)}
+              className={`absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2`}
+              style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
+            >
+              <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-full border-4 border-slate-800 flex items-center justify-center shadow-lg transition-all ${topic.color}`}>
+                <topic.icon size={28} className="text-slate-800" />
+                
+                {/* Number Badge */}
+                <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-slate-800 flex items-center justify-center font-display font-bold text-sm text-slate-800 shadow-sm">
+                  {index + 1}
                 </div>
-              )}
-            </div>
-            <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white/90 rounded-full border-2 border-slate-800 shadow-sm whitespace-nowrap text-slate-800 max-w-[120px] overflow-hidden text-ellipsis">
-              {topic.title}
-            </span>
-          </motion.button>
-        );
-      })}
+
+                {/* Status Badge */}
+                {isCompleted && (
+                  <div className="absolute -bottom-1 -right-1 bg-brand-green p-1 rounded-full border-2 border-slate-800 shadow-sm">
+                    <CheckCircle2 size={16} className="text-white" />
+                  </div>
+                )}
+              </div>
+              <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white/90 rounded-full border-2 border-slate-800 shadow-sm whitespace-nowrap text-slate-800 max-w-[120px] overflow-hidden text-ellipsis">
+                {topic.title}
+              </span>
+            </motion.button>
+          );
+        })}
+      </div>
+      <div className="sm:hidden text-center text-slate-400 text-xs mt-2 italic">
+        Vuốt sang ngang để xem thêm →
+      </div>
     </div>
   );
 };
 
 const Grade2Map = ({ topics, user, onSelect }: { topics: typeof GRADE_2_TOPICS, user: UserProfile, onSelect: (topic: any) => void }) => {
   return (
-    <div className="relative w-full aspect-[16/10] max-w-3xl mx-auto bg-blue-50/50 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4">
-      {/* Decorative Background Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-32 opacity-20 pointer-events-none">
-        <div className="w-full h-full bg-gradient-to-r from-red-400 via-yellow-400 to-blue-400 blur-3xl rounded-full" />
-      </div>
-      
-      {/* Castle Icon Decor */}
-      <div className="absolute top-10 left-1/2 -translate-x-1/2 opacity-10">
-        <Castle size={120} className="text-slate-800" />
-      </div>
-
-      {/* Island Background Decor */}
-      <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-200/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
-      
-      {/* Path SVG */}
-      <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path 
-          d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
-          fill="none" 
-          stroke="#94A3B8" 
-          strokeWidth="3" 
-          strokeDasharray="4 6"
-          strokeLinecap="round"
-          className="opacity-40"
-        />
-      </svg>
-
-      {topics.map((topic, index) => {
-        const isCompleted = user.completedTopics.includes(topic.id);
+    <div className="map-container">
+      <div className="map-content max-w-3xl mx-auto bg-blue-50/50 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4 relative">
+        {/* Decorative Background Elements */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-32 opacity-20 pointer-events-none">
+          <div className="w-full h-full bg-gradient-to-r from-red-400 via-yellow-400 to-blue-400 blur-3xl rounded-full" />
+        </div>
         
-        return (
-          <motion.button
-            key={topic.id}
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => onSelect(topic)}
-            className="absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
-            style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
-          >
-            <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-3xl border-4 border-slate-800 flex items-center justify-center shadow-xl transition-all ${topic.color} rotate-3 hover:rotate-0`}>
-              <topic.icon size={28} className="text-slate-800" />
-              
-              {/* Number Badge */}
-              <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-slate-800 flex items-center justify-center font-display font-bold text-sm text-slate-800 shadow-md">
-                {index + 1}
-              </div>
+        {/* Castle Icon Decor */}
+        <div className="absolute top-10 left-1/2 -translate-x-1/2 opacity-10">
+          <Castle size={120} className="text-slate-800" />
+        </div>
 
-              {/* Status Badge */}
-              {isCompleted && (
-                <div className="absolute -bottom-2 -right-2 bg-brand-green p-1.5 rounded-full border-4 border-slate-800 shadow-md">
-                  <CheckCircle2 size={20} className="text-white" />
+        {/* Island Background Decor */}
+        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-200/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+        
+        {/* Path SVG */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path 
+            d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
+            fill="none" 
+            stroke="#94A3B8" 
+            strokeWidth="3" 
+            strokeDasharray="4 6"
+            strokeLinecap="round"
+            className="opacity-40"
+          />
+        </svg>
+
+        {topics.map((topic, index) => {
+          const isCompleted = user.completedTopics.includes(topic.id);
+          
+          return (
+            <motion.button
+              key={topic.id}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => onSelect(topic)}
+              className="absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
+              style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
+            >
+              <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-3xl border-4 border-slate-800 flex items-center justify-center shadow-xl transition-all ${topic.color} rotate-3 hover:rotate-0`}>
+                <topic.icon size={28} className="text-slate-800" />
+                
+                {/* Number Badge */}
+                <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-slate-800 flex items-center justify-center font-display font-bold text-sm text-slate-800 shadow-md">
+                  {index + 1}
                 </div>
-              )}
-            </div>
-            <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white rounded-2xl border-2 border-slate-800 shadow-md whitespace-nowrap text-slate-800 max-w-[120px] overflow-hidden text-ellipsis">
-              {topic.title}
-            </span>
-          </motion.button>
-        );
-      })}
 
-      {/* Extra floating icons for "vibe" */}
-      <motion.div 
-        animate={{ y: [0, -10, 0] }} 
-        transition={{ duration: 4, repeat: Infinity }}
-        className="absolute top-20 right-20 opacity-20"
-      >
-        <Rocket size={48} className="text-blue-600" />
-      </motion.div>
-      <motion.div 
-        animate={{ x: [0, 10, 0] }} 
-        transition={{ duration: 5, repeat: Infinity }}
-        className="absolute bottom-20 left-20 opacity-20"
-      >
-        <Ship size={48} className="text-emerald-600" />
-      </motion.div>
+                {/* Status Badge */}
+                {isCompleted && (
+                  <div className="absolute -bottom-2 -right-2 bg-brand-green p-1.5 rounded-full border-4 border-slate-800 shadow-md">
+                    <CheckCircle2 size={20} className="text-white" />
+                  </div>
+                )}
+              </div>
+              <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white rounded-2xl border-2 border-slate-800 shadow-md whitespace-nowrap text-slate-800 max-w-[120px] overflow-hidden text-ellipsis">
+                {topic.title}
+              </span>
+            </motion.button>
+          );
+        })}
+
+        {/* Extra floating icons for "vibe" */}
+        <motion.div 
+          animate={{ y: [0, -10, 0] }} 
+          transition={{ duration: 4, repeat: Infinity }}
+          className="absolute top-20 right-20 opacity-20"
+        >
+          <Rocket size={48} className="text-blue-600" />
+        </motion.div>
+        <motion.div 
+          animate={{ x: [0, 10, 0] }} 
+          transition={{ duration: 5, repeat: Infinity }}
+          className="absolute bottom-20 left-20 opacity-20"
+        >
+          <Ship size={48} className="text-emerald-600" />
+        </motion.div>
+      </div>
+      <div className="sm:hidden text-center text-slate-400 text-xs mt-2 italic">
+        Vuốt sang ngang để xem thêm →
+      </div>
     </div>
   );
 };
 
 const Grade3Map = ({ topics, user, onSelect }: { topics: typeof GRADE_3_TOPICS, user: UserProfile, onSelect: (topic: any) => void }) => {
   return (
-    <div className="relative w-full aspect-[16/10] max-w-3xl mx-auto bg-emerald-50/50 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4">
-      {/* Decorative Background Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-32 opacity-20 pointer-events-none">
-        <div className="w-full h-full bg-gradient-to-r from-emerald-400 via-yellow-400 to-blue-400 blur-3xl rounded-full" />
-      </div>
-      
-      {/* Castle Icon Decor */}
-      <div className="absolute top-10 left-1/2 -translate-x-1/2 opacity-10">
-        <Castle size={120} className="text-slate-800" />
-      </div>
-
-      {/* Island Background Decor */}
-      <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-200/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
-      
-      {/* Path SVG */}
-      <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path 
-          d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
-          fill="none" 
-          stroke="#10B981" 
-          strokeWidth="3" 
-          strokeDasharray="4 6"
-          strokeLinecap="round"
-          className="opacity-40"
-        />
-      </svg>
-
-      {topics.map((topic, index) => {
-        const isCompleted = user.completedTopics.includes(topic.id);
+    <div className="map-container">
+      <div className="map-content max-w-3xl mx-auto bg-emerald-50/50 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4 relative">
+        {/* Decorative Background Elements */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-32 opacity-20 pointer-events-none">
+          <div className="w-full h-full bg-gradient-to-r from-emerald-400 via-yellow-400 to-blue-400 blur-3xl rounded-full" />
+        </div>
         
-        return (
-          <motion.button
-            key={topic.id}
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => onSelect(topic)}
-            className="absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
-            style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
-          >
-            <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-3xl border-4 border-slate-800 flex items-center justify-center shadow-xl transition-all ${topic.color} -rotate-3 hover:rotate-0`}>
-              <topic.icon size={28} className="text-slate-800" />
-              
-              {/* Number Badge */}
-              <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-slate-800 flex items-center justify-center font-display font-bold text-sm text-slate-800 shadow-md">
-                {index + 1}
-              </div>
+        {/* Castle Icon Decor */}
+        <div className="absolute top-10 left-1/2 -translate-x-1/2 opacity-10">
+          <Castle size={120} className="text-slate-800" />
+        </div>
 
-              {/* Status Badge */}
-              {isCompleted && (
-                <div className="absolute -bottom-2 -right-2 bg-brand-green p-1.5 rounded-full border-4 border-slate-800 shadow-md">
-                  <CheckCircle2 size={20} className="text-white" />
+        {/* Island Background Decor */}
+        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-200/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+        
+        {/* Path SVG */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path 
+            d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
+            fill="none" 
+            stroke="#10B981" 
+            strokeWidth="3" 
+            strokeDasharray="4 6"
+            strokeLinecap="round"
+            className="opacity-40"
+          />
+        </svg>
+
+        {topics.map((topic, index) => {
+          const isCompleted = user.completedTopics.includes(topic.id);
+          
+          return (
+            <motion.button
+              key={topic.id}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => onSelect(topic)}
+              className="absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
+              style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
+            >
+              <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-3xl border-4 border-slate-800 flex items-center justify-center shadow-xl transition-all ${topic.color} -rotate-3 hover:rotate-0`}>
+                <topic.icon size={28} className="text-slate-800" />
+                
+                {/* Number Badge */}
+                <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-slate-800 flex items-center justify-center font-display font-bold text-sm text-slate-800 shadow-md">
+                  {index + 1}
                 </div>
-              )}
-            </div>
-            <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white rounded-2xl border-2 border-slate-800 shadow-md whitespace-nowrap text-slate-800 max-w-[120px] overflow-hidden text-ellipsis">
-              {topic.title}
-            </span>
-          </motion.button>
-        );
-      })}
 
-      {/* Extra floating icons for "vibe" */}
-      <motion.div 
-        animate={{ y: [0, 15, 0] }} 
-        transition={{ duration: 6, repeat: Infinity }}
-        className="absolute top-40 left-10 opacity-20"
-      >
-        <Leaf size={48} className="text-emerald-600" />
-      </motion.div>
-      <motion.div 
-        animate={{ rotate: [0, 360] }} 
-        transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-        className="absolute bottom-40 right-10 opacity-20"
-      >
-        <Sparkles size={48} className="text-yellow-600" />
-      </motion.div>
+                {/* Status Badge */}
+                {isCompleted && (
+                  <div className="absolute -bottom-2 -right-2 bg-brand-green p-1.5 rounded-full border-4 border-slate-800 shadow-md">
+                    <CheckCircle2 size={20} className="text-white" />
+                  </div>
+                )}
+              </div>
+              <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white rounded-2xl border-2 border-slate-800 shadow-md whitespace-nowrap text-slate-800 max-w-[120px] overflow-hidden text-ellipsis">
+                {topic.title}
+              </span>
+            </motion.button>
+          );
+        })}
+
+        {/* Extra floating icons for "vibe" */}
+        <motion.div 
+          animate={{ y: [0, 15, 0] }} 
+          transition={{ duration: 6, repeat: Infinity }}
+          className="absolute top-40 left-10 opacity-20"
+        >
+          <Leaf size={48} className="text-emerald-600" />
+        </motion.div>
+        <motion.div 
+          animate={{ rotate: [0, 360] }} 
+          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+          className="absolute bottom-40 right-10 opacity-20"
+        >
+          <Sparkles size={48} className="text-yellow-600" />
+        </motion.div>
+      </div>
+      <div className="sm:hidden text-center text-slate-400 text-xs mt-2 italic">
+        Vuốt sang ngang để xem thêm →
+      </div>
     </div>
   );
 };
 
 const Grade4Map = ({ topics, user, onSelect }: { topics: typeof GRADE_4_TOPICS, user: UserProfile, onSelect: (topic: any) => void }) => {
   return (
-    <div className="relative w-full aspect-[16/10] max-w-3xl mx-auto bg-pink-50/50 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4">
-      {/* Decorative Background Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-32 opacity-20 pointer-events-none">
-        <div className="w-full h-full bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 blur-3xl rounded-full" />
-      </div>
-      
-      {/* Castle Icon Decor */}
-      <div className="absolute top-10 left-1/2 -translate-x-1/2 opacity-10">
-        <Castle size={120} className="text-slate-800" />
-      </div>
-
-      {/* Island Background Decor */}
-      <div className="absolute top-0 right-0 w-64 h-64 bg-pink-200/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-indigo-200/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
-      
-      {/* Path SVG */}
-      <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path 
-          d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
-          fill="none" 
-          stroke="#EC4899" 
-          strokeWidth="3" 
-          strokeDasharray="4 6"
-          strokeLinecap="round"
-          className="opacity-40"
-        />
-      </svg>
-
-      {topics.map((topic, index) => {
-        const isCompleted = user.completedTopics.includes(topic.id);
+    <div className="map-container">
+      <div className="map-content max-w-3xl mx-auto bg-pink-50/50 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4 relative">
+        {/* Decorative Background Elements */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-32 opacity-20 pointer-events-none">
+          <div className="w-full h-full bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 blur-3xl rounded-full" />
+        </div>
         
-        return (
-          <motion.button
-            key={topic.id}
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => onSelect(topic)}
-            className="absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
-            style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
-          >
-            <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-[2rem] border-4 border-slate-800 flex items-center justify-center shadow-xl transition-all ${topic.color} rotate-2 hover:rotate-0`}>
-              <topic.icon size={28} className="text-slate-800" />
-              
-              {/* Number Badge */}
-              <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-slate-800 flex items-center justify-center font-display font-bold text-sm text-slate-800 shadow-md">
-                {index + 1}
-              </div>
+        {/* Castle Icon Decor */}
+        <div className="absolute top-10 left-1/2 -translate-x-1/2 opacity-10">
+          <Castle size={120} className="text-slate-800" />
+        </div>
 
-              {/* Status Badge */}
-              {isCompleted && (
-                <div className="absolute -bottom-2 -right-2 bg-brand-green p-1.5 rounded-full border-4 border-slate-800 shadow-md">
-                  <CheckCircle2 size={20} className="text-white" />
+        {/* Island Background Decor */}
+        <div className="absolute top-0 right-0 w-64 h-64 bg-pink-200/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-indigo-200/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+        
+        {/* Path SVG */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path 
+            d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
+            fill="none" 
+            stroke="#EC4899" 
+            strokeWidth="3" 
+            strokeDasharray="4 6"
+            strokeLinecap="round"
+            className="opacity-40"
+          />
+        </svg>
+
+        {topics.map((topic, index) => {
+          const isCompleted = user.completedTopics.includes(topic.id);
+          
+          return (
+            <motion.button
+              key={topic.id}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => onSelect(topic)}
+              className="absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
+              style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
+            >
+              <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-[2rem] border-4 border-slate-800 flex items-center justify-center shadow-xl transition-all ${topic.color} rotate-2 hover:rotate-0`}>
+                <topic.icon size={28} className="text-slate-800" />
+                
+                {/* Number Badge */}
+                <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-slate-800 flex items-center justify-center font-display font-bold text-sm text-slate-800 shadow-md">
+                  {index + 1}
                 </div>
-              )}
-            </div>
-            <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white rounded-2xl border-2 border-slate-800 shadow-md whitespace-nowrap text-slate-800 max-w-[120px] overflow-hidden text-ellipsis">
-              {topic.title}
-            </span>
-          </motion.button>
-        );
-      })}
 
-      {/* Extra floating icons for "vibe" */}
-      <motion.div 
-        animate={{ y: [0, -20, 0] }} 
-        transition={{ duration: 5, repeat: Infinity }}
-        className="absolute top-20 left-20 opacity-20"
-      >
-        <Rocket size={48} className="text-pink-600" />
-      </motion.div>
-      <motion.div 
-        animate={{ scale: [1, 1.2, 1] }} 
-        transition={{ duration: 4, repeat: Infinity }}
-        className="absolute bottom-20 right-20 opacity-20"
-      >
-        <Gift size={48} className="text-purple-600" />
-      </motion.div>
+                {/* Status Badge */}
+                {isCompleted && (
+                  <div className="absolute -bottom-2 -right-2 bg-brand-green p-1.5 rounded-full border-4 border-slate-800 shadow-md">
+                    <CheckCircle2 size={20} className="text-white" />
+                  </div>
+                )}
+              </div>
+              <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white rounded-2xl border-2 border-slate-800 shadow-md whitespace-nowrap text-slate-800 max-w-[120px] overflow-hidden text-ellipsis">
+                {topic.title}
+              </span>
+            </motion.button>
+          );
+        })}
+
+        {/* Extra floating icons for "vibe" */}
+        <motion.div 
+          animate={{ y: [0, -20, 0] }} 
+          transition={{ duration: 5, repeat: Infinity }}
+          className="absolute top-20 left-20 opacity-20"
+        >
+          <Rocket size={48} className="text-pink-600" />
+        </motion.div>
+        <motion.div 
+          animate={{ scale: [1, 1.2, 1] }} 
+          transition={{ duration: 4, repeat: Infinity }}
+          className="absolute bottom-20 right-20 opacity-20"
+        >
+          <Gift size={48} className="text-purple-600" />
+        </motion.div>
+      </div>
+      <div className="sm:hidden text-center text-slate-400 text-xs mt-2 italic">
+        Vuốt sang ngang để xem thêm →
+      </div>
     </div>
   );
 };
 
 const Grade5Map = ({ topics, user, onSelect }: { topics: typeof GRADE_5_TOPICS, user: UserProfile, onSelect: (topic: any) => void }) => {
   return (
-    <div className="relative w-full aspect-[16/10] max-w-3xl mx-auto bg-indigo-950 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4">
-      {/* Space Background Decor */}
-      <div className="absolute inset-0 opacity-40 pointer-events-none">
-        <div className="absolute top-10 left-10 w-2 h-2 bg-white rounded-full animate-pulse" />
-        <div className="absolute top-40 right-20 w-1 h-1 bg-white rounded-full animate-pulse delay-75" />
-        <div className="absolute bottom-20 left-1/4 w-2 h-2 bg-white rounded-full animate-pulse delay-150" />
-        <div className="absolute top-1/2 right-1/3 w-1 h-1 bg-white rounded-full animate-pulse delay-300" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-indigo-500/20 via-transparent to-transparent" />
-      </div>
-      
-      {/* Rainbow Decor */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-40 opacity-30 pointer-events-none">
-        <div className="w-full h-full bg-gradient-to-b from-red-500 via-yellow-500 to-blue-500 blur-3xl rounded-full" />
-      </div>
-
-      {/* Rocket Icon Decor */}
-      <motion.div 
-        animate={{ x: [0, 100, 0], y: [0, -50, 0], rotate: [0, 45, 0] }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-20 right-20 opacity-40"
-      >
-        <Rocket size={80} className="text-white" />
-      </motion.div>
-
-      {/* Path SVG */}
-      <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path 
-          d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
-          fill="none" 
-          stroke="white" 
-          strokeWidth="3" 
-          strokeDasharray="4 6"
-          strokeLinecap="round"
-          className="opacity-30"
-        />
-      </svg>
-
-      {topics.map((topic, index) => {
-        const isCompleted = user.completedTopics.includes(topic.id);
+    <div className="map-container">
+      <div className="map-content max-w-3xl mx-auto bg-indigo-950 rounded-[3rem] border-8 border-white shadow-2xl overflow-hidden p-8 mb-4 relative">
+        {/* Space Background Decor */}
+        <div className="absolute inset-0 opacity-40 pointer-events-none">
+          <div className="absolute top-10 left-10 w-2 h-2 bg-white rounded-full animate-pulse" />
+          <div className="absolute top-40 right-20 w-1 h-1 bg-white rounded-full animate-pulse delay-75" />
+          <div className="absolute bottom-20 left-1/4 w-2 h-2 bg-white rounded-full animate-pulse delay-150" />
+          <div className="absolute top-1/2 right-1/3 w-1 h-1 bg-white rounded-full animate-pulse delay-300" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-indigo-500/20 via-transparent to-transparent" />
+        </div>
         
-        return (
-          <motion.button
-            key={topic.id}
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => onSelect(topic)}
-            className="absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
-            style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
-          >
-            <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-full border-4 border-white flex items-center justify-center shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all ${topic.color}`}>
-              <topic.icon size={28} className="text-slate-800" />
-              
-              {/* Number Badge */}
-              <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-indigo-950 flex items-center justify-center font-display font-bold text-sm text-indigo-950 shadow-md">
-                {index + 1}
-              </div>
+        {/* Rainbow Decor */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-40 opacity-30 pointer-events-none">
+          <div className="w-full h-full bg-gradient-to-b from-red-500 via-yellow-500 to-blue-500 blur-3xl rounded-full" />
+        </div>
 
-              {/* Status Badge */}
-              {isCompleted && (
-                <div className="absolute -bottom-2 -right-2 bg-brand-green p-1.5 rounded-full border-4 border-white shadow-md">
-                  <CheckCircle2 size={20} className="text-white" />
+        {/* Rocket Icon Decor */}
+        <motion.div 
+          animate={{ x: [0, 100, 0], y: [0, -50, 0], rotate: [0, 45, 0] }}
+          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-20 right-20 opacity-40"
+        >
+          <Rocket size={80} className="text-white" />
+        </motion.div>
+
+        {/* Path SVG */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path 
+            d="M 20 10 Q 50 10 75 15 T 25 32 T 70 40 T 20 58 T 75 65 T 30 82 T 70 85" 
+            fill="none" 
+            stroke="white" 
+            strokeWidth="3" 
+            strokeDasharray="4 6"
+            strokeLinecap="round"
+            className="opacity-30"
+          />
+        </svg>
+
+        {topics.map((topic, index) => {
+          const isCompleted = user.completedTopics.includes(topic.id);
+          
+          return (
+            <motion.button
+              key={topic.id}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => onSelect(topic)}
+              className="absolute z-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
+              style={{ left: `${topic.x}%`, top: `${topic.y}%` }}
+            >
+              <div className={`relative w-14 h-14 sm:w-16 sm:h-16 rounded-full border-4 border-white flex items-center justify-center shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all ${topic.color}`}>
+                <topic.icon size={28} className="text-slate-800" />
+                
+                {/* Number Badge */}
+                <div className="absolute -top-2 -left-2 w-7 h-7 bg-white rounded-full border-2 border-indigo-950 flex items-center justify-center font-display font-bold text-sm text-indigo-950 shadow-md">
+                  {index + 1}
                 </div>
-              )}
-            </div>
-            <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white/90 rounded-2xl border-2 border-indigo-950 shadow-md whitespace-nowrap text-indigo-950 max-w-[120px] overflow-hidden text-ellipsis">
-              {topic.title}
-            </span>
-          </motion.button>
-        );
-      })}
+
+                {/* Status Badge */}
+                {isCompleted && (
+                  <div className="absolute -bottom-2 -right-2 bg-brand-green p-1.5 rounded-full border-4 border-white shadow-md">
+                    <CheckCircle2 size={20} className="text-white" />
+                  </div>
+                )}
+              </div>
+              <span className="font-display font-bold text-[10px] sm:text-xs px-2 py-0.5 bg-white/90 rounded-2xl border-2 border-indigo-950 shadow-md whitespace-nowrap text-indigo-950 max-w-[120px] overflow-hidden text-ellipsis">
+                {topic.title}
+              </span>
+            </motion.button>
+          );
+        })}
+      </div>
+      <div className="sm:hidden text-center text-slate-400 text-xs mt-2 italic">
+        Vuốt sang ngang để xem thêm →
+      </div>
     </div>
   );
 };
@@ -1246,6 +1349,10 @@ export default function App() {
         questions = FIXED_ADD_SUB_20_QUIZ_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'kg & Lít') {
         questions = FIXED_KG_LIT_QUIZ_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Cộng, trừ có nhớ (100)') {
+        questions = FIXED_ADD_SUB_100_QUIZ_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Hình học & Thời gian') {
+        questions = FIXED_GEOMETRY_TIME_QUIZ_QUESTIONS_G2;
       }
       
       if (questions.length > 0) {
@@ -1275,6 +1382,10 @@ export default function App() {
         questions = FIXED_ADD_SUB_20_ESSAY_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'kg & Lít') {
         questions = FIXED_KG_LIT_ESSAY_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Cộng, trừ có nhớ (100)') {
+        questions = FIXED_ADD_SUB_100_ESSAY_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Hình học & Thời gian') {
+        questions = FIXED_GEOMETRY_TIME_ESSAY_QUESTIONS_G2;
       }
       
       if (questions.length > 0) {
@@ -1304,6 +1415,10 @@ export default function App() {
         questions = FIXED_ADD_SUB_20_APP_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'kg & Lít') {
         questions = FIXED_KG_LIT_APP_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Cộng, trừ có nhớ (100)') {
+        questions = FIXED_ADD_SUB_100_APP_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Hình học & Thời gian') {
+        questions = FIXED_GEOMETRY_TIME_APP_QUESTIONS_G2;
       }
       
       if (questions.length > 0) {
@@ -1481,27 +1596,27 @@ export default function App() {
   if (!user) return null;
 
   return (
-    <div className="min-h-screen flex flex-col max-w-4xl mx-auto px-4 py-4">
+    <div className="min-h-screen flex flex-col max-w-4xl mx-auto px-4 py-4 sm:py-8">
       {/* Header */}
-      <header className="flex items-center justify-between mb-8">
-        <div className="flex items-center gap-4">
-          <div className="w-16 h-16 rounded-2xl bg-brand-pink border-4 border-slate-800 flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(30,41,59,1)]">
-            <User size={32} className="text-white" />
+      <header className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6 sm:mb-8">
+        <div className="flex items-center gap-3 sm:gap-4 w-full sm:w-auto">
+          <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl bg-brand-pink border-4 border-slate-800 flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] shrink-0">
+            <User size={24} className="text-white sm:w-8 sm:h-8" />
           </div>
-          <div>
-            <h2 className="font-display font-bold text-2xl">Chào, {user.name}!</h2>
-            <div className="flex items-center gap-2 text-slate-600 font-medium">
-              <Star size={16} className="text-brand-yellow fill-brand-yellow" />
+          <div className="overflow-hidden">
+            <h2 className="font-display font-bold text-xl sm:text-2xl truncate">Chào, {user.name}!</h2>
+            <div className="flex items-center gap-2 text-slate-600 font-medium text-sm sm:text-base">
+              <Star size={14} className="text-brand-yellow fill-brand-yellow sm:w-4 sm:h-4" />
               <span>Lớp {user.grade} • Cấp độ {user.level}</span>
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-end gap-2">
-          <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-xl border-2 border-slate-800 shadow-[2px_2px_0px_0px_rgba(30,41,59,1)]">
-            <Trophy size={20} className="text-brand-yellow" />
-            <span className="font-display font-bold">{user.points} điểm</span>
+        <div className="flex items-center justify-between sm:justify-end gap-3 w-full sm:w-auto">
+          <div className="flex items-center gap-2 bg-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl border-2 border-slate-800 shadow-[2px_2px_0px_0px_rgba(30,41,59,1)]">
+            <Trophy size={16} className="text-brand-yellow sm:w-5 sm:h-5" />
+            <span className="font-display font-bold text-sm sm:text-base">{user.points} điểm</span>
           </div>
-          <div className="w-32">
+          <div className="w-24 sm:w-32">
             <ProgressBar current={user.points % 100} total={100} />
           </div>
         </div>
@@ -1515,24 +1630,24 @@ export default function App() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="flex flex-col gap-8"
+              className="flex flex-col gap-6 sm:gap-8"
             >
-              <div className="flex justify-between items-start">
+              <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
                 <div>
-                  <h1 className="font-display font-bold text-4xl text-slate-800 mb-2">Hôm nay học gì nhỉ?</h1>
-                  <p className="text-slate-600 text-lg">Chọn một chủ đề để bắt đầu cuộc phiêu lưu!</p>
+                  <h1 className="font-display font-bold text-3xl sm:text-4xl text-slate-800 mb-1 sm:mb-2">Hôm nay học gì nhỉ?</h1>
+                  <p className="text-slate-600 text-base sm:text-lg">Chọn một chủ đề để bắt đầu cuộc phiêu lưu!</p>
                 </div>
-                <div className="flex gap-2">
+                <div className="flex gap-2 w-full sm:w-auto">
                   <button 
                     onClick={() => setShowExamModal(true)}
-                    className="kid-button bg-brand-blue text-white text-sm py-2 px-4 flex items-center gap-2"
+                    className="kid-button bg-brand-blue text-white text-xs sm:text-sm py-2 px-3 sm:px-4 flex-1 sm:flex-none flex items-center justify-center gap-2"
                   >
-                    <ClipboardCheck size={18} />
-                    Kiểm tra học kỳ
+                    <ClipboardCheck size={16} className="sm:w-18 sm:h-18" />
+                    Kiểm tra
                   </button>
                   <button 
                     onClick={() => setShowExitConfirm(true)}
-                    className="kid-button bg-brand-pink text-white text-sm py-2 px-4"
+                    className="kid-button bg-brand-pink text-white text-xs sm:text-sm py-2 px-3 sm:px-4 flex-1 sm:flex-none"
                   >
                     Thoát
                   </button>
@@ -1590,14 +1705,14 @@ export default function App() {
               )}
 
               {/* Knowledge to Remember Section */}
-              <div className="kid-card bg-brand-yellow/10 border-brand-yellow p-6">
+              <div className="kid-card bg-brand-yellow/10 border-brand-yellow p-4 sm:p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 bg-brand-yellow rounded-lg border-2 border-slate-800">
-                    <BookOpen size={24} className="text-slate-800" />
+                  <div className="p-2 bg-brand-yellow rounded-lg border-2 border-slate-800 shrink-0">
+                    <BookOpen size={20} className="text-slate-800 sm:w-6 sm:h-6" />
                   </div>
-                  <h2 className="font-display font-bold text-2xl text-slate-800">Trung tâm kiến thức - Lớp {user.grade}</h2>
+                  <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-800">Kiến thức cần nhớ - Lớp {user.grade}</h2>
                 </div>
-                <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                   {getGradeKnowledge(user.grade).map((item, idx) => (
                     <li 
                       key={idx} 
@@ -1605,11 +1720,11 @@ export default function App() {
                       onClick={() => setSelectedReview(item)}
                     >
                       <span className="text-brand-yellow font-bold group-hover:scale-125 transition-transform">•</span>
-                      <span className="group-hover:text-slate-900 font-medium">{item.title}</span>
+                      <span className="group-hover:text-slate-900 font-medium text-sm sm:text-base">{item.title}</span>
                     </li>
                   ))}
                 </ul>
-                <p className="mt-4 text-xs text-slate-500 italic">* Nhấn vào từng mục để xem chi tiết kiến thức nhé!</p>
+                <p className="mt-4 text-[10px] sm:text-xs text-slate-500 italic text-center sm:text-left">* Nhấn vào từng mục để xem chi tiết kiến thức nhé!</p>
               </div>
             </motion.div>
           )}
@@ -1620,25 +1735,22 @@ export default function App() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="flex flex-col gap-8"
+              className="flex flex-col gap-6 sm:gap-8"
             >
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-4">
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="flex items-center gap-3 sm:gap-4 w-full">
                   <button 
                     onClick={() => setState('dashboard')}
-                    className="p-3 bg-white hover:bg-slate-100 rounded-2xl border-4 border-slate-800 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
+                    className="p-2 sm:p-3 bg-white hover:bg-slate-100 rounded-2xl border-4 border-slate-800 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none shrink-0"
                   >
-                    <Home size={24} className="text-slate-800" />
+                    <Home size={20} className="text-slate-800 sm:w-6 sm:h-6" />
                   </button>
-                  <div className="flex items-center gap-3">
-                    <div className={`p-3 rounded-2xl ${selectedTopic.color} border-4 border-slate-800 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)]`}>
-                      <selectedTopic.icon size={32} className="text-slate-800" />
+                  <div className="flex items-center gap-2 sm:gap-3 overflow-hidden">
+                    <div className={`p-2 sm:p-3 rounded-2xl ${selectedTopic.color} border-4 border-slate-800 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] shrink-0`}>
+                      <selectedTopic.icon size={24} className="text-slate-800 sm:w-8 sm:h-8" />
                     </div>
-                    <h1 className="font-display font-bold text-3xl text-slate-800">{selectedTopic.emoji} {selectedTopic.title}</h1>
+                    <h1 className="font-display font-bold text-xl sm:text-3xl text-slate-800 truncate">{selectedTopic.emoji} {selectedTopic.title}</h1>
                   </div>
-                </div>
-                <div className="hidden md:block">
-                  <h2 className="font-display font-bold text-xl text-brand-orange uppercase tracking-widest">Chọn Chủ Đề</h2>
                 </div>
               </div>
 
@@ -1706,21 +1818,22 @@ export default function App() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 1.05 }}
-              className="flex flex-col gap-8"
+              className="flex flex-col gap-6 sm:gap-8"
             >
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between gap-2">
                 <button 
                   onClick={() => setState(selectedTopic ? 'topic_menu' : 'dashboard')}
-                  className="flex items-center gap-2 text-slate-600 font-bold hover:text-slate-800 transition-colors group"
+                  className="flex items-center gap-1 sm:gap-2 text-slate-600 font-bold hover:text-slate-800 transition-colors group text-sm sm:text-base shrink-0"
                 >
-                  <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
-                  Quay lại danh sách
+                  <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform sm:w-5 sm:h-5" />
+                  <span className="hidden xs:inline">Quay lại</span>
+                  <span className="xs:hidden">Lại</span>
                 </button>
-                <div className="flex items-center gap-2 bg-white px-4 py-1 rounded-full border-2 border-slate-800 font-bold text-slate-800">
-                  Câu {quizIndex + 1} / 10
+                <div className="flex items-center gap-1 sm:gap-2 bg-white px-3 py-1 rounded-full border-2 border-slate-800 font-bold text-slate-800 text-xs sm:text-sm">
+                  Câu {quizIndex + 1}/10
                 </div>
-                <div className="flex items-center gap-2 text-brand-orange font-bold">
-                  <Sparkles size={20} />
+                <div className="flex items-center gap-1 sm:gap-2 text-brand-orange font-bold text-xs sm:text-sm">
+                  <Sparkles size={16} className="sm:w-5 sm:h-5" />
                   Đúng: {quizScore}
                 </div>
               </div>
@@ -1748,21 +1861,21 @@ export default function App() {
                 </div>
               ) : currentProblem && (
                 <div className="flex flex-col gap-8">
-                  <div className="kid-card p-8 relative overflow-hidden">
-                    <div className="absolute top-0 right-0 p-4 bg-brand-yellow/10 rounded-bl-3xl">
-                      <Brain size={40} className="text-brand-yellow opacity-20" />
+                  <div className="kid-card p-5 sm:p-8 relative overflow-hidden">
+                    <div className="absolute top-0 right-0 p-3 sm:p-4 bg-brand-yellow/10 rounded-bl-3xl">
+                      <Brain size={32} className="text-brand-yellow opacity-20 sm:w-10 sm:h-10" />
                     </div>
-                    <div className="flex items-start gap-4 mb-6">
-                      <p className="text-2xl md:text-3xl font-medium leading-relaxed flex-1">
+                    <div className="flex items-start gap-3 sm:gap-4 mb-6">
+                      <p className="text-xl sm:text-2xl md:text-3xl font-medium leading-relaxed flex-1">
                         {currentProblem.question}
                       </p>
                       <button 
                         onClick={() => playQuestionAudio(currentProblem.question)}
                         disabled={audioLoading}
-                        className="p-3 bg-brand-blue text-white rounded-2xl border-4 border-slate-800 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] hover:scale-110 transition-all active:shadow-none active:translate-x-1 active:translate-y-1 disabled:opacity-50"
+                        className="p-2 sm:p-3 bg-brand-blue text-white rounded-2xl border-4 border-slate-800 shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] hover:scale-110 transition-all active:shadow-none active:translate-x-1 active:translate-y-1 disabled:opacity-50 shrink-0"
                         title="Nghe câu hỏi"
                       >
-                        {audioLoading ? <Loader2 size={24} className="animate-spin" /> : <Volume2 size={24} />}
+                        {audioLoading ? <Loader2 size={20} className="animate-spin sm:w-6 sm:h-6" /> : <Volume2 size={20} className="sm:w-6 sm:h-6" />}
                       </button>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -2596,19 +2709,19 @@ function OnboardingScreen({ onComplete }: { onComplete: (name: string, grade: Gr
       <motion.div 
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="kid-card p-10 max-w-md w-full flex flex-col gap-8"
+        className="kid-card p-6 sm:p-10 max-w-md w-full flex flex-col gap-6 sm:gap-8"
       >
         <div className="text-center">
-          <div className="inline-block p-6 bg-brand-yellow rounded-3xl border-4 border-slate-800 mb-6 animate-float shadow-[4px_4px_0px_0px_rgba(30,41,59,1)]">
-            <Brain size={64} className="text-slate-800" />
+          <div className="inline-block p-4 sm:p-6 bg-brand-yellow rounded-3xl border-4 border-slate-800 mb-4 sm:mb-6 animate-float shadow-[4px_4px_0px_0px_rgba(30,41,59,1)]">
+            <Brain size={48} className="text-slate-800 sm:w-16 sm:h-16" />
           </div>
-          <h1 className="font-display font-bold text-4xl text-slate-800 mb-2">Học Toán Vui Nhộn</h1>
-          <p className="text-slate-600 text-lg">Chào mừng bạn đến với thế giới toán học kỳ thú!</p>
+          <h1 className="font-display font-bold text-3xl sm:text-4xl text-slate-800 mb-2">Toán Học Thông Minh</h1>
+          <p className="text-slate-600 text-base sm:text-lg">Chào mừng bạn đến với thế giới toán học!</p>
         </div>
 
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-5 sm:gap-6">
           <div className="flex flex-col gap-2">
-            <label className="font-display font-bold text-xl ml-2">Tên của bạn là gì?</label>
+            <label className="font-display font-bold text-lg sm:text-xl ml-2">Tên của bạn là gì?</label>
             <input 
               type="text" 
               placeholder="Nhập tên của bạn..."
@@ -2619,14 +2732,14 @@ function OnboardingScreen({ onComplete }: { onComplete: (name: string, grade: Gr
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="font-display font-bold text-xl ml-2">Bạn đang học lớp mấy?</label>
-            <div className="flex justify-between gap-2">
+            <label className="font-display font-bold text-lg sm:text-xl ml-2">Bạn đang học lớp mấy?</label>
+            <div className="flex justify-between gap-1 sm:gap-2">
               {([1, 2, 3, 4, 5] as Grade[]).map((g) => (
                 <button
                   key={g}
                   onClick={() => setGrade(g)}
                   className={`
-                    w-12 h-12 rounded-xl border-4 border-slate-800 font-display font-bold text-xl transition-all
+                    w-10 h-10 sm:w-12 sm:h-12 rounded-xl border-4 border-slate-800 font-display font-bold text-lg sm:text-xl transition-all
                     ${grade === g ? 'bg-brand-yellow scale-110 shadow-[2px_2px_0px_0px_rgba(30,41,59,1)]' : 'bg-white hover:bg-slate-50'}
                   `}
                 >
@@ -2639,9 +2752,9 @@ function OnboardingScreen({ onComplete }: { onComplete: (name: string, grade: Gr
           <button 
             onClick={() => name && onComplete(name, grade)}
             disabled={!name}
-            className="kid-button-primary w-full flex items-center justify-center gap-2 mt-4"
+            className="kid-button-primary w-full flex items-center justify-center gap-2 mt-2 sm:mt-4"
           >
-            Bắt đầu ngay <ArrowRight />
+            Bắt đầu ngay <ArrowRight size={20} />
           </button>
         </div>
       </motion.div>

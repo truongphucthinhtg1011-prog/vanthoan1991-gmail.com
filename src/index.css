@@ -24,19 +24,32 @@
   }
   
   .kid-button {
-    @apply px-6 py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed;
+    @apply px-4 py-2 sm:px-6 sm:py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-lg sm:text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed;
   }
   
   .kid-button-primary {
-    @apply px-6 py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed bg-brand-yellow text-slate-800 hover:bg-[#FFC900];
+    @apply px-4 py-2 sm:px-6 sm:py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-lg sm:text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed bg-brand-yellow text-slate-800 hover:bg-[#FFC900];
   }
 
   .kid-button-secondary {
-    @apply px-6 py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed bg-brand-blue text-white hover:bg-[#3B82F6];
+    @apply px-4 py-2 sm:px-6 sm:py-3 rounded-2xl border-4 border-slate-800 font-display font-bold text-lg sm:text-xl shadow-[4px_4px_0px_0px_rgba(30,41,59,1)] transition-all active:translate-x-0.5 active:translate-y-0.5 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed bg-brand-blue text-white hover:bg-[#3B82F6];
   }
   
   .kid-input {
-    @apply w-full px-6 py-4 rounded-2xl border-4 border-slate-800 bg-white font-sans text-xl focus:outline-none focus:ring-4 focus:ring-brand-yellow/30;
+    @apply w-full px-4 py-3 sm:px-6 sm:py-4 rounded-2xl border-4 border-slate-800 bg-white font-sans text-lg sm:text-xl focus:outline-none focus:ring-4 focus:ring-brand-yellow/30;
+  }
+
+  .map-container {
+    @apply relative w-full overflow-x-auto overflow-y-hidden pb-4 sm:pb-0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .map-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .map-content {
+    @apply min-w-[600px] sm:min-w-0 w-full aspect-[16/10];
   }
 }
 
