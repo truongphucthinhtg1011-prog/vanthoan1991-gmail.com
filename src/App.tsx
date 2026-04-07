@@ -563,6 +563,58 @@ const FIXED_GEOMETRY_TIME_APP_QUESTIONS_G2: MathProblem[] = [
   { id: 'gta-10', question: '1 giờ có bao nhiêu phút?', answer: '60', options: ['100', '60', '30', '24'], difficulty: 'easy', topic: 'Hình học & Thời gian' },
 ];
 
+const FIXED_MULTIPLICATION_DIVISION_QUIZ_QUESTIONS_G2: MathProblem[] = [
+  { id: 'mdq1', question: '2 × 3 = ?', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq2', question: '4 × 2 = ?', answer: '8', options: ['6', '7', '8', '9'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq3', question: '6 : 2 = ?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq4', question: '8 : 4 = ?', answer: '2', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq5', question: '5 × 2 = ?', answer: '10', options: ['7', '8', '9', '10'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq6', question: '9 : 3 = ?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq7', question: '3 × 3 = ?', answer: '9', options: ['6', '7', '8', '9'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq8', question: '10 : 2 = ?', answer: '5', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq9', question: '7 × 1 = ?', answer: '7', options: ['6', '7', '8', '9'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mdq10', question: '12 : 3 = ?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+];
+
+const FIXED_MULTIPLICATION_DIVISION_ESSAY_QUESTIONS_G2: MathProblem[] = [
+  { id: 'mde1', question: 'Tính: 3 × 4 = ?', answer: '12', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde2', question: 'Tính: 12 : 3 = ?', answer: '4', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde3', question: 'Có 3 nhóm, mỗi nhóm có 5 bạn. Hỏi có tất cả bao nhiêu bạn?', answer: '15', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde4', question: 'Có 12 cái kẹo chia đều cho 4 bạn. Mỗi bạn được mấy cái?', answer: '3', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde5', question: 'Tính: 2 × 5 + 6 = ?', answer: '16', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde6', question: 'Tính: 5 × 4 = ?', answer: '20', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde7', question: 'Tính: 15 : 5 = ?', answer: '3', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde8', question: 'Mỗi con gà có 2 cái chân. Hỏi 8 con gà có bao nhiêu cái chân?', answer: '16', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde9', question: 'Có 20 quả cam xếp đều vào 5 đĩa. Mỗi đĩa có mấy quả cam?', answer: '4', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mde10', question: 'Tính: 2 × 8 - 4 = ?', answer: '12', options: [], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+];
+
+const FIXED_MULTIPLICATION_DIVISION_APP_QUESTIONS_G2: MathProblem[] = [
+  { id: 'mda1', question: '2 × 5 = ?', answer: '10', options: ['8', '9', '10', '11'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda2', question: '12 : 2 = ?', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda3', question: '3 × 5 = ?', answer: '15', options: ['13', '14', '15', '16'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda4', question: '20 : 5 = ?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda5', question: '4 × 3 = ?', answer: '12', options: ['10', '11', '12', '13'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda6', question: '2 × 8 = ?', answer: '16', options: ['14', '16', '18', '20'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda7', question: '15 : 3 = ?', answer: '5', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda8', question: '5 × 4 = ?', answer: '20', options: ['15', '20', '25', '30'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda9', question: '18 : 2 = ?', answer: '9', options: ['8', '9', '10', '11'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+  { id: 'mda10', question: '2 × 9 = ?', answer: '18', options: ['16', '18', '20', '22'], difficulty: 'easy', topic: 'Phép nhân & Phép chia' },
+];
+
+const FIXED_NUMBERS_TO_1000_QUIZ_QUESTIONS_G2: MathProblem[] = [
+  { id: 'n1000q-1', question: 'Số nào lớn hơn 245?', answer: '260', options: ['200', '230', '260', '240'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-2', question: 'Số 356 gồm:', answer: '3 trăm, 5 chục, 6 đơn vị', options: ['3 chục, 5 trăm, 6 đơn vị', '3 trăm, 5 chục, 6 đơn vị', '3 trăm, 6 chục, 5 đơn vị', '5 trăm, 3 chục, 6 đơn vị'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-3', question: 'Số liền sau của 199 là:', answer: '200', options: ['198', '200', '201', '190'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-4', question: 'Số 400 có mấy trăm?', answer: '4', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-5', question: 'Số nào bé nhất?', answer: '345', options: ['345', '354', '435', '543'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-6', question: 'Số 700 gồm:', answer: '7 trăm', options: ['7 chục', '7 trăm', '7 đơn vị', '70 trăm'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-7', question: 'Số liền trước của 500 là:', answer: '499', options: ['499', '501', '498', '490'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-8', question: '300 + 200 = ?', answer: '500', options: ['400', '500', '600', '700'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-9', question: '1000 là số có mấy chữ số?', answer: '4', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000q-10', question: 'Số 120 gồm:', answer: '1 trăm, 2 chục', options: ['1 trăm, 2 chục', '2 trăm, 1 chục', '1 trăm, 2 đơn vị', '12 chục'], difficulty: 'easy', topic: 'Các số đến 1000' },
+];
+
 const FIXED_FUN_QUESTIONS: MathProblem[] = [
   { id: 'f1', question: 'Câu 1. Số nào đứng giữa 0 và 2?', answer: '1', options: [], difficulty: 'easy', topic: 'CHƠI  VUI' },
   { id: 'f2', question: 'Câu 2. Điền số thích hợp: 1, 2, 3, ___, 5', answer: '4', options: [], difficulty: 'easy', topic: 'CHƠI  VUI' },
@@ -603,9 +655,10 @@ const playAudio = (url: string) => {
   });
 };
 
-const playBase64Audio = (dataUrl: string) => {
+const playBase64Audio = (dataUrl: string, volume: number = 0.8) => {
   if (!dataUrl) return;
   const audio = new Audio(dataUrl);
+  audio.volume = volume;
   audio.play().catch(e => {
     if (e.name !== 'NotAllowedError') {
       console.warn("Speech audio play failed:", e.message);
@@ -1102,6 +1155,7 @@ export default function App() {
   const [topicSubState, setTopicSubState] = useState<TopicSubState>('learn');
   const [isTtsLoading, setIsTtsLoading] = useState(false);
   const [showExamModal, setShowExamModal] = useState(false);
+  const [showReviewModal, setShowReviewModal] = useState(false);
   const [quizIndex, setQuizIndex] = useState(0);
   const [quizScore, setQuizScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(20);
@@ -1113,13 +1167,15 @@ export default function App() {
   const [audioCache, setAudioCache] = useState<Record<string, string>>({});
   const [activeQuestions, setActiveQuestions] = useState<MathProblem[]>([]);
   const [useBrowserTTS, setUseBrowserTTS] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [volume, setVolume] = useState(0.8);
 
   const playQuestionAudio = async (text: string) => {
     if (audioLoading) return;
     
     // Check cache first
     if (audioCache[text]) {
-      playBase64Audio(audioCache[text]);
+      playBase64Audio(audioCache[text], volume);
       return;
     }
 
@@ -1134,7 +1190,7 @@ export default function App() {
       const dataUrl = await generateSpeech(text);
       if (dataUrl) {
         setAudioCache(prev => ({ ...prev, [text]: dataUrl }));
-        playBase64Audio(dataUrl);
+        playBase64Audio(dataUrl, volume);
       }
     } catch (error: any) {
       const isQuotaError = error.message?.includes("429") || error.status === "RESOURCE_EXHAUSTED";
@@ -1159,6 +1215,7 @@ export default function App() {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'vi-VN';
       utterance.rate = 0.9; // Slightly slower for children
+      utterance.volume = volume;
       window.speechSynthesis.speak(utterance);
     }
   };
@@ -1177,6 +1234,11 @@ export default function App() {
       setUser(JSON.parse(savedUser));
       setState('dashboard');
     }
+    
+    const savedVolume = localStorage.getItem('math_volume');
+    if (savedVolume) {
+      setVolume(parseFloat(savedVolume));
+    }
   }, []);
 
   // Save user to local storage
@@ -1185,6 +1247,11 @@ export default function App() {
       localStorage.setItem('math_user', JSON.stringify(user));
     }
   }, [user]);
+
+  // Save volume to local storage
+  useEffect(() => {
+    localStorage.setItem('math_volume', volume.toString());
+  }, [volume]);
 
   // Timer for Quiz Mode
   useEffect(() => {
@@ -1353,6 +1420,10 @@ export default function App() {
         questions = FIXED_ADD_SUB_100_QUIZ_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'Hình học & Thời gian') {
         questions = FIXED_GEOMETRY_TIME_QUIZ_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Phép nhân & Phép chia') {
+        questions = FIXED_MULTIPLICATION_DIVISION_QUIZ_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Các số đến 1000') {
+        questions = FIXED_NUMBERS_TO_1000_QUIZ_QUESTIONS_G2;
       }
       
       if (questions.length > 0) {
@@ -1386,6 +1457,8 @@ export default function App() {
         questions = FIXED_ADD_SUB_100_ESSAY_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'Hình học & Thời gian') {
         questions = FIXED_GEOMETRY_TIME_ESSAY_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Phép nhân & Phép chia') {
+        questions = FIXED_MULTIPLICATION_DIVISION_ESSAY_QUESTIONS_G2;
       }
       
       if (questions.length > 0) {
@@ -1419,6 +1492,8 @@ export default function App() {
         questions = FIXED_ADD_SUB_100_APP_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'Hình học & Thời gian') {
         questions = FIXED_GEOMETRY_TIME_APP_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Phép nhân & Phép chia') {
+        questions = FIXED_MULTIPLICATION_DIVISION_APP_QUESTIONS_G2;
       }
       
       if (questions.length > 0) {
@@ -1638,6 +1713,13 @@ export default function App() {
                   <p className="text-slate-600 text-base sm:text-lg">Chọn một chủ đề để bắt đầu cuộc phiêu lưu!</p>
                 </div>
                 <div className="flex gap-2 w-full sm:w-auto">
+                  <button 
+                    onClick={() => setShowReviewModal(true)}
+                    className="kid-button bg-brand-green text-white text-xs sm:text-sm py-2 px-3 sm:px-4 flex-1 sm:flex-none flex items-center justify-center gap-2"
+                  >
+                    <BookOpen size={16} />
+                    Ôn tập
+                  </button>
                   <button 
                     onClick={() => setShowExamModal(true)}
                     className="kid-button bg-brand-blue text-white text-xs sm:text-sm py-2 px-3 sm:px-4 flex-1 sm:flex-none flex items-center justify-center gap-2"
@@ -2062,7 +2144,7 @@ export default function App() {
           </button>
           <button 
             className="flex flex-col items-center gap-1 text-slate-400"
-            onClick={() => setShowExitConfirm(true)}
+            onClick={() => setShowSettings(true)}
           >
             <Settings size={28} />
             <span className="text-xs font-bold uppercase tracking-wider">Cài đặt</span>
@@ -2094,7 +2176,7 @@ export default function App() {
                       const cleanText = selectedReview.content.replace(/[#*`]/g, '');
                       
                       if (audioCache[cleanText]) {
-                        playBase64Audio(audioCache[cleanText]);
+                        playBase64Audio(audioCache[cleanText], volume);
                         return;
                       }
 
@@ -2108,7 +2190,7 @@ export default function App() {
                         const dataUrl = await generateSpeech(cleanText);
                         if (dataUrl) {
                           setAudioCache(prev => ({ ...prev, [cleanText]: dataUrl }));
-                          playBase64Audio(dataUrl);
+                          playBase64Audio(dataUrl, volume);
                         } else {
                           throw new Error("No audio data");
                         }
@@ -2223,6 +2305,129 @@ export default function App() {
         )}
       </AnimatePresence>
 
+      {/* Review Modal */}
+      <AnimatePresence>
+        {showReviewModal && (
+          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+            <motion.div 
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              className="kid-card max-w-2xl w-full p-6 sm:p-8 bg-white max-h-[90vh] flex flex-col"
+            >
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="font-display font-bold text-2xl sm:text-3xl text-slate-800">Tài liệu Ôn tập - Lớp {user.grade}</h2>
+                <button 
+                  onClick={() => setShowReviewModal(false)}
+                  className="p-2 hover:bg-slate-100 rounded-full transition-colors"
+                >
+                  <X size={24} className="text-slate-400" />
+                </button>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                {getReviewMaterials(user.grade).map((material) => (
+                  <button 
+                    key={material.id}
+                    onClick={() => {
+                      setSelectedReview({ title: material.title, content: material.content });
+                      setShowReviewModal(false);
+                    }}
+                    className="kid-card p-4 flex items-center gap-3 hover:border-brand-green transition-all bg-brand-green/5 group"
+                  >
+                    <div className="p-2 bg-brand-green rounded-lg text-white group-hover:scale-110 transition-transform">
+                      <BookOpen size={20} />
+                    </div>
+                    <div className="text-left">
+                      <h3 className="font-display font-bold text-lg">{material.title}</h3>
+                      <p className="text-slate-500 text-xs">Nhấn để xem tài liệu</p>
+                    </div>
+                  </button>
+                ))}
+              </div>
+
+              <div className="bg-brand-blue/10 p-4 rounded-2xl border-2 border-brand-blue/20 flex items-start gap-3">
+                <div className="p-2 bg-brand-blue rounded-lg text-white shrink-0">
+                  <Lightbulb size={18} />
+                </div>
+                <p className="text-slate-700 text-sm italic">
+                  "Ôn tập kỹ giúp các em tự tin hơn trong các kỳ thi sắp tới. Chúc các em học tốt!"
+                </p>
+              </div>
+
+              <button 
+                onClick={() => setShowReviewModal(false)}
+                className="mt-6 w-full py-3 bg-slate-100 hover:bg-slate-200 rounded-xl font-bold text-slate-600 transition-colors"
+              >
+                Đóng
+              </button>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+
+      {/* Settings Modal */}
+      <AnimatePresence>
+        {showSettings && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              className="kid-card p-6 sm:p-8 max-w-sm w-full bg-white flex flex-col gap-6"
+            >
+              <div className="flex items-center gap-3 mb-2">
+                <div className="p-2 bg-brand-yellow rounded-lg border-2 border-slate-800">
+                  <Settings size={24} className="text-slate-800" />
+                </div>
+                <h3 className="font-display font-bold text-2xl text-slate-800">Cài đặt</h3>
+              </div>
+
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-2">
+                  <div className="flex items-center justify-between">
+                    <label className="font-display font-bold text-lg text-slate-800 flex items-center gap-2">
+                      <Volume2 size={20} />
+                      Âm lượng
+                    </label>
+                    <span className="font-bold text-slate-600">{Math.round(volume * 100)}%</span>
+                  </div>
+                  <input 
+                    type="range" 
+                    min="0" 
+                    max="1" 
+                    step="0.1" 
+                    value={volume}
+                    onChange={(e) => setVolume(parseFloat(e.target.value))}
+                    className="w-full h-3 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-brand-yellow border-2 border-slate-800"
+                  />
+                </div>
+
+                <div className="h-px bg-slate-200 my-2" />
+
+                <button 
+                  onClick={() => {
+                    setShowSettings(false);
+                    setShowExitConfirm(true);
+                  }}
+                  className="kid-button bg-brand-pink text-white w-full flex items-center justify-center gap-2"
+                >
+                  <XCircle size={20} />
+                  Thoát ứng dụng
+                </button>
+
+                <button 
+                  onClick={() => setShowSettings(false)}
+                  className="kid-button bg-slate-200 text-slate-800 w-full"
+                >
+                  Đóng
+                </button>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+
       {/* Exit Confirmation Modal */}
       <AnimatePresence>
         {showExitConfirm && (
@@ -2276,6 +2481,42 @@ export default function App() {
       </AnimatePresence>
     </div>
   );
+}
+
+function getReviewMaterials(grade: number) {
+  const materials: Record<number, { id: string; title: string; content: string }[]> = {
+    1: [
+      { id: 'g1_mid1', title: 'Giữa học kì 1', content: `### 📚 Ôn tập Giữa học kì 1 - Lớp 1\n\n1. **Các số từ 0 đến 10**\n- Nhận biết mặt số, cách đọc, cách viết.\n- So sánh số: >, <, =.\n- Tách, gộp số.\n\n2. **Hình phẳng**\n- Hình vuông, hình tròn, hình tam giác, hình chữ nhật.\n\n3. **Phép cộng trong phạm vi 5**\n- Các phép tính cơ bản.` },
+      { id: 'g1_term1', title: 'Học kì 1', content: `### 📚 Ôn tập Học kì 1 - Lớp 1\n\n1. **Phép cộng, trừ trong phạm vi 10**\n- Bảng cộng, trừ.\n- Tính toán nhanh.\n\n2. **Hình khối**\n- Khối lập phương, khối hộp chữ nhật.\n- Vị trí: trên, dưới, trái, phải, ở giữa.\n\n3. **Các số đến 20**\n- Đọc, viết các số từ 10 đến 20.` },
+      { id: 'g1_mid2', title: 'Giữa học kì 2', content: `### 📚 Ôn tập Giữa học kì 2 - Lớp 1\n\n1. **Các số đến 100**\n- Đọc, viết, so sánh các số.\n- Chục và đơn vị.\n\n2. **Độ dài và đo lường**\n- Đơn vị cm.\n- Cách dùng thước kẻ đo độ dài.\n\n3. **Phép cộng, trừ không nhớ trong phạm vi 100**\n- Tính nhẩm và đặt tính.` },
+      { id: 'g1_term2', title: 'Học kì 2', content: `### 📚 Ôn tập Học kì 2 - Lớp 1\n\n1. **Tổng hợp kiến thức cả năm**\n- Các số đến 100.\n- Phép cộng, trừ phạm vi 100.\n\n2. **Thời gian và Lịch**\n- Xem giờ đúng trên đồng hồ.\n- Các ngày trong tuần.\n\n3. **Giải toán có lời văn**\n- Cách trình bày bài giải.` },
+    ],
+    2: [
+      { id: 'g2_mid1', title: 'Giữa học kì 1', content: `### 📚 Ôn tập Giữa học kì 1 - Lớp 2\n\n1. **Ôn tập các số đến 100**\n- Số hạng, tổng, số bị trừ, số trừ, hiệu.\n\n2. **Phép cộng, trừ có nhớ trong phạm vi 20**\n- Bảng cộng, trừ 9, 8, 7, 6 cộng với một số.\n\n3. **Hình học**\n- Điểm, đoạn thẳng, đường thẳng, đường cong.\n- Ba điểm thẳng hàng.` },
+      { id: 'g2_term1', title: 'Học kì 1', content: `### 📚 Ôn tập Học kì 1 - Lớp 2\n\n1. **Phép cộng, trừ có nhớ trong phạm vi 100**\n- Cách đặt tính và tính.\n\n2. **Đo lường**\n- Đơn vị kg, lít.\n\n3. **Thời gian**\n- Xem đồng hồ (giờ, phút).\n- Ngày, tháng.` },
+      { id: 'g2_mid2', title: 'Giữa học kì 2', content: `### 📚 Ôn tập Giữa học kì 2 - Lớp 2\n\n1. **Phép nhân và Phép chia**\n- Thừa số, tích, số bị chia, số chia, thương.\n- Bảng nhân 2, 5. Bảng chia 2, 5.\n\n2. **Các số đến 1000**\n- Đơn vị, chục, trăm.\n- So sánh các số có ba chữ số.\n\n3. **Đo lường**\n- Đơn vị m, dm, cm, mm.` },
+      { id: 'g2_term2', title: 'Học kì 2', content: `### 📚 Ôn tập Học kì 2 - Lớp 2\n\n1. **Phép cộng, trừ trong phạm vi 1000**\n- Tính toán không nhớ và có nhớ.\n\n2. **Hình học**\n- Hình tứ giác, hình tam giác.\n- Chu vi hình tam giác, hình tứ giác.\n\n3. **Tiền Việt Nam**\n- Nhận biết các mệnh giá tiền.` },
+    ],
+    3: [
+      { id: 'g3_mid1', title: 'Giữa học kì 1', content: `### 📚 Ôn tập Giữa học kì 1 - Lớp 3\n\n1. **Ôn tập và bổ sung**\n- Cộng, trừ các số có ba chữ số.\n- Bảng nhân, chia 2, 3, 4, 5.\n\n2. **Bảng nhân, chia 6, 7, 8, 9**\n- Học thuộc các bảng tính.\n\n3. **Hình học**\n- Góc vuông, góc không vuông.\n- Đỉnh, cạnh của góc.` },
+      { id: 'g3_term1', title: 'Học kì 1', content: `### 📚 Ôn tập Học kì 1 - Lớp 3\n\n1. **Phép nhân, chia trong phạm vi 1000**\n- Nhân số có hai, ba chữ số với số có một chữ số.\n- Chia số có hai, ba chữ số cho số có một chữ số.\n\n2. **Đo lường**\n- Đơn vị g, kg.\n- Đơn vị ml, l.\n\n3. **Diện tích**\n- Làm quen với diện tích một hình.` },
+      { id: 'g3_mid2', title: 'Giữa học kì 2', content: `### 📚 Ôn tập Giữa học kì 2 - Lớp 3\n\n1. **Các số đến 10 000**\n- Đọc, viết, so sánh.\n- Phép cộng, trừ trong phạm vi 10 000.\n\n2. **Hình học**\n- Hình tròn, tâm, đường kính, bán kính.\n\n3. **Thống kê số liệu**\n- Làm quen với bảng số liệu.` },
+      { id: 'g3_term2', title: 'Học kì 2', content: `### 📚 Ôn tập Học kì 2 - Lớp 3\n\n1. **Các số đến 100 000**\n- Phép cộng, trừ, nhân, chia phạm vi 100 000.\n\n2. **Diện tích**\n- Diện tích hình chữ nhật, hình vuông.\n\n3. **Tiền Việt Nam**\n- Các phép tính với tiền.` },
+    ],
+    4: [
+      { id: 'g4_mid1', title: 'Giữa học kì 1', content: `### 📚 Ôn tập Giữa học kì 1 - Lớp 4\n\n1. **Số tự nhiên**\n- Các số có nhiều chữ số.\n- Triệu và lớp triệu.\n\n2. **Các phép tính với số tự nhiên**\n- Cộng, trừ số tự nhiên.\n- Tính chất giao hoán, kết hợp.\n\n3. **Hình học**\n- Góc nhọn, góc tù, góc bẹt.\n- Hai đường thẳng vuông góc, song song.` },
+      { id: 'g4_term1', title: 'Học kì 1', content: `### 📚 Ôn tập Học kì 1 - Lớp 4\n\n1. **Phép nhân, phép chia**\n- Nhân với số có hai, ba chữ số.\n- Chia cho số có hai chữ số.\n\n2. **Trung bình cộng**\n- Cách tìm số trung bình cộng.\n\n3. **Biểu đồ**\n- Biểu đồ cột, biểu đồ tranh.` },
+      { id: 'g4_mid2', title: 'Giữa học kì 2', content: `### 📚 Ôn tập Giữa học kì 2 - Lớp 4\n\n1. **Phân số**\n- Khái niệm phân số.\n- Tính chất cơ bản của phân số.\n- Rút gọn, quy đồng mẫu số.\n\n2. **So sánh phân số**\n- Cùng mẫu số, khác mẫu số.\n\n3. **Hình học**\n- Hình bình hành, hình thoi.\n- Diện tích hình bình hành, hình thoi.` },
+      { id: 'g4_term2', title: 'Học kì 2', content: `### 📚 Ôn tập Học kì 2 - Lớp 4\n\n1. **Các phép tính với phân số**\n- Cộng, trừ, nhân, chia phân số.\n\n2. **Tỉ số**\n- Tìm hai số khi biết tổng và tỉ số.\n- Tìm hai số khi biết hiệu và tỉ số.\n\n3. **Tỉ lệ bản đồ**\n- Ứng dụng thực tế.` },
+    ],
+    5: [
+      { id: 'g5_mid1', title: 'Giữa học kì 1', content: `### 📚 Ôn tập Giữa học kì 1 - Lớp 5\n\n1. **Ôn tập về phân số**\n- Phân số thập phân.\n- Hỗn số.\n\n2. **Số thập phân**\n- Khái niệm số thập phân.\n- Hàng của số thập phân.\n- Đọc, viết, so sánh số thập phân.\n\n3. **Đo lường**\n- Viết các số đo độ dài, khối lượng dưới dạng số thập phân.` },
+      { id: 'g5_term1', title: 'Học kì 1', content: `### 📚 Ôn tập Học kì 1 - Lớp 5\n\n1. **Các phép tính với số thập phân**\n- Cộng, trừ, nhân, chia số thập phân.\n\n2. **Tỉ số phần trăm**\n- Giải toán về tỉ số phần trăm.\n\n3. **Hình học**\n- Hình tam giác, hình thang.\n- Diện tích hình tam giác, hình thang.` },
+      { id: 'g5_mid2', title: 'Giữa học kì 2', content: `### 📚 Ôn tập Giữa học kì 2 - Lớp 5\n\n1. **Hình học không gian**\n- Hình hộp chữ nhật, hình lập phương.\n- Diện tích xung quanh, diện tích toàn phần.\n- Thể tích.\n\n2. **Số đo thời gian**\n- Cộng, trừ, nhân, chia số đo thời gian.\n\n3. **Vận tốc, Quãng đường, Thời gian**\n- Các bài toán về chuyển động đều.` },
+      { id: 'g5_term2', title: 'Học kì 2', content: `### 📚 Ôn tập Học kì 2 - Lớp 5\n\n1. **Ôn tập tổng hợp**\n- Số tự nhiên, phân số, số thập phân.\n- Các phép tính.\n\n2. **Giải toán**\n- Các dạng toán điển hình.\n\n3. **Hình học**\n- Hình tròn, chu vi, diện tích.\n- Ôn tập về đo lường.` },
+    ],
+  };
+  return materials[grade] || [];
 }
 
 function getGradeKnowledge(grade: Grade) {
