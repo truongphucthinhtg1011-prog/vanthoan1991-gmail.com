@@ -1156,6 +1156,7 @@ export default function App() {
   const [isTtsLoading, setIsTtsLoading] = useState(false);
   const [showExamModal, setShowExamModal] = useState(false);
   const [showReviewModal, setShowReviewModal] = useState(false);
+  const [reviewSemester, setReviewSemester] = useState<1 | 2 | null>(null);
   const [quizIndex, setQuizIndex] = useState(0);
   const [quizScore, setQuizScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(20);
@@ -1712,19 +1713,32 @@ export default function App() {
                   <h1 className="font-display font-bold text-3xl sm:text-4xl text-slate-800 mb-1 sm:mb-2">Hôm nay học gì nhỉ?</h1>
                   <p className="text-slate-600 text-base sm:text-lg">Chọn một chủ đề để bắt đầu cuộc phiêu lưu!</p>
                 </div>
-                <div className="flex gap-2 w-full sm:w-auto">
+                <div className="flex flex-wrap gap-2 w-full sm:w-auto">
                   <button 
-                    onClick={() => setShowReviewModal(true)}
-                    className="kid-button bg-brand-green text-white text-xs sm:text-sm py-2 px-3 sm:px-4 flex-1 sm:flex-none flex items-center justify-center gap-2"
+                    onClick={() => {
+                      setReviewSemester(1);
+                      setShowReviewModal(true);
+                    }}
+                    className="kid-button bg-brand-green text-white text-[10px] sm:text-sm py-2 px-2 sm:px-4 flex-1 sm:flex-none flex items-center justify-center gap-1 sm:gap-2"
                   >
-                    <BookOpen size={16} />
-                    Ôn tập
+                    <BookOpen size={14} className="sm:w-4 sm:h-4" />
+                    Ôn tập HK1
+                  </button>
+                  <button 
+                    onClick={() => {
+                      setReviewSemester(2);
+                      setShowReviewModal(true);
+                    }}
+                    className="kid-button bg-emerald-600 text-white text-[10px] sm:text-sm py-2 px-2 sm:px-4 flex-1 sm:flex-none flex items-center justify-center gap-1 sm:gap-2"
+                  >
+                    <BookOpen size={14} className="sm:w-4 sm:h-4" />
+                    Ôn tập HK2
                   </button>
                   <button 
                     onClick={() => setShowExamModal(true)}
-                    className="kid-button bg-brand-blue text-white text-xs sm:text-sm py-2 px-3 sm:px-4 flex-1 sm:flex-none flex items-center justify-center gap-2"
+                    className="kid-button bg-brand-blue text-white text-[10px] sm:text-sm py-2 px-2 sm:px-4 flex-1 sm:flex-none flex items-center justify-center gap-1 sm:gap-2"
                   >
-                    <ClipboardCheck size={16} className="sm:w-18 sm:h-18" />
+                    <ClipboardCheck size={14} className="sm:w-4 sm:h-4" />
                     Kiểm tra
                   </button>
                   <button 
@@ -2316,17 +2330,19 @@ export default function App() {
               className="kid-card max-w-2xl w-full p-6 sm:p-8 bg-white max-h-[90vh] flex flex-col"
             >
               <div className="flex items-center justify-between mb-6">
-                <h2 className="font-display font-bold text-2xl sm:text-3xl text-slate-800">Tài liệu Ôn tập - Lớp {user.grade}</h2>
+                <h2 className="font-display font-bold text-2xl sm:text-3xl text-slate-800">Ôn tập Học kì {reviewSemester} - Lớp {user.grade}</h2>
                 <button 
                   onClick={() => setShowReviewModal(false)}
                   className="p-2 hover:bg-slate-100 rounded-full transition-colors"
                 >
-                  <X size={24} className="text-slate-400" />
+                  <XCircle size={24} className="text-slate-400" />
                 </button>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-                {getReviewMaterials(user.grade).map((material) => (
+                {getReviewMaterials(user.grade)
+                  .filter(m => reviewSemester === 1 ? (m.id.includes('mid1') || m.id.includes('term1')) : (m.id.includes('mid2') || m.id.includes('term2')))
+                  .map((material) => (
                   <button 
                     key={material.id}
                     onClick={() => {
@@ -2487,7 +2503,131 @@ function getReviewMaterials(grade: number) {
   const materials: Record<number, { id: string; title: string; content: string }[]> = {
     1: [
       { id: 'g1_mid1', title: 'Giữa học kì 1', content: `### 📚 Ôn tập Giữa học kì 1 - Lớp 1\n\n1. **Các số từ 0 đến 10**\n- Nhận biết mặt số, cách đọc, cách viết.\n- So sánh số: >, <, =.\n- Tách, gộp số.\n\n2. **Hình phẳng**\n- Hình vuông, hình tròn, hình tam giác, hình chữ nhật.\n\n3. **Phép cộng trong phạm vi 5**\n- Các phép tính cơ bản.` },
-      { id: 'g1_term1', title: 'Học kì 1', content: `### 📚 Ôn tập Học kì 1 - Lớp 1\n\n1. **Phép cộng, trừ trong phạm vi 10**\n- Bảng cộng, trừ.\n- Tính toán nhanh.\n\n2. **Hình khối**\n- Khối lập phương, khối hộp chữ nhật.\n- Vị trí: trên, dưới, trái, phải, ở giữa.\n\n3. **Các số đến 20**\n- Đọc, viết các số từ 10 đến 20.` },
+      { id: 'g1_term1', title: 'Học kì 1', content: `### 📚 BỘ CÂU HỎI ÔN TẬP HỌC KÌ 1 – TOÁN 1
+
+#### Phần 1. Nhận biết và viết các số trong phạm vi 10
+- Đọc các số từ 0 đến 10.
+- Đếm xuôi từ 0 đến 10.
+- Đếm ngược từ 10 về 0.
+- Viết các số: 0, 1, 2, 3, 4, 5.
+- Viết các số: 6, 7, 8, 9, 10.
+- Số liền sau của 4 là số nào?
+- Số liền sau của 8 là số nào?
+- Số liền trước của 5 là số nào?
+- Số liền trước của 10 là số nào?
+- Số nào bé hơn 1 đơn vị so với 7?
+- Số nào lớn hơn 1 đơn vị so với 6?
+- Trong các số 2, 5, 8, 1, số lớn nhất là số nào?
+- Trong các số 2, 5, 8, 1, số bé nhất là số nào?
+- Điền số còn thiếu: 0, 1, 2, …, 4, 5.
+- Điền số còn thiếu: 5, 6, …, 8, 9, 10.
+- Điền số còn thiếu: 10, 9, 8, …, 6, 5.
+- Điền số thích hợp vào chỗ chấm: …, 3, 4, 5.
+- Điền số thích hợp vào chỗ chấm: 7, 8, 9, ….
+- Số 0 cho biết điều gì?
+- Em hãy kể tên 3 đồ vật có số lượng là 1.
+- Em hãy kể tên 3 nhóm đồ vật có số lượng là 0.
+- Nhìn hình, cho biết có bao nhiêu đồ vật.
+- Khoanh vào số chỉ số lượng của mỗi nhóm hình.
+
+#### Phần 2. So sánh số lượng: nhiều hơn, ít hơn, bằng nhau
+- Nhóm nào có nhiều hơn? Nhóm nào có ít hơn?
+- Hai nhóm nào có số lượng bằng nhau?
+- Điền từ thích hợp: nhiều hơn / ít hơn / bằng nhau.
+- Số con vịt nhiều hơn hay số con gà nhiều hơn?
+- Số quả táo ít hơn hay số quả cam ít hơn?
+- Số bông hoa và số con bướm có bằng nhau không?
+- Số bạn trai nhiều hơn hay số bạn gái nhiều hơn?
+- Muốn biết hai nhóm đồ vật có bằng nhau không, em làm thế nào?
+
+#### Phần 3. So sánh các số: >, <, =
+- Điền dấu >, < hoặc = vào chỗ chấm: 3 … 5; 7 … 4; 6 … 6; 0 … 2; 9 … 8; 10 … 10.
+- Số nào lớn hơn: 4 hay 6? Số nào bé hơn: 7 hay 9?
+- Số nào bằng 5?
+- Viết 3 cặp số có dấu >, <, =.
+- Sắp xếp các số sau theo thứ tự từ bé đến lớn: 6, 2, 8, 5.
+- Sắp xếp các số sau theo thứ tự từ lớn đến bé: 1, 9, 4, 7.
+- Trong các số 3, 10, 6, 8, số nào lớn nhất? Số nào bé nhất?
+- Điền số thích hợp: … > 4; 7 < …; 5 = ….
+- Tìm một số vừa lớn hơn 2 vừa bé hơn 4.
+- Tìm một số vừa lớn hơn 6 vừa bé hơn 8.
+
+#### Phần 4. Tách – gộp số, “mấy và mấy”
+- Số 5, 6, 7, 8, 9, 10 gồm mấy và mấy?
+- Điền số thích hợp: 5 gồm 2 và …; 6 gồm 1 và …; 7 gồm 3 và …; 8 gồm 4 và …; 9 gồm 5 và …; 10 gồm 6 và ….
+- Tách số 6, 7, 8 thành hai phần khác nhau.
+- Nêu tất cả các cách tách số 5, 6, 7.
+- Gộp 3 và 2 được mấy? Gộp 4 và 1 được mấy? Gộp 5 và 3 được mấy? Gộp 6 và 2 được mấy? Gộp 7 và 1 được mấy?
+- Số 9, 10 gồm những cặp số nào?
+
+#### Phần 5. Phép cộng trong phạm vi 10
+- Tính: 1+1, 2+1, 3+1, 4+1, 5+1, 1+2, 1+3, 1+4, 1+5, 2+2, 2+3, 3+2, 4+2, 2+4, 3+3, 5+2, 2+5, 6+1, 1+6, 7+1, 1+7, 8+1, 1+8, 9+1, 1+9.
+- Tính với số 0: 5+0, 0+5, 7+0, 0+7.
+- Điền số thích hợp: 3 + … = 5; 4 + … = 6; 5 + … = 8; … + 2 = 7; … + 3 = 9; … + 1 = 10.
+- Nêu phép cộng thích hợp với hình vẽ.
+- Vì sao 2 + 3 và 3 + 2 cùng bằng 5?
+- Nêu các phép cộng có kết quả bằng 10.
+
+#### Phần 6. Phép trừ trong phạm vi 10
+- Tính: 5-1, 6-1, 7-1, 8-1, 9-1, 10-1, 6-2, 7-2, 8-2, 9-2, 10-2, 7-3, 8-3, 9-3, 10-3, 8-4, 9-4, 10-4, 9-5, 10-5, 10-6, 10-7, 10-8, 10-9.
+- Tính với số 0: 3-0, 6-0, 8-0, 10-0.
+- Tính trừ chính nó: 5-5, 7-7, 9-9.
+- Điền số thích hợp: 7 - … = 5; 8 - … = 4; 10 - … = 6; … - 2 = 5; … - 3 = 4; … - 1 = 8.
+- Nêu phép trừ thích hợp với hình vẽ.
+- Vì sao 7 - 0 = 7? Vì sao 6 - 6 = 0?
+
+#### Phần 7. Quan hệ giữa phép cộng và phép trừ
+- Từ phép cộng, hãy viết hai phép trừ tương ứng (ví dụ: 3+2=5).
+- Viết “gia đình phép tính” của các số (ví dụ: 2, 3, 5).
+- Tìm các phép cộng và phép trừ có kết quả bằng 5, 7, 10.
+
+#### Phần 8. Tính nhẩm, điền số, tìm kết quả
+- Tính nhẩm các phép tính cộng, trừ trong phạm vi 10.
+- Điền số còn thiếu trong bảng cộng/trừ.
+- Tìm toa tàu có kết quả lớn nhất/bé nhất.
+- Điền dấu >, <, = vào giữa hai kết quả phép tính.
+
+#### Phần 9. Bài toán lời nói đơn giản
+- Có 3 quả táo, thêm 2 quả táo nữa. Hỏi có tất cả mấy quả táo?
+- Có 5 con chim, bay đi 2 con. Hỏi còn lại mấy con?
+- Có 4 bạn đang chơi, thêm 3 bạn nữa đến. Hỏi có tất cả mấy bạn?
+- Có 8 bông hoa, hái đi 4 bông. Hỏi còn lại mấy bông?
+- Có 2 con mèo và 3 con chó. Hỏi có tất cả mấy con vật?
+- Có 7 chiếc kẹo, ăn mất 1 chiếc. Hỏi còn lại mấy chiếc?
+- Có 6 quyển vở, cho bạn 2 quyển. Hỏi còn lại mấy quyển?
+- Có 9 con cá, vớt ra 3 con. Hỏi còn lại mấy con cá?
+- Có 5 bạn trai và 4 bạn gái. Hỏi lớp có tất cả mấy bạn?
+- Có 10 quả bóng, bay mất 6 quả. Hỏi còn lại mấy quả?
+
+#### Phần 10. Hình phẳng & Hình khối
+- Kể tên các hình phẳng: Hình vuông, tròn, tam giác, chữ nhật.
+- Kể tên các hình khối: Khối lập phương, khối hộp chữ nhật.
+- Đặc điểm và nhận biết các hình trong thực tế.
+- Đếm số lượng hình trong một hình vẽ phức hợp.
+
+#### Phần 11. Vị trí, định hướng
+- Nêu các từ chỉ vị trí: trước, sau, giữa, trên, dưới, phải, trái.
+- Xác định vị trí của các vật trong không gian và trong lớp học.
+
+#### Phần 12. Ôn tập tổng hợp cuối kì
+- Tổng hợp các kiến thức về số, phép tính, hình học và vị trí.
+
+#### 🌟 15 câu vận dụng thêm (Kiểm tra miệng)
+1. Em hãy nêu 2 số lớn hơn 5.
+2. Em hãy nêu 2 số bé hơn 5.
+3. Em hãy nêu 2 số bằng nhau.
+4. Em hãy nêu một phép cộng có số 0.
+5. Em hãy nêu một phép trừ có kết quả bằng 0.
+6. Em hãy nêu một phép tính có kết quả bằng 10.
+7. Em hãy nêu một đồ vật dạng hình tròn.
+8. Em hãy nêu một đồ vật dạng hình vuông.
+9. Em hãy nêu một đồ vật dạng khối lập phương.
+10. Em hãy nêu một đồ vật ở bên trái em.
+11. Em hãy nêu một đồ vật ở bên phải em.
+12. Em hãy nêu một vật ở trên bảng.
+13. Em hãy nêu một vật ở dưới bàn.
+14. Em hãy đặt một bài toán cộng trong phạm vi 10.
+15. Em hãy đặt một bài toán trừ trong phạm vi 10.` },
       { id: 'g1_mid2', title: 'Giữa học kì 2', content: `### 📚 Ôn tập Giữa học kì 2 - Lớp 1\n\n1. **Các số đến 100**\n- Đọc, viết, so sánh các số.\n- Chục và đơn vị.\n\n2. **Độ dài và đo lường**\n- Đơn vị cm.\n- Cách dùng thước kẻ đo độ dài.\n\n3. **Phép cộng, trừ không nhớ trong phạm vi 100**\n- Tính nhẩm và đặt tính.` },
       { id: 'g1_term2', title: 'Học kì 2', content: `### 📚 Ôn tập Học kì 2 - Lớp 1\n\n1. **Tổng hợp kiến thức cả năm**\n- Các số đến 100.\n- Phép cộng, trừ phạm vi 100.\n\n2. **Thời gian và Lịch**\n- Xem giờ đúng trên đồng hồ.\n- Các ngày trong tuần.\n\n3. **Giải toán có lời văn**\n- Cách trình bày bài giải.` },
     ],
