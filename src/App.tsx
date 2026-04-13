@@ -615,6 +615,630 @@ const FIXED_NUMBERS_TO_1000_QUIZ_QUESTIONS_G2: MathProblem[] = [
   { id: 'n1000q-10', question: 'Số 120 gồm:', answer: '1 trăm, 2 chục', options: ['1 trăm, 2 chục', '2 trăm, 1 chục', '1 trăm, 2 đơn vị', '12 chục'], difficulty: 'easy', topic: 'Các số đến 1000' },
 ];
 
+const FIXED_NUMBERS_TO_1000_ESSAY_QUESTIONS_G2: MathProblem[] = [
+  { id: 'n1000e-1', question: 'Viết số gồm 4 trăm, 5 chục, 2 đơn vị.', answer: '452', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-2', question: 'Sắp xếp các số sau theo thứ tự từ bé đến lớn: 345, 543, 435, 354', answer: '345, 354, 435, 543', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-3', question: 'Tính: 200 + 300 + 100 = ?', answer: '600', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-4', question: 'Tìm số liền trước và liền sau của 700.', answer: '699 và 701', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-5', question: 'Một cửa hàng có 450 quyển vở, bán đi 200 quyển. Hỏi còn lại bao nhiêu quyển?', answer: '250', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-6', question: 'Viết số gồm 8 trăm, 0 chục, 5 đơn vị.', answer: '805', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-7', question: 'So sánh 789 và 798.', answer: '789 < 798', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-8', question: 'Tính: 500 - 200 + 100 = ?', answer: '400', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-9', question: 'Số lớn nhất có 3 chữ số khác nhau là số nào?', answer: '987', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000e-10', question: 'Có 300 viên bi xanh và 400 viên bi đỏ. Hỏi có tất cả bao nhiêu viên bi?', answer: '700', options: [], difficulty: 'easy', topic: 'Các số đến 1000' },
+];
+
+const FIXED_NUMBERS_TO_1000_APP_QUESTIONS_G2: MathProblem[] = [
+  { id: 'n1000a-1', question: '100 + 900 = ?', answer: '1000', options: ['900', '1000', '1100', '800'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-2', question: 'Số nào đứng giữa 399 và 401?', answer: '400', options: ['398', '400', '402', '403'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-3', question: '250 + 250 = ?', answer: '500', options: ['400', '450', '500', '550'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-4', question: 'Số 999 có mấy chữ số?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-5', question: '600 - 300 = ?', answer: '300', options: ['200', '300', '400', '500'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-6', question: 'Số liền trước của 1000 là số nào?', answer: '999', options: ['998', '999', '990', '1001'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-7', question: '400 + 50 + 7 = ?', answer: '457', options: ['457', '475', '547', '754'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-8', question: 'Số gồm 8 trăm và 2 chục là:', answer: '820', options: ['82', '802', '820', '280'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-9', question: '1000 - 500 = ?', answer: '500', options: ['400', '500', '600', '700'], difficulty: 'easy', topic: 'Các số đến 1000' },
+  { id: 'n1000a-10', question: 'Số nào lớn nhất trong các số: 789, 987, 879, 978?', answer: '987', options: ['789', '987', '879', '978'], difficulty: 'easy', topic: 'Các số đến 1000' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_QUIZ_QUESTIONS_G2: MathProblem[] = [
+  { id: 'spq-1', question: 'Dữ liệu là gì?', answer: 'Số liệu thu thập được', options: ['Số liệu thu thập được', 'Phép tính', 'Hình vẽ', 'Con số bất kỳ'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-2', question: 'Trong bảng sau: Táo: 3, Cam: 5. Loại quả nào nhiều hơn?', answer: 'Cam', options: ['Táo', 'Cam', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-3', question: 'Tung 1 đồng xu, có mấy kết quả có thể xảy ra?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-4', question: 'Tung xúc xắc 1 lần, có bao nhiêu mặt có thể xuất hiện?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-5', question: 'Số liệu nào lớn nhất trong dãy: 2, 5, 3, 1?', answer: '5', options: ['1', '2', '3', '5'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-6', question: 'Quan sát dãy số: 1, 1, 2, 3. Số nào xuất hiện nhiều nhất?', answer: '1', options: ['1', '2', '3', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-7', question: 'Tung đồng xu, việc ra “mặt sấp” là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-8', question: 'Trong lớp có 10 bạn, hỏi có bao nhiêu dữ liệu về tên các bạn?', answer: '10', options: ['5', '10', '15', '20'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-9', question: 'Số nào bé nhất trong dãy: 6, 8, 2, 9?', answer: '2', options: ['2', '6', '8', '9'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spq-10', question: 'Tung xúc xắc, việc ra số 3 là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_ESSAY_QUESTIONS_G2: MathProblem[] = [
+  { id: 'spe-1', question: 'Ghi lại dữ liệu số bạn trong tổ em.', answer: 'Dữ liệu số bạn', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-2', question: 'Quan sát dãy số: 2, 3, 3, 4, 5. Hỏi số nào xuất hiện nhiều nhất?', answer: '3', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-3', question: 'Tung 1 đồng xu, hãy kể các kết quả có thể xảy ra.', answer: 'Mặt sấp, mặt ngửa', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-4', question: 'Có 6 quả bóng: 4 đỏ, 2 xanh. Hỏi lấy 1 quả có thể lấy được màu gì?', answer: 'Màu đỏ hoặc màu xanh', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-5', question: 'Quan sát dãy số: 5, 6, 7, 8. Số nào lớn nhất?', answer: '8', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-6', question: 'Trong bảng: Gà (4 con), Vịt (6 con). Hỏi tổng số con vật là bao nhiêu?', answer: '10', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-7', question: 'Kể tên 2 loại dữ liệu em có thể thu thập trong lớp học.', answer: 'Số bàn, số ghế', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-8', question: 'Tung xúc xắc, có thể ra mặt 7 chấm không? Vì sao?', answer: 'Không thể, vì xúc xắc chỉ có 6 mặt', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-9', question: 'Quan sát: 10, 20, 10, 30. Số nào lặp lại?', answer: '10', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spe-10', question: 'Nếu trong hộp chỉ có bóng đỏ, việc lấy ra 1 quả bóng xanh là gì?', answer: 'Không thể', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_APP_QUESTIONS_G2: MathProblem[] = [
+  { id: 'spa-1', question: 'Tung đồng xu 2 lần, mỗi lần có mấy khả năng có thể xảy ra?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-2', question: 'Dữ liệu: 2, 2, 2, 3. Số nào xuất hiện nhiều nhất?', answer: '2', options: ['2', '3', '4', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-3', question: 'Có 4 con mèo, 6 con chó. Con vật nào có số lượng nhiều hơn?', answer: 'Chó', options: ['Mèo', 'Chó', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-4', question: 'Tung xúc xắc, việc ra số 1 là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-5', question: 'Dữ liệu: 10, 20, 30. Số bé nhất là:', answer: '10', options: ['10', '20', '30', '0'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-6', question: 'Trong hộp có 5 bi đỏ, lấy ra 1 bi xanh là việc:', answer: 'Không thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-7', question: 'Dữ liệu: Lan (8 điểm), Mai (9 điểm). Ai có điểm cao hơn?', answer: 'Mai', options: ['Lan', 'Mai', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-8', question: 'Tung xúc xắc, việc ra số 8 là:', answer: 'Không thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-9', question: 'Dữ liệu: 5, 5, 5, 5. Số nào xuất hiện nhiều nhất?', answer: '5', options: ['5', '0', '1', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'spa-10', question: 'Tung đồng xu, việc ra “mặt ngửa” là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_REVIEW_MULT_DIV_QUIZ_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3rmd-1', question: '3 × 4 = ?', answer: '12', options: ['10', '11', '12', '13'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-2', question: '12 : 3 = ?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-3', question: '5 × 6 = ?', answer: '30', options: ['25', '30', '35', '40'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-4', question: '20 : 5 = ?', answer: '4', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-5', question: '7 × 2 = ?', answer: '14', options: ['12', '13', '14', '15'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-6', question: '18 : 6 = ?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-7', question: '9 × 3 = ?', answer: '27', options: ['26', '27', '28', '29'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-8', question: '16 : 4 = ?', answer: '4', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-9', question: '8 × 5 = ?', answer: '40', options: ['35', '40', '45', '50'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmd-10', question: '21 : 7 = ?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+];
+
+const FIXED_REVIEW_MULT_DIV_ESSAY_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3rmde-1', question: 'Tính: 7 × 6 = ?', answer: '42', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-2', question: 'Tính: 54 : 6 = ?', answer: '9', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-3', question: 'Có 5 hộp, mỗi hộp có 8 cái bánh. Hỏi có tất cả bao nhiêu cái bánh?', answer: '40', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-4', question: 'Có 36 viên kẹo chia đều cho 6 bạn. Mỗi bạn được mấy viên?', answer: '6', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-5', question: 'Tính: 3 × 7 + 5 = ?', answer: '26', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-6', question: 'Tính: 8 × 4 = ?', answer: '32', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-7', question: 'Tính: 45 : 9 = ?', answer: '5', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-8', question: 'Mỗi túi có 7 kg gạo. Hỏi 5 túi như thế có bao nhiêu ki-lô-gam gạo?', answer: '35', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-9', question: 'Có 42 bông hoa cắm đều vào 6 lọ. Hỏi mỗi lọ có bao nhiêu bông hoa?', answer: '7', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmde-10', question: 'Tính: 4 × 9 - 6 = ?', answer: '30', options: [], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+];
+
+const FIXED_REVIEW_MULT_DIV_APP_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3rmda-1', question: '3 × 9 = ?', answer: '27', options: ['26', '27', '28', '29'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-2', question: '36 : 6 = ?', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-3', question: '5 × 8 = ?', answer: '40', options: ['35', '40', '45', '50'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-4', question: '63 : 7 = ?', answer: '9', options: ['8', '9', '7', '6'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-5', question: '2 × 9 = ?', answer: '18', options: ['16', '17', '18', '19'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-6', question: '4 × 7 = ?', answer: '28', options: ['24', '26', '28', '30'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-7', question: '48 : 8 = ?', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-8', question: '6 × 9 = ?', answer: '54', options: ['52', '54', '56', '58'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-9', question: '72 : 9 = ?', answer: '8', options: ['7', '8', '9', '10'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+  { id: 'g3rmda-10', question: '8 × 7 = ?', answer: '56', options: ['54', '56', '58', '60'], difficulty: 'easy', topic: 'Ôn tập & Bảng nhân chia' },
+];
+
+const FIXED_GEOMETRY_SOLIDS_QUIZ_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3gsq-1', question: 'Hình vuông có mấy cạnh?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-2', question: 'Hình chữ nhật có mấy góc vuông?', answer: '4', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-3', question: 'Hình tam giác có mấy cạnh?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-4', question: 'Hình tròn có mấy cạnh?', answer: 'Không có', options: ['1', 'Không có', '2', '3'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-5', question: 'Hình nào có 4 cạnh bằng nhau?', answer: 'Hình vuông', options: ['Hình chữ nhật', 'Hình tam giác', 'Hình vuông', 'Hình tròn'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-6', question: 'Khối nào có dạng hình hộp chữ nhật?', answer: 'Hộp sữa', options: ['Quả bóng', 'Hộp sữa', 'Đồng xu', 'Bánh xe'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-7', question: 'Hình nào lăn được?', answer: 'Hình tròn', options: ['Hình vuông', 'Hình tròn', 'Hình tam giác', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-8', question: 'Hình chữ nhật có mấy cặp cạnh dài bằng nhau?', answer: '2 cặp', options: ['1 cặp', '2 cặp', '3 cặp', '4 cặp'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-9', question: 'Hình tam giác có mấy góc?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsq-10', question: 'Khối nào có dạng hình cầu?', answer: 'Quả bóng', options: ['Quả bóng', 'Hộp quà', 'Cục gạch', 'Quyển sách'], difficulty: 'easy', topic: 'Hình học & Khối' },
+];
+
+const FIXED_GEOMETRY_SOLIDS_ESSAY_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3gse-1', question: 'Kể tên 3 hình học em đã học.', answer: 'Hình vuông, hình chữ nhật, hình tam giác', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-2', question: 'Vẽ một hình vuông và ghi số cạnh, số góc của nó.', answer: 'Hình vuông có 4 cạnh và 4 góc vuông', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-3', question: 'Kể tên 2 vật trong thực tế có dạng khối cầu.', answer: 'Quả bóng, viên bi', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-4', question: 'So sánh hình vuông và hình chữ nhật (giống và khác nhau).', answer: 'Giống: 4 góc vuông. Khác: Hình vuông 4 cạnh bằng nhau, hình chữ nhật có cặp cạnh đối bằng nhau', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-5', question: 'Một khối lập phương có 6 mặt. Hỏi mỗi mặt có dạng hình gì?', answer: 'Hình vuông', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-6', question: 'Hình nào có 4 góc vuông và 4 cạnh bằng nhau?', answer: 'Hình vuông', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-7', question: 'Khối trụ giống vật nào trong các vật sau: Lon nước, Quả bóng, Cục gạch?', answer: 'Lon nước', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-8', question: 'Hình nào có 3 góc?', answer: 'Hình tam giác', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-9', question: 'Khối cầu có dạng giống vật nào trong các vật sau: Hộp sữa, Quả bóng, Cục gạch?', answer: 'Quả bóng', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gse-10', question: 'Hình nào có 4 cạnh và 2 cạnh dài hơn 2 cạnh còn lại?', answer: 'Hình chữ nhật', options: [], difficulty: 'easy', topic: 'Hình học & Khối' },
+];
+
+const FIXED_GEOMETRY_SOLIDS_APP_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3gsa-1', question: 'Hình nào có 4 góc vuông và 4 cạnh bằng nhau?', answer: 'Hình vuông', options: ['Hình chữ nhật', 'Hình vuông', 'Hình tròn', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-2', question: 'Khối trụ giống vật nào?', answer: 'Lon nước', options: ['Lon nước', 'Quả bóng', 'Cục gạch', 'Quyển sách'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-3', question: 'Hình nào có 3 góc?', answer: 'Hình tam giác', options: ['Hình vuông', 'Hình tròn', 'Hình tam giác', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-4', question: 'Khối cầu có dạng giống vật nào?', answer: 'Quả bóng', options: ['Hộp sữa', 'Quả bóng', 'Cục gạch', 'Quyển sách'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-5', question: 'Hình nào có 4 cạnh và 2 cạnh dài hơn 2 cạnh còn lại?', answer: 'Hình chữ nhật', options: ['Hình vuông', 'Hình chữ nhật', 'Hình tròn', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-6', question: 'Khối lập phương có bao nhiêu mặt?', answer: '6 mặt', options: ['4 mặt', '5 mặt', '6 mặt', '8 mặt'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-7', question: 'Hình tròn có bao nhiêu cạnh?', answer: 'Không có', options: ['1 cạnh', '2 cạnh', '3 cạnh', 'Không có'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-8', question: 'Khối hộp chữ nhật có bao nhiêu đỉnh?', answer: '8 đỉnh', options: ['4 đỉnh', '6 đỉnh', '8 đỉnh', '12 đỉnh'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-9', question: 'Hình tam giác có bao nhiêu cạnh?', answer: '3 cạnh', options: ['2 cạnh', '3 cạnh', '4 cạnh', '5 cạnh'], difficulty: 'easy', topic: 'Hình học & Khối' },
+  { id: 'g3gsa-10', question: 'Khối nào có thể lăn được về mọi phía?', answer: 'Khối cầu', options: ['Khối lập phương', 'Khối cầu', 'Khối trụ', 'Khối hộp chữ nhật'], difficulty: 'easy', topic: 'Hình học & Khối' },
+];
+
+const FIXED_MULT_DIV_100_1000_QUIZ_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3md100-1', question: '5 × 100 = ?', answer: '500', options: ['50', '500', '5000', '100'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-2', question: '8 × 100 = ?', answer: '800', options: ['80', '800', '8000', '100'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-3', question: '300 : 100 = ?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-4', question: '900 : 100 = ?', answer: '9', options: ['7', '8', '9', '10'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-5', question: '4 × 1000 = ?', answer: '4000', options: ['400', '4000', '40', '40000'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-6', question: '2000 : 1000 = ?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-7', question: '7 × 100 = ?', answer: '700', options: ['70', '700', '7000', '100'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-8', question: '600 : 100 = ?', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-9', question: '3 × 1000 = ?', answer: '3000', options: ['300', '3000', '30', '30000'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3md100-10', question: '1000 : 100 = ?', answer: '10', options: ['5', '10', '15', '20'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+];
+
+const FIXED_MULT_DIV_100_1000_ESSAY_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3mde100-1', question: 'Tính: 24 × 100 = ?', answer: '2400', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-2', question: 'Tính: 3600 : 100 = ?', answer: '36', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-3', question: 'Một nhà máy sản xuất 5 ngày, mỗi ngày làm được 100 sản phẩm. Hỏi tổng cộng làm được bao nhiêu sản phẩm?', answer: '500', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-4', question: 'Có 8000 viên kẹo chia đều vào 1000 túi. Mỗi túi có bao nhiêu viên?', answer: '8', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-5', question: 'Tính: 12 × 100 + 300 = ?', answer: '1500', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-6', question: 'Tính: 45 × 100 = ?', answer: '4500', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-7', question: 'Tính: 7000 : 1000 = ?', answer: '7', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-8', question: 'Một cửa hàng có 10 bao gạo, mỗi bao nặng 100 kg. Hỏi cửa hàng có tất cả bao nhiêu ki-lô-gam gạo?', answer: '1000', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-9', question: 'Tính: 1000 : 100 × 5 = ?', answer: '50', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mde100-10', question: 'Tính: 100 × 8 - 200 = ?', answer: '600', options: [], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+];
+
+const FIXED_MULT_DIV_100_1000_APP_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3mda100-1', question: '9 × 100 = ?', answer: '900', options: ['90', '900', '9000', '100'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-2', question: '700 : 100 = ?', answer: '7', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-3', question: '11 × 100 = ?', answer: '1100', options: ['110', '1100', '11000', '1000'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-4', question: '6000 : 1000 = ?', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-5', question: '20 × 100 = ?', answer: '2000', options: ['200', '2000', '20000', '1000'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-6', question: '15 × 100 = ?', answer: '1500', options: ['150', '1500', '15000', '100'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-7', question: '400 : 100 = ?', answer: '4', options: ['4', '40', '400', '4000'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-8', question: '5 × 1000 = ?', answer: '5000', options: ['500', '5000', '50', '50000'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-9', question: '9000 : 1000 = ?', answer: '9', options: ['9', '90', '900', '9000'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+  { id: 'g3mda100-10', question: '100 × 10 = ?', answer: '1000', options: ['100', '1000', '10000', '10'], difficulty: 'easy', topic: 'Nhân chia (100, 1000)' },
+];
+
+const FIXED_MEASUREMENT_QUIZ_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3mq-1', question: 'Đơn vị đo độ dài là:', answer: 'm', options: ['kg', 'm', 'lít', 'giờ'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-2', question: '1 m = ? cm', answer: '100', options: ['10', '100', '1000', '1'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-3', question: 'Đơn vị đo khối lượng là:', answer: 'kg', options: ['m', 'lít', 'kg', 'giờ'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-4', question: '1 kg = ? g', answer: '1000', options: ['10', '100', '1000', '1'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-5', question: 'Đơn vị đo thời gian là:', answer: 'giờ', options: ['m', 'kg', 'giờ', 'lít'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-6', question: '1 giờ = ? phút', answer: '60', options: ['30', '60', '100', '24'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-7', question: 'Đơn vị đo dung tích là:', answer: 'lít', options: ['kg', 'm', 'lít', 'giờ'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-8', question: '1 lít = ? ml', answer: '1000', options: ['10', '100', '1000', '1'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-9', question: '1 ngày = ? giờ', answer: '24', options: ['12', '24', '60', '100'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3mq-10', question: '1 tuần có bao nhiêu ngày?', answer: '7', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+];
+
+const FIXED_MEASUREMENT_ESSAY_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3me-1', question: 'Đổi: 5 m = … cm', answer: '500', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-2', question: 'Đổi: 4000 g = … kg', answer: '4', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-3', question: 'Một chai có 2 lít nước, thêm 1 lít nữa. Hỏi có tất cả bao nhiêu lít?', answer: '3', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-4', question: 'Một ngày có 24 giờ. Hỏi 3 ngày có bao nhiêu giờ?', answer: '72', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-5', question: 'Tính: 2 giờ 30 phút = … phút', answer: '150', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-6', question: 'Đổi: 8 kg = ... g', answer: '8000', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-7', question: 'Đổi: 600 cm = ... m', answer: '6', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-8', question: 'Một túi gạo nặng 5 kg, 4 túi như thế nặng bao nhiêu ki-lô-gam?', answer: '20', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-9', question: 'Một tuần lễ có 7 ngày. Hỏi 4 tuần lễ có bao nhiêu ngày?', answer: '28', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3me-10', question: 'Tính: 1 giờ 15 phút = ... phút', answer: '75', options: [], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+];
+
+const FIXED_MEASUREMENT_APP_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3ma-1', question: '4 m = ? cm', answer: '400', options: ['40', '400', '4000', '4'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-2', question: '6000 g = ? kg', answer: '6', options: ['6', '60', '600', '0,6'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-3', question: '5 giờ = ? phút', answer: '300', options: ['100', '200', '300', '400'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-4', question: '2 lít = ? ml', answer: '2000', options: ['200', '2000', '20', '2'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-5', question: '3 ngày = ? giờ', answer: '72', options: ['72', '60', '48', '36'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-6', question: '8 m = ? cm', answer: '800', options: ['80', '800', '8000', '8'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-7', question: '9000 g = ? kg', answer: '9', options: ['9', '90', '900', '0,9'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-8', question: '2 giờ = ? phút', answer: '120', options: ['60', '100', '120', '150'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-9', question: '5 lít = ? ml', answer: '5000', options: ['500', '5000', '50', '5'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+  { id: 'g3ma-10', question: '2 ngày = ? giờ', answer: '48', options: ['24', '48', '60', '72'], difficulty: 'easy', topic: 'Đơn vị đo lường' },
+];
+
+const FIXED_NUMBERS_TO_100000_QUIZ_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3n100k-1', question: 'Số nào lớn hơn 45 000?', answer: '46 000', options: ['40 000', '44 000', '46 000', '30 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-2', question: 'Số 56 789 có mấy chữ số?', answer: '5', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-3', question: 'Số 12 345 gồm:', answer: '1 chục nghìn, 2 nghìn, 3 trăm, 4 chục, 5 đơn vị', options: ['1 chục nghìn, 2 nghìn, 3 trăm, 4 chục, 5 đơn vị', '12 nghìn, 345', '1 nghìn, 2 trăm, 3 chục, 4 đơn vị', 'Sai'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-4', question: 'Số liền sau của 99 999 là:', answer: '100 000', options: ['99 998', '100 000', '99 000', '100 001'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-5', question: 'Số liền trước của 10 000 là:', answer: '9 999', options: ['9 999', '10 001', '9 000', '8 999'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-6', question: 'Số nào bé nhất?', answer: '20 000', options: ['23 000', '32 000', '20 000', '25 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-7', question: '50 000 + 10 000 = ?', answer: '60 000', options: ['60 000', '70 000', '40 000', '55 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-8', question: '80 000 − 30 000 = ?', answer: '50 000', options: ['40 000', '50 000', '60 000', '70 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-9', question: 'Số 70 000 gồm:', answer: '7 chục nghìn', options: ['7 nghìn', '7 chục nghìn', '70 nghìn', '7 trăm'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100k-10', question: 'Số nào lớn nhất?', answer: '100 000', options: ['90 000', '80 000', '100 000', '70 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+];
+
+const FIXED_NUMBERS_TO_100000_ESSAY_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3n100ke-1', question: 'Viết số gồm: 7 chục nghìn, 5 nghìn, 3 trăm, 2 chục, 1 đơn vị.', answer: '75321', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-2', question: 'Sắp xếp các số sau theo thứ tự từ bé đến lớn: 45 678; 54 678; 40 000; 46 000', answer: '40 000; 45 678; 46 000; 54 678', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-3', question: 'Tính: 30 000 + 40 000 + 20 000 = ?', answer: '90000', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-4', question: 'Tìm số liền trước của 80 000.', answer: '79999', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-5', question: 'Tìm số liền sau của 80 000.', answer: '80001', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-6', question: 'Một cửa hàng có 95 000 đồng, mua đồ hết 30 000 đồng. Hỏi còn lại bao nhiêu tiền?', answer: '65000', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-7', question: 'Viết số gồm: 9 chục nghìn và 9 đơn vị.', answer: '90009', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-8', question: 'Tính: 100 000 - 50 000 = ?', answer: '50000', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-9', question: 'Số lớn nhất có 5 chữ số là số nào?', answer: '99999', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ke-10', question: 'Số bé nhất có 6 chữ số là số nào?', answer: '100000', options: [], difficulty: 'easy', topic: 'Số đến 100 000' },
+];
+
+const FIXED_NUMBERS_TO_100000_APP_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3n100ka-1', question: '10 000 + 90 000 = ?', answer: '100 000', options: ['100 000', '90 000', '80 000', '110 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-2', question: 'Số nào đứng giữa 49 999 và 50 001?', answer: '50 000', options: ['49 998', '50 000', '50 002', '49 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-3', question: '60 000 − 20 000 = ?', answer: '40 000', options: ['30 000', '40 000', '50 000', '60 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-4', question: 'Số 100 000 có mấy chữ số?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-5', question: 'Số nào lớn hơn 99 999?', answer: '100 000', options: ['100 000', '99 998', '90 000', '98 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-6', question: '70 000 + 30 000 = ?', answer: '100 000', options: ['100 000', '90 000', '80 000', '110 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-7', question: 'Số liền sau của 89 999 là:', answer: '90 000', options: ['89 998', '90 000', '90 001', '80 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-8', question: '100 000 - 1 = ?', answer: '99 999', options: ['99 998', '100 000', '99 999', '99 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-9', question: 'Số gồm 10 chục nghìn là:', answer: '100 000', options: ['10 000', '100 000', '1 000 000', '1 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+  { id: 'g3n100ka-10', question: 'Số nào nhỏ nhất trong các số sau: 100 000, 99 999, 10 000, 50 000?', answer: '10 000', options: ['100 000', '99 999', '10 000', '50 000'], difficulty: 'easy', topic: 'Số đến 100 000' },
+];
+
+const FIXED_PERIMETER_AREA_QUIZ_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3pa-1', question: 'Chu vi là gì?', answer: 'Tổng độ dài các cạnh', options: ['Diện tích', 'Tổng độ dài các cạnh', 'Chiều dài', 'Chiều rộng'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-2', question: 'Chu vi hình vuông cạnh 4 cm là:', answer: '16 cm', options: ['8 cm', '12 cm', '16 cm', '20 cm'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-3', question: 'Chu vi hình chữ nhật dài 5 cm, rộng 3 cm là:', answer: '16 cm', options: ['16 cm', '15 cm', '8 cm', '18 cm'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-4', question: 'Diện tích là gì?', answer: 'Số đo phần mặt', options: ['Độ dài', 'Số đo phần mặt', 'Số cạnh', 'Chu vi'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-5', question: 'Đơn vị đo diện tích là:', answer: 'cm²', options: ['cm', 'cm²', 'm', 'kg'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-6', question: 'Diện tích hình vuông cạnh 3 cm là:', answer: '9 cm²', options: ['6 cm²', '9 cm²', '12 cm²', '3 cm²'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-7', question: 'Diện tích hình chữ nhật dài 4 cm, rộng 2 cm là:', answer: '8 cm²', options: ['6 cm²', '8 cm²', '10 cm²', '12 cm²'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-8', question: 'Chu vi hình vuông cạnh 6 cm là:', answer: '24 cm', options: ['12 cm', '24 cm', '18 cm', '36 cm'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-9', question: 'Chu vi hình chữ nhật được tính bằng:', answer: '(dài + rộng) × 2', options: ['dài × rộng', '(dài + rộng) × 2', 'dài + rộng', 'dài − rộng'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pa-10', question: 'Diện tích hình chữ nhật được tính bằng:', answer: 'dài × rộng', options: ['(dài + rộng) × 2', 'dài × rộng', 'dài − rộng', 'rộng × 2'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+];
+
+const FIXED_PERIMETER_AREA_ESSAY_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3pae-1', question: 'Tính chu vi hình vuông cạnh 6 cm.', answer: '24', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-2', question: 'Tính diện tích hình chữ nhật dài 8 cm, rộng 3 cm.', answer: '24', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-3', question: 'Một hình vuông có cạnh 9 cm. Tính chu vi của nó.', answer: '36', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-4', question: 'Một hình vuông có cạnh 9 cm. Tính diện tích của nó.', answer: '81', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-5', question: 'Một hình chữ nhật có chiều dài 10 cm, chiều rộng 4 cm. Tính chu vi.', answer: '28', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-6', question: 'Một mảnh vườn hình chữ nhật dài 12 m, rộng 5 m. Tính diện tích mảnh vườn.', answer: '60', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-7', question: 'Tính chu vi hình vuông cạnh 5 cm.', answer: '20', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-8', question: 'Tính diện tích hình vuông cạnh 7 cm.', answer: '49', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-9', question: 'Một hình chữ nhật có chiều dài 7 cm, chiều rộng 3 cm. Tính diện tích.', answer: '21', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3pae-10', question: 'Một hình vuông có chu vi 12 cm. Tính cạnh của hình vuông đó.', answer: '3', options: [], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+];
+
+const FIXED_PERIMETER_AREA_APP_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3paa-1', question: 'Chu vi hình vuông cạnh 10 cm là:', answer: '40 cm', options: ['20 cm', '30 cm', '40 cm', '50 cm'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-2', question: 'Diện tích hình vuông cạnh 6 cm là:', answer: '36 cm²', options: ['30 cm²', '36 cm²', '42 cm²', '12 cm²'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-3', question: 'Chu vi hình chữ nhật dài 6 cm, rộng 2 cm là:', answer: '16 cm', options: ['14 cm', '16 cm', '12 cm', '18 cm'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-4', question: 'Diện tích hình chữ nhật dài 5 cm, rộng 5 cm là:', answer: '25 cm²', options: ['10 cm²', '20 cm²', '25 cm²', '15 cm²'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-5', question: 'Hình vuông cạnh 8 cm có diện tích là:', answer: '64 cm²', options: ['16 cm²', '32 cm²', '64 cm²', '48 cm²'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-6', question: 'Chu vi hình vuông cạnh 5 cm là:', answer: '20 cm', options: ['10 cm', '15 cm', '20 cm', '25 cm'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-7', question: 'Diện tích hình chữ nhật dài 7 cm, rộng 4 cm là:', answer: '28 cm²', options: ['11 cm²', '22 cm²', '28 cm²', '35 cm²'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-8', question: 'Chu vi hình chữ nhật dài 8 cm, rộng 5 cm là:', answer: '26 cm', options: ['13 cm', '26 cm', '40 cm', '30 cm'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-9', question: 'Hình vuông cạnh 7 cm có chu vi là:', answer: '28 cm', options: ['14 cm', '21 cm', '28 cm', '49 cm'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+  { id: 'g3paa-10', question: 'Diện tích hình vuông cạnh 9 cm là:', answer: '81 cm²', options: ['18 cm²', '36 cm²', '72 cm²', '81 cm²'], difficulty: 'easy', topic: 'Chu vi & Diện tích' },
+];
+
+const FIXED_TIME_MONEY_QUIZ_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3tm-1', question: '1 giờ = ? phút', answer: '60', options: ['30', '60', '100', '24'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-2', question: '1 ngày = ? giờ', answer: '24', options: ['12', '24', '60', '100'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-3', question: '1 tuần có bao nhiêu ngày?', answer: '7', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-4', question: '1000 đồng = ?', answer: '1 nghìn đồng', options: ['1 nghìn đồng', '10 nghìn', '100 nghìn', '100 đồng'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-5', question: '1 giờ 30 phút = ? phút', answer: '90', options: ['60', '90', '120', '30'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-6', question: 'Đồng hồ chỉ 3 giờ thì kim phút chỉ số mấy?', answer: '12', options: ['3', '6', '12', '9'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-7', question: '5000 đồng + 2000 đồng = ?', answer: '7000', options: ['6000', '7000', '8000', '9000'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-8', question: '1 tháng thường có:', answer: '30 hoặc 31 ngày', options: ['10 ngày', '20 ngày', '30 hoặc 31 ngày', '40 ngày'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-9', question: '1 năm có bao nhiêu tháng?', answer: '12', options: ['10', '11', '12', '13'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tm-10', question: '1 giờ = ? giây (nâng cao)', answer: '3600', options: ['60', '600', '3600', '1000'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+];
+
+const FIXED_TIME_MONEY_ESSAY_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3tme-1', question: 'Đổi: 2 giờ 45 phút = … phút', answer: '165', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-2', question: 'Đổi: 3 ngày = … giờ', answer: '72', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-3', question: 'Một bạn có 10 000 đồng, mua đồ hết 6000 đồng. Hỏi còn lại bao nhiêu tiền?', answer: '4000', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-4', question: 'Một ngày có 24 giờ. Hỏi 5 ngày có bao nhiêu giờ?', answer: '120', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-5', question: 'Lan đi học lúc 7 giờ, về lúc 11 giờ. Hỏi Lan học trong bao nhiêu giờ?', answer: '4', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-6', question: 'Đổi: 1 giờ 15 phút = ... phút', answer: '75', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-7', question: 'Một tuần lễ có 7 ngày. Hỏi 4 tuần lễ có bao nhiêu ngày?', answer: '28', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-8', question: 'Mẹ cho em 20 000 đồng, em mua kẹo hết 5 000 đồng. Hỏi em còn bao nhiêu tiền?', answer: '15000', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-9', question: 'Đồng hồ chỉ 8 giờ 15 phút. 30 phút sau là mấy giờ mấy phút?', answer: '8 giờ 45 phút', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tme-10', question: 'Một năm có bao nhiêu tháng?', answer: '12', options: [], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+];
+
+const FIXED_TIME_MONEY_APP_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3tma-1', question: '2 giờ 30 phút = ? phút', answer: '150', options: ['120', '150', '180', '140'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-2', question: '3 ngày = ? giờ', answer: '72', options: ['48', '60', '72', '80'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-3', question: '90 phút = ? giờ', answer: '1 giờ 30 phút', options: ['1 giờ', '1 giờ 30 phút', '2 giờ', '3 giờ'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-4', question: '10 000 đồng − 4000 đồng = ?', answer: '6000', options: ['5000', '6000', '7000', '8000'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-5', question: '1 giờ 15 phút = ? phút', answer: '75', options: ['65', '75', '85', '95'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-6', question: '5 giờ = ? phút', answer: '300', options: ['200', '250', '300', '350'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-7', question: '2000 đồng × 3 = ?', answer: '6000', options: ['4000', '5000', '6000', '7000'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-8', question: '1 ngày 12 giờ = ? giờ', answer: '36', options: ['24', '30', '36', '40'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-9', question: '5000 đồng + 5000 đồng = ?', answer: '10 000', options: ['9000', '10 000', '11 000', '12 000'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+  { id: 'g3tma-10', question: '2 tuần = ? ngày', answer: '14', options: ['12', '13', '14', '15'], difficulty: 'easy', topic: 'Thời gian & Tiền tệ' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_QUIZ_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3spq-1', question: 'Dữ liệu là gì?', answer: 'Số liệu thu thập được', options: ['Số liệu thu thập được', 'Phép tính', 'Hình vẽ', 'Trò chơi'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-2', question: 'Trong dãy: 2, 3, 3, 4. Số nào xuất hiện nhiều nhất?', answer: '3', options: ['2', '3', '4', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-3', question: 'Tung 1 đồng xu có mấy kết quả?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-4', question: 'Tung xúc xắc có mấy mặt?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-5', question: 'Số nào lớn nhất: 5, 2, 9, 1?', answer: '9', options: ['5', '2', '9', '1'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-6', question: 'Số nào bé nhất: 8, 3, 7, 2?', answer: '2', options: ['8', '3', '7', '2'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-7', question: 'Tung đồng xu ra “ngửa” là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-8', question: 'Trong lớp có 20 bạn → có bao nhiêu dữ liệu?', answer: '20', options: ['10', '15', '20', '25'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-9', question: 'Tung xúc xắc ra số 6 là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-10', question: 'Dữ liệu: 1, 1, 2, 3. Số nào nhiều nhất?', answer: '1', options: ['1', '2', '3', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_ESSAY_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3spe-1', question: 'Ghi lại dữ liệu số học sinh trong tổ em.', answer: 'Dữ liệu số học sinh', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-2', question: 'Dãy: 3, 4, 4, 5, 6. Hỏi số nào xuất hiện nhiều nhất?', answer: '4', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-3', question: 'Tung 1 đồng xu, liệt kê các kết quả có thể xảy ra.', answer: 'Mặt sấp, mặt ngửa', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-4', question: 'Có 6 viên bi: 4 đỏ, 2 xanh. Hỏi có thể lấy được những màu nào?', answer: 'Đỏ, xanh', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-5', question: 'Dãy: 10, 20, 30, 40. Tìm số lớn nhất.', answer: '40', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-6', question: 'Dãy: 10, 20, 30, 40. Tìm số bé nhất.', answer: '10', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-7', question: 'Dãy số: 5, 7, 5, 8, 9. Số nào lặp lại?', answer: '5', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-8', question: 'Trong hộp có 3 bi vàng, 2 bi trắng. Việc lấy ra 1 bi xanh là gì?', answer: 'Không thể', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-9', question: 'Tung xúc xắc, có thể ra mặt 8 chấm không? Vì sao?', answer: 'Không thể, vì xúc xắc chỉ có 6 mặt', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-10', question: 'Dãy số: 15, 12, 18, 11. Sắp xếp từ bé đến lớn.', answer: '11, 12, 15, 18', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_APP_QUESTIONS_G3: MathProblem[] = [
+  { id: 'g3spa-1', question: 'Dữ liệu: 2, 2, 3. Số nào nhiều nhất?', answer: '2', options: ['2', '3', 'Không có', '1'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-2', question: 'Có 4 mèo, 6 chó. Con nào nhiều hơn?', answer: 'Chó', options: ['Mèo', 'Chó', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-3', question: 'Tung xúc xắc ra số 1 là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-4', question: 'Dữ liệu: 9, 8, 7. Số bé nhất là:', answer: '7', options: ['7', '8', '9', '6'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-5', question: 'Tung đồng xu ra sấp là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-6', question: 'Dữ liệu: 10, 10, 20, 20, 20. Số nào xuất hiện nhiều nhất?', answer: '20', options: ['10', '20', 'Bằng nhau', '30'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-7', question: 'Trong hộp có 5 bi đỏ, lấy 1 bi đỏ là việc:', answer: 'Chắc chắn', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-8', question: 'Dữ liệu: 15, 25, 35, 5. Số lớn nhất là:', answer: '35', options: ['15', '25', '35', '5'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-9', question: 'Tung xúc xắc ra số 7 là việc:', answer: 'Không thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-10', question: 'Dữ liệu: Cam (4 quả), Táo (4 quả). Số lượng Cam và Táo như thế nào?', answer: 'Bằng nhau', options: ['Cam nhiều hơn', 'Táo nhiều hơn', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_NUMBERS_TO_100000_QUIZ_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4n100-1', question: 'Số nào lớn hơn 45 678?', answer: '46 000', options: ['45 000', '46 000', '44 999', '40 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-2', question: 'Số 23 456 có mấy chữ số?', answer: '5', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-3', question: 'Số liền sau của 99 999 là:', answer: '100 000', options: ['99 998', '100 000', '100 001', '90 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-4', question: 'Số liền trước của 10 000 là:', answer: '9 999', options: ['9 999', '10 001', '9 000', '8 999'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-5', question: 'Số nào bé nhất?', answer: '10 000', options: ['12 345', '21 345', '10 000', '13 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-6', question: '20 000 + 30 000 = ?', answer: '50 000', options: ['40 000', '50 000', '60 000', '70 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-7', question: '70 000 − 20 000 = ?', answer: '50 000', options: ['40 000', '50 000', '60 000', '30 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-8', question: 'Số 50 000 gồm:', answer: '5 chục nghìn', options: ['5 nghìn', '5 chục nghìn', '50 nghìn', '5 trăm'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-9', question: 'Số nào lớn nhất?', answer: '100 000', options: ['90 000', '80 000', '100 000', '70 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100-10', question: 'Số 12 000 có mấy nghìn?', answer: '12', options: ['12', '10', '2', '1'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+];
+
+const FIXED_NUMBERS_TO_100000_ESSAY_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4n100e-1', question: 'Viết số gồm: 6 chục nghìn, 5 nghìn, 4 trăm, 3 chục, 2 đơn vị.', answer: '65432', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-2', question: 'Sắp xếp các số sau theo thứ tự từ bé đến lớn: 45 678; 54 678; 40 000; 46 000', answer: '40 000; 45 678; 46 000; 54 678', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-3', question: 'Tính: 20 000 + 30 000 + 40 000', answer: '90000', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-4', question: 'Tìm số liền trước của 70 000.', answer: '69999', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-5', question: 'Tìm số liền sau của 70 000.', answer: '70001', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-6', question: 'Một cửa hàng có 85 000 đồng, mua đồ hết 25 000 đồng. Hỏi còn lại bao nhiêu tiền?', answer: '60000', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-7', question: 'Viết số: Tám mươi nghìn không trăm linh năm.', answer: '80005', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-8', question: 'Số lớn nhất có 5 chữ số là số nào?', answer: '99999', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-9', question: 'Số bé nhất có 5 chữ số khác nhau là số nào?', answer: '10234', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100e-10', question: 'Tính: 100 000 - 40 000', answer: '60000', options: [], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+];
+
+const FIXED_NUMBERS_TO_100000_APP_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4n100a-1', question: '10 000 + 90 000 = ?', answer: '100 000', options: ['100 000', '90 000', '80 000', '110 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-2', question: 'Số nào đứng giữa 39 999 và 40 001?', answer: '40 000', options: ['39 998', '40 000', '40 002', '39 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-3', question: '60 000 − 10 000 = ?', answer: '50 000', options: ['40 000', '50 000', '60 000', '70 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-4', question: 'Số 100 000 có mấy chữ số?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-5', question: 'Số nào lớn hơn 99 999?', answer: '100 000', options: ['100 000', '99 998', '98 000', '90 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-6', question: '40 000 + 40 000 = ?', answer: '80 000', options: ['70 000', '80 000', '90 000', '100 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-7', question: '100 000 - 50 000 = ?', answer: '50 000', options: ['40 000', '50 000', '60 000', '70 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-8', question: 'Số gồm 9 chục nghìn và 9 nghìn là:', answer: '99 000', options: ['90 000', '99 000', '90 900', '99 900'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-9', question: 'Số bé nhất có 6 chữ số là:', answer: '100 000', options: ['100 000', '111 111', '999 999', '100 001'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+  { id: 'g4n100a-10', question: '25 000 + 25 000 = ?', answer: '50 000', options: ['40 000', '50 000', '60 000', '70 000'], difficulty: 'easy', topic: 'Ôn tập & Số đến 100 000' },
+];
+
+const FIXED_GEOMETRY_ANGLES_QUIZ_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4ga-1', question: 'Góc vuông có số đo là:', answer: '90°', options: ['45°', '90°', '60°', '120°'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-2', question: 'Góc nhỏ hơn 90° gọi là:', answer: 'Góc nhọn', options: ['Góc tù', 'Góc vuông', 'Góc nhọn', 'Góc bẹt'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-3', question: 'Góc lớn hơn 90° gọi là:', answer: 'Góc tù', options: ['Góc nhọn', 'Góc tù', 'Góc vuông', 'Góc thẳng'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-4', question: 'Hình nào có 4 góc vuông?', answer: 'Hình chữ nhật', options: ['Hình tam giác', 'Hình chữ nhật', 'Hình tròn', 'Hình thang'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-5', question: 'Hình vuông có mấy cạnh?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-6', question: 'Hình tam giác có mấy góc?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-7', question: 'Góc bẹt có số đo là:', answer: '180°', options: ['90°', '180°', '360°', '45°'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-8', question: 'Hình nào không có góc?', answer: 'Hình tròn', options: ['Hình vuông', 'Hình tròn', 'Hình chữ nhật', 'Hình tam giác'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-9', question: 'Hình chữ nhật có bao nhiêu cạnh?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4ga-10', question: 'Hình nào có 3 cạnh bằng nhau?', answer: 'Hình tam giác đều', options: ['Hình vuông', 'Hình tam giác đều', 'Hình chữ nhật', 'Hình tròn'], difficulty: 'easy', topic: 'Góc & Hình học' },
+];
+
+const FIXED_GEOMETRY_ANGLES_ESSAY_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4gae-1', question: 'Kể tên các loại góc đã học và nêu số đo của mỗi loại.', answer: 'Góc nhọn (<90°), Góc vuông (=90°), Góc tù (>90°), Góc bẹt (=180°)', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-2', question: 'Vẽ một góc vuông và ghi số đo của nó.', answer: '90°', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-3', question: 'Một tam giác có tổng 3 góc là bao nhiêu độ?', answer: '180°', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-4', question: 'So sánh hình vuông và hình chữ nhật (giống và khác nhau).', answer: 'Giống: 4 góc vuông; Khác: Hình vuông có 4 cạnh bằng nhau', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-5', question: 'Hãy kể tên 3 hình học mà em biết và nêu đặc điểm của chúng.', answer: 'Hình vuông (4 cạnh bằng nhau), Hình chữ nhật (2 cặp cạnh bằng nhau), Hình tam giác (3 cạnh)', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-6', question: 'Góc nhọn là góc như thế nào?', answer: 'Góc nhỏ hơn 90°', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-7', question: 'Góc tù là góc như thế nào?', answer: 'Góc lớn hơn 90° và nhỏ hơn 180°', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-8', question: 'Hình chữ nhật có mấy góc vuông?', answer: '4 góc vuông', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-9', question: 'Một hình vuông có cạnh 5cm. Tính chu vi của nó.', answer: '20cm', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gae-10', question: 'Góc bẹt bằng mấy lần góc vuông?', answer: '2 lần', options: [], difficulty: 'easy', topic: 'Góc & Hình học' },
+];
+
+const FIXED_GEOMETRY_ANGLES_APP_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4gaa-1', question: 'Góc nào là góc vuông?', answer: '90°', options: ['45°', '90°', '120°', '60°'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-2', question: 'Hình nào có 4 cạnh bằng nhau?', answer: 'Hình vuông', options: ['Hình chữ nhật', 'Hình vuông', 'Hình tam giác', 'Hình tròn'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-3', question: 'Góc 150° là:', answer: 'Góc tù', options: ['Góc nhọn', 'Góc tù', 'Góc vuông', 'Góc bẹt'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-4', question: 'Hình nào có 3 góc?', answer: 'Hình tam giác', options: ['Hình vuông', 'Hình tam giác', 'Hình tròn', 'Hình chữ nhật'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-5', question: 'Góc 30° là:', answer: 'Góc nhọn', options: ['Góc nhọn', 'Góc tù', 'Góc vuông', 'Góc bẹt'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-6', question: 'Hình có 2 cặp cạnh đối diện song song và bằng nhau là:', answer: 'Hình chữ nhật', options: ['Hình tam giác', 'Hình chữ nhật', 'Hình tròn', 'Hình thang'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-7', question: 'Góc bẹt có số đo bằng bao nhiêu độ?', answer: '180°', options: ['90°', '180°', '270°', '360°'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-8', question: 'Hình vuông có chu vi là 16cm. Độ dài cạnh là:', answer: '4cm', options: ['3cm', '4cm', '5cm', '6cm'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-9', question: 'Góc vuông thường được ký hiệu bằng hình gì ở đỉnh?', answer: 'Hình vuông nhỏ', options: ['Hình tròn nhỏ', 'Hình vuông nhỏ', 'Hình tam giác nhỏ', 'Không ký hiệu'], difficulty: 'easy', topic: 'Góc & Hình học' },
+  { id: 'g4gaa-10', question: 'Trong các góc sau, góc nào lớn nhất?', answer: 'Góc bẹt', options: ['Góc nhọn', 'Góc vuông', 'Góc tù', 'Góc bẹt'], difficulty: 'easy', topic: 'Góc & Hình học' },
+];
+
+const FIXED_MANY_DIGIT_NUMBERS_QUIZ_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4mdn-1', question: 'Số 123 456 có mấy chữ số?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-2', question: 'Số liền sau của 99 999 là:', answer: '100 000', options: ['99 998', '100 000', '100 001', '90 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-3', question: 'Số liền trước của 10 000 là:', answer: '9 999', options: ['9 999', '10 001', '9 000', '8 999'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-4', question: 'Số nào lớn hơn 56 789?', answer: '56 800', options: ['56 000', '56 780', '56 800', '56 700'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-5', question: 'Số 45 000 gồm:', answer: '45 nghìn', options: ['45 nghìn', '4 nghìn', '5 nghìn', '450 nghìn'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-6', question: '20 000 + 30 000 = ?', answer: '50 000', options: ['40 000', '50 000', '60 000', '70 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-7', question: '80 000 − 10 000 = ?', answer: '70 000', options: ['60 000', '70 000', '75 000', '65 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-8', question: 'Số nào bé nhất?', answer: '10 000', options: ['12 345', '21 345', '10 000', '13 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-9', question: 'Số 100 000 có mấy chữ số?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdn-10', question: 'Số nào lớn nhất?', answer: '100 000', options: ['90 000', '80 000', '100 000', '70 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+];
+
+const FIXED_MANY_DIGIT_NUMBERS_ESSAY_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4mdne-1', question: 'Viết số gồm: 2 trăm nghìn, 5 chục nghìn, 3 nghìn, 4 trăm, 2 chục, 1 đơn vị.', answer: '253421', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-2', question: 'Sắp xếp các số sau theo thứ tự từ bé đến lớn: 345 678; 354 678; 300 000; 346 000', answer: '300 000; 345 678; 346 000; 354 678', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-3', question: 'Tính: 40 000 + 30 000 + 20 000', answer: '90000', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-4', question: 'Tìm số liền trước của 200 000.', answer: '199999', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-5', question: 'Tìm số liền sau của 200 000.', answer: '200001', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-6', question: 'Một cửa hàng có 150 000 đồng, mua đồ hết 45 000 đồng. Hỏi còn lại bao nhiêu tiền?', answer: '105000', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-7', question: 'Viết số: Bốn trăm năm mươi nghìn sáu trăm linh tám.', answer: '450608', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-8', question: 'Số lớn nhất có 6 chữ số là số nào?', answer: '999999', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-9', question: 'Số bé nhất có 6 chữ số khác nhau là số nào?', answer: '102345', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdne-10', question: 'Làm tròn số 456 789 đến hàng trăm nghìn.', answer: '500000', options: [], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+];
+
+const FIXED_MANY_DIGIT_NUMBERS_APP_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4mdna-1', question: '100 000 + 200 000 = ?', answer: '300 000', options: ['300 000', '200 000', '100 000', '400 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-2', question: 'Số nào đứng giữa 199 999 và 200 001?', answer: '200 000', options: ['199 998', '200 000', '200 002', '199 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-3', question: '60 000 − 20 000 = ?', answer: '40 000', options: ['30 000', '40 000', '50 000', '60 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-4', question: 'Số 1 000 000 có mấy chữ số?', answer: '7', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-5', question: 'Số nào lớn hơn 999 999?', answer: '1 000 000', options: ['1 000 000', '999 998', '900 000', '80 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-6', question: '500 000 + 500 000 = ?', answer: '1 000 000', options: ['900 000', '1 000 000', '1 100 000', '800 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-7', question: 'Số gồm 5 trăm nghìn và 5 nghìn là:', answer: '505 000', options: ['550 000', '505 000', '500 500', '505 500'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-8', question: 'Làm tròn số 123 456 đến hàng chục nghìn.', answer: '120 000', options: ['120 000', '130 000', '100 000', '123 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-9', question: 'Số bé nhất có 7 chữ số là:', answer: '1 000 000', options: ['1 000 000', '100 000', '999 999', '1 000 001'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+  { id: 'g4mdna-10', question: '450 000 + 50 000 = ?', answer: '500 000', options: ['400 000', '500 000', '600 000', '550 000'], difficulty: 'easy', topic: 'Số có nhiều chữ số' },
+];
+
+const FIXED_MEASUREMENT_UNITS_QUIZ_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4mu-1', question: 'Đơn vị đo độ dài là:', answer: 'm', options: ['kg', 'm', 'lít', 'giờ'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-2', question: '1 m = ? cm', answer: '100', options: ['10', '100', '1000', '1'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-3', question: 'Đơn vị đo khối lượng là:', answer: 'kg', options: ['m', 'kg', 'lít', 'giờ'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-4', question: '1 kg = ? g', answer: '1000', options: ['10', '100', '1000', '1'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-5', question: 'Đơn vị đo thời gian là:', answer: 'giờ', options: ['m', 'kg', 'giờ', 'lít'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-6', question: '1 giờ = ? phút', answer: '60', options: ['30', '60', '100', '24'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-7', question: 'Đơn vị đo diện tích là:', answer: 'cm²', options: ['cm', 'cm²', 'm', 'kg'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-8', question: '1 km = ? m', answer: '1000', options: ['100', '1000', '10', '1'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-9', question: '1 ngày = ? giờ', answer: '24', options: ['12', '24', '60', '100'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mu-10', question: '1 tuần có bao nhiêu ngày?', answer: '7', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+];
+
+const FIXED_MEASUREMENT_UNITS_ESSAY_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4mue-1', question: 'Đổi: 5 km = … m', answer: '5000', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-2', question: 'Đổi: 4000 g = … kg', answer: '4', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-3', question: 'Một can có 2 lít nước, thêm 3 lít nữa. Hỏi có tất cả bao nhiêu lít?', answer: '5', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-4', question: 'Một ngày có 24 giờ. Hỏi 4 ngày có bao nhiêu giờ?', answer: '96', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-5', question: 'Tính: 2 giờ 30 phút = … phút', answer: '150', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-6', question: 'Đổi: 3 m² = ... dm²', answer: '300', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-7', question: 'Đổi: 2 tấn = ... kg', answer: '2000', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-8', question: 'Một thế kỷ bằng bao nhiêu năm?', answer: '100', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-9', question: 'Tính: 5 tạ + 3 tạ = ... tạ', answer: '8', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mue-10', question: 'Đổi: 1 giờ 15 phút = ... phút', answer: '75', options: [], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+];
+
+const FIXED_MEASUREMENT_UNITS_APP_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4mua-1', question: '4 km = ? m', answer: '4000', options: ['400', '4000', '40', '4'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-2', question: '6000 g = ? kg', answer: '6', options: ['6', '60', '600', '0,6'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-3', question: '5 giờ = ? phút', answer: '300', options: ['200', '250', '300', '350'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-4', question: '2 lít = ? ml', answer: '2000', options: ['200', '2000', '20', '2'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-5', question: '3 ngày = ? giờ', answer: '72', options: ['72', '60', '48', '36'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-6', question: 'Đổi: 500 cm = ? m', answer: '5', options: ['5', '50', '500', '0,5'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-7', question: 'Đổi: 2 kg 500 g = ? g', answer: '2500', options: ['2050', '2500', '2005', '250'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-8', question: 'Đổi: 120 giây = ? phút', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-9', question: 'Đổi: 4 dm² = ? cm²', answer: '400', options: ['40', '400', '4000', '4'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+  { id: 'g4mua-10', question: 'Đổi: 3 tấn = ? kg', answer: '3000', options: ['300', '3000', '30', '3'], difficulty: 'easy', topic: 'Đơn vị đo đại lượng' },
+];
+
+const FIXED_ARITHMETIC_QUIZ_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4a-1', question: '25 + 15 = ?', answer: '40', options: ['30', '35', '40', '45'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-2', question: '50 − 20 = ?', answer: '30', options: ['20', '25', '30', '35'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-3', question: '6 × 7 = ?', answer: '42', options: ['36', '42', '48', '56'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-4', question: '56 : 8 = ?', answer: '7', options: ['6', '7', '8', '9'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-5', question: '100 + 200 = ?', answer: '300', options: ['200', '300', '400', '500'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-6', question: '300 − 100 = ?', answer: '200', options: ['100', '200', '300', '400'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-7', question: '9 × 5 = ?', answer: '45', options: ['40', '45', '50', '55'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-8', question: '81 : 9 = ?', answer: '9', options: ['7', '8', '9', '10'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-9', question: '400 + 500 = ?', answer: '900', options: ['800', '900', '1000', '1100'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4a-10', question: '600 − 200 = ?', answer: '400', options: ['300', '400', '500', '600'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+];
+
+const FIXED_ARITHMETIC_ESSAY_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4ae-1', question: 'Tính: 234 + 567 = ?', answer: '801', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-2', question: 'Tính: 900 − 345 = ?', answer: '555', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-3', question: 'Một cửa hàng có 125 cái bánh, bán thêm 275 cái nữa. Hỏi có tất cả bao nhiêu cái bánh?', answer: '400', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-4', question: 'Có 240 viên kẹo chia đều cho 6 bạn. Mỗi bạn được bao nhiêu viên?', answer: '40', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-5', question: 'Tính: 25 × 4 + 100 = ?', answer: '200', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-6', question: 'Tính: 123 × 3 = ?', answer: '369', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-7', question: 'Tính: 840 : 4 = ?', answer: '210', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-8', question: 'Tìm x: x + 150 = 400', answer: '250', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-9', question: 'Tìm x: x × 5 = 250', answer: '50', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4ae-10', question: 'Tính giá trị biểu thức: (100 + 50) × 2', answer: '300', options: [], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+];
+
+const FIXED_ARITHMETIC_APP_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4aa-1', question: '12 × 8 = ?', answer: '96', options: ['84', '96', '88', '92'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-2', question: '96 : 8 = ?', answer: '12', options: ['10', '11', '12', '13'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-3', question: '500 + 250 = ?', answer: '750', options: ['700', '750', '800', '850'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-4', question: '1000 − 250 = ?', answer: '750', options: ['700', '750', '800', '850'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-5', question: '15 × 6 = ?', answer: '90', options: ['80', '85', '90', '95'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-6', question: '120 : 4 = ?', answer: '30', options: ['20', '30', '40', '50'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-7', question: '250 × 2 = ?', answer: '500', options: ['400', '500', '600', '700'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-8', question: '750 - 500 = ?', answer: '250', options: ['150', '200', '250', '300'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-9', question: '150 + 150 = ?', answer: '300', options: ['200', '250', '300', '350'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+  { id: 'g4aa-10', question: '100 : 5 = ?', answer: '20', options: ['10', '15', '20', '25'], difficulty: 'easy', topic: 'Cộng, trừ, nhân, chia' },
+];
+
+const FIXED_PARALLELOGRAM_RHOMBUS_QUIZ_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4pr-1', question: 'Hình bình hành có mấy cặp cạnh đối diện song song?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-2', question: 'Hình bình hành có các cạnh đối diện như thế nào?', answer: 'Bằng nhau', options: ['Bằng nhau', 'Không bằng nhau', 'Ngắn hơn', 'Dài hơn'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-3', question: 'Hình thoi có mấy cạnh bằng nhau?', answer: '4', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-4', question: 'Hình thoi là hình có:', answer: '4 cạnh bằng nhau', options: ['4 cạnh bằng nhau', '3 cạnh', 'Không có cạnh', '2 cạnh'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-5', question: 'Hình bình hành có mấy cạnh?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-6', question: 'Hình nào có 4 cạnh bằng nhau?', answer: 'Hình thoi', options: ['Hình chữ nhật', 'Hình thoi', 'Hình tam giác', 'Hình tròn'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-7', question: 'Hình bình hành có mấy góc?', answer: '4', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-8', question: 'Hình thoi có dạng giống hình nào?', answer: 'Hình vuông nghiêng', options: ['Hình chữ nhật', 'Hình vuông nghiêng', 'Hình tròn', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-9', question: 'Hình bình hành có hai cạnh đối diện:', answer: 'Song song', options: ['Cắt nhau', 'Song song', 'Vuông góc', 'Trùng nhau'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pr-10', question: 'Hình thoi có mấy đường chéo?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+];
+
+const FIXED_PARALLELOGRAM_RHOMBUS_ESSAY_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4pre-1', question: 'Nêu đặc điểm của hình bình hành.', answer: 'Có hai cặp cạnh đối diện song song và bằng nhau.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-2', question: 'Nêu đặc điểm của hình thoi.', answer: 'Có hai cặp cạnh đối diện song song và bốn cạnh bằng nhau.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-3', question: 'So sánh hình bình hành và hình thoi (giống và khác nhau).', answer: 'Giống: Có 2 cặp cạnh đối diện song song; Khác: Hình thoi có 4 cạnh bằng nhau.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-4', question: 'Hãy kể tên 2 hình trong thực tế có dạng hình thoi.', answer: 'Con diều, họa tiết thổ cẩm, biển báo giao thông...', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-5', question: 'Vẽ một hình bình hành và ghi chú các cạnh song song.', answer: 'Vẽ hình có 2 cặp cạnh đối diện song song.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-6', question: 'Hình thoi có mấy cặp cạnh đối diện song song?', answer: '2 cặp cạnh.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-7', question: 'Hình bình hành có các cặp cạnh đối diện như thế nào?', answer: 'Song song và bằng nhau.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-8', question: 'Hình thoi có phải là hình bình hành đặc biệt không? Vì sao?', answer: 'Có, vì nó có đầy đủ đặc điểm của hình bình hành và thêm đặc điểm 4 cạnh bằng nhau.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-9', question: 'Nêu đặc điểm về đường chéo của hình thoi.', answer: 'Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm mỗi đường.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pre-10', question: 'Hình bình hành có các góc đối diện như thế nào?', answer: 'Các góc đối diện bằng nhau.', options: [], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+];
+
+const FIXED_PARALLELOGRAM_RHOMBUS_APP_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4pra-1', question: 'Hình thoi có các cạnh:', answer: 'Bằng nhau', options: ['Không bằng nhau', 'Bằng nhau', 'Ngắn', 'Dài'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-2', question: 'Hình bình hành có bao nhiêu cạnh?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-3', question: 'Hình vuông có phải hình thoi không?', answer: 'Có', options: ['Có', 'Không', 'Không biết', 'Sai'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-4', question: 'Hình thoi có mấy đường chéo?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-5', question: 'Hình bình hành có mấy góc?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-6', question: 'Hình bình hành có hai cặp cạnh đối diện như thế nào?', answer: 'Song song và bằng nhau', options: ['Song song và bằng nhau', 'Cắt nhau', 'Vuông góc', 'Không bằng nhau'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-7', question: 'Hình thoi có hai đường chéo như thế nào với nhau?', answer: 'Vuông góc', options: ['Song song', 'Vuông góc', 'Trùng nhau', 'Không cắt nhau'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-8', question: 'Chu vi hình thoi có cạnh a là:', answer: 'a × 4', options: ['a × 2', 'a × 4', 'a + 4', 'a × a'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-9', question: 'Diện tích hình thoi có hai đường chéo m và n là:', answer: '(m × n) : 2', options: ['m × n', '(m × n) : 2', 'm + n', '(m + n) : 2'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+  { id: 'g4pra-10', question: 'Hình nào vừa là hình bình hành vừa có 4 cạnh bằng nhau?', answer: 'Hình thoi', options: ['Hình chữ nhật', 'Hình thoi', 'Hình thang', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình bình hành & Thoi' },
+];
+
+const FIXED_FRACTIONS_QUIZ_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4f-1', question: 'Phân số gồm mấy phần?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-2', question: 'Trong phân số 3/5, số 3 gọi là:', answer: 'Tử số', options: ['Mẫu số', 'Tử số', 'Tổng', 'Hiệu'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-3', question: 'Trong phân số 3/5, số 5 gọi là:', answer: 'Mẫu số', options: ['Tử số', 'Mẫu số', 'Tổng', 'Hiệu'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-4', question: 'Phân số nào bé hơn 1?', answer: '3/5', options: ['5/3', '4/4', '3/5', '6/2'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-5', question: 'Phân số nào bằng 1?', answer: '4/4', options: ['2/3', '4/4', '3/5', '5/2'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-6', question: 'Phân số nào lớn hơn 1?', answer: '5/3', options: ['2/5', '3/4', '5/3', '4/4'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-7', question: '1/2 đọc là:', answer: 'Một phần hai', options: ['Một chia hai', 'Một phần hai', 'Hai phần một', 'Một nhân hai'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-8', question: '2/2 = ?', answer: '1', options: ['1', '2', '0', '3'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-9', question: 'Phân số nào lớn nhất?', answer: '1/2', options: ['1/2', '1/3', '1/4', '1/5'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4f-10', question: 'Phân số nào bé nhất?', answer: '1/4', options: ['3/4', '2/4', '1/4', '4/4'], difficulty: 'easy', topic: 'Phân số' },
+];
+
 const FIXED_FUN_QUESTIONS: MathProblem[] = [
   { id: 'f1', question: 'Câu 1. Số nào đứng giữa 0 và 2?', answer: '1', options: [], difficulty: 'easy', topic: 'CHƠI  VUI' },
   { id: 'f2', question: 'Câu 2. Điền số thích hợp: 1, 2, 3, ___, 5', answer: '4', options: [], difficulty: 'easy', topic: 'CHƠI  VUI' },
@@ -1425,6 +2049,8 @@ export default function App() {
         questions = FIXED_MULTIPLICATION_DIVISION_QUIZ_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'Các số đến 1000') {
         questions = FIXED_NUMBERS_TO_1000_QUIZ_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_QUIZ_QUESTIONS_G2;
       }
       
       if (questions.length > 0) {
@@ -1460,6 +2086,10 @@ export default function App() {
         questions = FIXED_GEOMETRY_TIME_ESSAY_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'Phép nhân & Phép chia') {
         questions = FIXED_MULTIPLICATION_DIVISION_ESSAY_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Các số đến 1000') {
+        questions = FIXED_NUMBERS_TO_1000_ESSAY_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_ESSAY_QUESTIONS_G2;
       }
       
       if (questions.length > 0) {
@@ -1495,6 +2125,232 @@ export default function App() {
         questions = FIXED_GEOMETRY_TIME_APP_QUESTIONS_G2;
       } else if (selectedTopic?.title === 'Phép nhân & Phép chia') {
         questions = FIXED_MULTIPLICATION_DIVISION_APP_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Các số đến 1000') {
+        questions = FIXED_NUMBERS_TO_1000_APP_QUESTIONS_G2;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_APP_QUESTIONS_G2;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed quiz for Grade 3 "Thử sức"
+    if (user.grade === 3 && (topic.toUpperCase().includes("THỬ SỨC") || topic.toUpperCase().includes("TRẮC NGHIỆM"))) {
+      setIsQuizMode(true);
+      setIsFunPlayMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setTimeLeft(20);
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Bảng nhân chia') {
+        questions = FIXED_REVIEW_MULT_DIV_QUIZ_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Hình học & Khối') {
+        questions = FIXED_GEOMETRY_SOLIDS_QUIZ_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Nhân chia (100, 1000)') {
+        questions = FIXED_MULT_DIV_100_1000_QUIZ_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Đơn vị đo lường') {
+        questions = FIXED_MEASUREMENT_QUIZ_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Số đến 100 000') {
+        questions = FIXED_NUMBERS_TO_100000_QUIZ_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Chu vi & Diện tích') {
+        questions = FIXED_PERIMETER_AREA_QUIZ_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Thời gian & Tiền tệ') {
+        questions = FIXED_TIME_MONEY_QUIZ_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_QUIZ_QUESTIONS_G3;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed quiz for Grade 4 "Thử sức"
+    if (user.grade === 4 && (topic.toUpperCase().includes("THỬ SỨC") || topic.toUpperCase().includes("TRẮC NGHIỆM"))) {
+      setIsQuizMode(true);
+      setIsFunPlayMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setTimeLeft(20);
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Số đến 100 000') {
+        questions = FIXED_NUMBERS_TO_100000_QUIZ_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Góc & Hình học') {
+        questions = FIXED_GEOMETRY_ANGLES_QUIZ_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Số có nhiều chữ số') {
+        questions = FIXED_MANY_DIGIT_NUMBERS_QUIZ_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Đơn vị đo đại lượng') {
+        questions = FIXED_MEASUREMENT_UNITS_QUIZ_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Cộng, trừ, nhân, chia') {
+        questions = FIXED_ARITHMETIC_QUIZ_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Hình bình hành & Thoi') {
+        questions = FIXED_PARALLELOGRAM_RHOMBUS_QUIZ_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Phân số') {
+        questions = FIXED_FRACTIONS_QUIZ_QUESTIONS_G4;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed application for Grade 4 "Ứng dụng"
+    if (user.grade === 4 && topic.toUpperCase().includes("ỨNG DỤNG")) {
+      setIsQuizMode(true);
+      setIsFunPlayMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setTimeLeft(20);
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Số đến 100 000') {
+        questions = FIXED_NUMBERS_TO_100000_APP_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Góc & Hình học') {
+        questions = FIXED_GEOMETRY_ANGLES_APP_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Số có nhiều chữ số') {
+        questions = FIXED_MANY_DIGIT_NUMBERS_APP_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Đơn vị đo đại lượng') {
+        questions = FIXED_MEASUREMENT_UNITS_APP_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Cộng, trừ, nhân, chia') {
+        questions = FIXED_ARITHMETIC_APP_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Hình bình hành & Thoi') {
+        questions = FIXED_PARALLELOGRAM_RHOMBUS_APP_QUESTIONS_G4;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+    if (user.grade === 3 && topic.toUpperCase().includes("TỰ LUẬN")) {
+      setIsFunPlayMode(true);
+      setIsQuizMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setEssayAnswer('');
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Bảng nhân chia') {
+        questions = FIXED_REVIEW_MULT_DIV_ESSAY_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Hình học & Khối') {
+        questions = FIXED_GEOMETRY_SOLIDS_ESSAY_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Nhân chia (100, 1000)') {
+        questions = FIXED_MULT_DIV_100_1000_ESSAY_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Đơn vị đo lường') {
+        questions = FIXED_MEASUREMENT_ESSAY_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Số đến 100 000') {
+        questions = FIXED_NUMBERS_TO_100000_ESSAY_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Chu vi & Diện tích') {
+        questions = FIXED_PERIMETER_AREA_ESSAY_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Thời gian & Tiền tệ') {
+        questions = FIXED_TIME_MONEY_ESSAY_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_ESSAY_QUESTIONS_G3;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed essay for Grade 4 "Tự luận"
+    if (user.grade === 4 && topic.toUpperCase().includes("TỰ LUẬN")) {
+      setIsFunPlayMode(true);
+      setIsQuizMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setEssayAnswer('');
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Số đến 100 000') {
+        questions = FIXED_NUMBERS_TO_100000_ESSAY_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Góc & Hình học') {
+        questions = FIXED_GEOMETRY_ANGLES_ESSAY_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Số có nhiều chữ số') {
+        questions = FIXED_MANY_DIGIT_NUMBERS_ESSAY_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Đơn vị đo đại lượng') {
+        questions = FIXED_MEASUREMENT_UNITS_ESSAY_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Cộng, trừ, nhân, chia') {
+        questions = FIXED_ARITHMETIC_ESSAY_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Hình bình hành & Thoi') {
+        questions = FIXED_PARALLELOGRAM_RHOMBUS_ESSAY_QUESTIONS_G4;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed application for Grade 3 "Ứng dụng"
+    if (user.grade === 3 && topic.toUpperCase().includes("ỨNG DỤNG")) {
+      setIsQuizMode(true);
+      setIsFunPlayMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setTimeLeft(20);
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập & Bảng nhân chia') {
+        questions = FIXED_REVIEW_MULT_DIV_APP_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Hình học & Khối') {
+        questions = FIXED_GEOMETRY_SOLIDS_APP_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Nhân chia (100, 1000)') {
+        questions = FIXED_MULT_DIV_100_1000_APP_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Đơn vị đo lường') {
+        questions = FIXED_MEASUREMENT_APP_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Số đến 100 000') {
+        questions = FIXED_NUMBERS_TO_100000_APP_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Chu vi & Diện tích') {
+        questions = FIXED_PERIMETER_AREA_APP_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Thời gian & Tiền tệ') {
+        questions = FIXED_TIME_MONEY_APP_QUESTIONS_G3;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_APP_QUESTIONS_G3;
       }
       
       if (questions.length > 0) {
