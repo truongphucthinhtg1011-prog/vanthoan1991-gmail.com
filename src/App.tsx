@@ -1239,6 +1239,45 @@ const FIXED_FRACTIONS_QUIZ_QUESTIONS_G4: MathProblem[] = [
   { id: 'g4f-10', question: 'Phân số nào bé nhất?', answer: '1/4', options: ['3/4', '2/4', '1/4', '4/4'], difficulty: 'easy', topic: 'Phân số' },
 ];
 
+const FIXED_FRACTIONS_ESSAY_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4fe-1', question: 'Viết 3 phân số bé hơn 1.', answer: '1/2, 2/3, 3/4', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-2', question: 'Viết 2 phân số lớn hơn 1.', answer: '3/2, 5/4', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-3', question: 'So sánh: 3/4 và 2/4.', answer: '3/4 > 2/4', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-4', question: 'Rút gọn phân số: 4/8.', answer: '1/2', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-5', question: 'Một cái bánh chia thành 4 phần bằng nhau, ăn 2 phần. Hỏi đã ăn bao nhiêu phần của cái bánh?', answer: '2/4 (hoặc 1/2)', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-6', question: 'Viết phân số chỉ phần đã tô màu của hình vuông chia làm 4 phần, tô màu 3 phần.', answer: '3/4', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-7', question: 'Tìm x: x + 1/4 = 3/4.', answer: '2/4 (hoặc 1/2)', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-8', question: 'Quy đồng mẫu số hai phân số: 1/2 và 1/3.', answer: '3/6 và 2/6', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-9', question: 'Tính: 1/5 + 2/5.', answer: '3/5', options: [], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fe-10', question: 'Sắp xếp các phân số sau theo thứ tự từ bé đến lớn: 1/2, 1/4, 1/3.', answer: '1/4, 1/3, 1/2', options: [], difficulty: 'easy', topic: 'Phân số' },
+];
+
+const FIXED_FRACTIONS_APP_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4fa-1', question: '6/6 = ?', answer: '1', options: ['1', '6', '0', '2'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-2', question: 'Phân số nào lớn hơn 1?', answer: '5/3', options: ['3/4', '5/3', '2/2', '1/2'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-3', question: 'Phân số nào bé hơn 1?', answer: '3/7', options: ['6/5', '4/3', '3/7', '5/5'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-4', question: 'So sánh: 1/2 và 2/3', answer: '<', options: ['>', '<', '=', 'Không biết'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-5', question: 'Phân số nào bằng 1/3?', answer: '2/6', options: ['2/6', '3/6', '4/6', '5/6'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-6', question: 'Rút gọn phân số 5/10 ta được:', answer: '1/2', options: ['1/2', '1/5', '2/5', '1/10'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-7', question: 'Phân số 2/5 bằng phân số nào dưới đây?', answer: '4/10', options: ['4/10', '2/10', '5/10', '6/10'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-8', question: 'Tính: 1/4 + 2/4 = ?', answer: '3/4', options: ['3/4', '3/8', '1/4', '1/2'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-9', question: 'Trong các phân số 1/2, 2/2, 3/2, phân số nào bằng 1?', answer: '2/2', options: ['1/2', '2/2', '3/2', 'Không có'], difficulty: 'easy', topic: 'Phân số' },
+  { id: 'g4fa-10', question: 'Mẫu số của phân số 7/9 là:', answer: '9', options: ['7', '9', '16', '2'], difficulty: 'easy', topic: 'Phân số' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_QUIZ_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4sp-1', question: 'Thống kê là gì?', answer: 'Thu thập và xử lí số liệu', options: ['Thu thập và xử lí số liệu', 'Làm toán cộng', 'Vẽ hình', 'Đếm số'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-2', question: 'Dữ liệu là gì?', answer: 'Số liệu thu thập được', options: ['Số liệu thu thập được', 'Hình vẽ', 'Phép tính', 'Trò chơi'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-3', question: 'Tung 1 đồng xu có mấy kết quả?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-4', question: 'Tung xúc xắc có mấy mặt?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-5', question: 'Sự kiện “ra số 7 khi tung xúc xắc” là:', answer: 'Không thể', options: ['Có thể', 'Không thể', 'Chắc chắn', 'Bình thường'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-6', question: 'Sự kiện “mặt trời mọc buổi sáng” là:', answer: 'Chắc chắn', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-7', question: 'Số nào lớn nhất: 10, 20, 30, 40?', answer: '40', options: ['10', '20', '30', '40'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-8', question: 'Số nào bé nhất: 5, 8, 2, 9?', answer: '2', options: ['5', '8', '2', '9'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-9', question: 'Tung đồng xu ra “ngửa” là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4sp-10', question: 'Dữ liệu: 2, 2, 3. Số nào xuất hiện nhiều nhất?', answer: '2', options: ['2', '3', 'Không có', '1'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
 const FIXED_FUN_QUESTIONS: MathProblem[] = [
   { id: 'f1', question: 'Câu 1. Số nào đứng giữa 0 và 2?', answer: '1', options: [], difficulty: 'easy', topic: 'CHƠI  VUI' },
   { id: 'f2', question: 'Câu 2. Điền số thích hợp: 1, 2, 3, ___, 5', answer: '4', options: [], difficulty: 'easy', topic: 'CHƠI  VUI' },
@@ -2205,6 +2244,8 @@ export default function App() {
         questions = FIXED_PARALLELOGRAM_RHOMBUS_QUIZ_QUESTIONS_G4;
       } else if (selectedTopic?.title === 'Phân số') {
         questions = FIXED_FRACTIONS_QUIZ_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_QUIZ_QUESTIONS_G4;
       }
       
       if (questions.length > 0) {
@@ -2240,6 +2281,8 @@ export default function App() {
         questions = FIXED_ARITHMETIC_APP_QUESTIONS_G4;
       } else if (selectedTopic?.title === 'Hình bình hành & Thoi') {
         questions = FIXED_PARALLELOGRAM_RHOMBUS_APP_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Phân số') {
+        questions = FIXED_FRACTIONS_APP_QUESTIONS_G4;
       }
       
       if (questions.length > 0) {
@@ -2312,6 +2355,8 @@ export default function App() {
         questions = FIXED_ARITHMETIC_ESSAY_QUESTIONS_G4;
       } else if (selectedTopic?.title === 'Hình bình hành & Thoi') {
         questions = FIXED_PARALLELOGRAM_RHOMBUS_ESSAY_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Phân số') {
+        questions = FIXED_FRACTIONS_ESSAY_QUESTIONS_G4;
       }
       
       if (questions.length > 0) {
