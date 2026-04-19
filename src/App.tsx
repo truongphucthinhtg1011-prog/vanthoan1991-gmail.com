@@ -954,42 +954,42 @@ const FIXED_TIME_MONEY_APP_QUESTIONS_G3: MathProblem[] = [
 ];
 
 const FIXED_STATISTICS_PROBABILITY_QUIZ_QUESTIONS_G3: MathProblem[] = [
-  { id: 'g3spq-1', question: 'Dữ liệu là gì?', answer: 'Số liệu thu thập được', options: ['Số liệu thu thập được', 'Phép tính', 'Hình vẽ', 'Trò chơi'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-2', question: 'Trong dãy: 2, 3, 3, 4. Số nào xuất hiện nhiều nhất?', answer: '3', options: ['2', '3', '4', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-3', question: 'Tung 1 đồng xu có mấy kết quả?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-4', question: 'Tung xúc xắc có mấy mặt?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-5', question: 'Số nào lớn nhất: 5, 2, 9, 1?', answer: '9', options: ['5', '2', '9', '1'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-6', question: 'Số nào bé nhất: 8, 3, 7, 2?', answer: '2', options: ['8', '3', '7', '2'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-7', question: 'Tung đồng xu ra “ngửa” là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-8', question: 'Trong lớp có 20 bạn → có bao nhiêu dữ liệu?', answer: '20', options: ['10', '15', '20', '25'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-9', question: 'Tung xúc xắc ra số 6 là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spq-10', question: 'Dữ liệu: 1, 1, 2, 3. Số nào nhiều nhất?', answer: '1', options: ['1', '2', '3', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-1', question: 'Số nào là số lớn nhất?', answer: '21', options: ['12', '21', '18', '15'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-2', question: 'Dữ liệu là gì?', answer: 'Con số thu thập được', options: ['Con số thu thập được', 'Một bài văn', 'Một bức tranh', 'Một bài hát'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-3', question: 'Trong bảng số liệu, số nào xuất hiện nhiều nhất gọi là gì?', answer: 'Nhiều nhất', options: ['Trung bình', 'Lớn nhất', 'Nhiều nhất', 'Nhỏ nhất'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-4', question: 'Tung 1 đồng xu, có mấy khả năng xảy ra?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-5', question: 'Kết quả khi tung đồng xu có thể là:', answer: 'Sấp hoặc ngửa', options: ['Tròn hoặc vuông', 'Sấp hoặc ngửa', 'Lớn hoặc nhỏ', 'Nặng hoặc nhẹ'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-6', question: 'Trong các số sau: 5, 8, 5, 3, 5 — số nào xuất hiện nhiều nhất?', answer: '5', options: ['3', '5', '8', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-7', question: 'Tung xúc xắc có mấy mặt?', answer: '6', options: ['4', '5', '6', '8'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-8', question: 'Số nhỏ nhất trong dãy: 7, 2, 9, 4 là:', answer: '2', options: ['2', '4', '7', '9'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-9', question: 'Một phép thử là gì?', answer: 'Là việc thử và quan sát kết quả', options: ['Là việc thử và quan sát kết quả', 'Là làm bài tập', 'Là chơi game', 'Là đọc sách'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spq-10', question: 'Khi tung xúc xắc, số chấm nhỏ nhất là:', answer: '1', options: ['0', '1', '2', '6'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
 ];
 
 const FIXED_STATISTICS_PROBABILITY_ESSAY_QUESTIONS_G3: MathProblem[] = [
-  { id: 'g3spe-1', question: 'Ghi lại dữ liệu số học sinh trong tổ em.', answer: 'Dữ liệu số học sinh', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-2', question: 'Dãy: 3, 4, 4, 5, 6. Hỏi số nào xuất hiện nhiều nhất?', answer: '4', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-3', question: 'Tung 1 đồng xu, liệt kê các kết quả có thể xảy ra.', answer: 'Mặt sấp, mặt ngửa', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-4', question: 'Có 6 viên bi: 4 đỏ, 2 xanh. Hỏi có thể lấy được những màu nào?', answer: 'Đỏ, xanh', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-5', question: 'Dãy: 10, 20, 30, 40. Tìm số lớn nhất.', answer: '40', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-6', question: 'Dãy: 10, 20, 30, 40. Tìm số bé nhất.', answer: '10', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-7', question: 'Dãy số: 5, 7, 5, 8, 9. Số nào lặp lại?', answer: '5', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-8', question: 'Trong hộp có 3 bi vàng, 2 bi trắng. Việc lấy ra 1 bi xanh là gì?', answer: 'Không thể', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-9', question: 'Tung xúc xắc, có thể ra mặt 8 chấm không? Vì sao?', answer: 'Không thể, vì xúc xắc chỉ có 6 mặt', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spe-10', question: 'Dãy số: 15, 12, 18, 11. Sắp xếp từ bé đến lớn.', answer: '11, 12, 15, 18', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-1', question: 'Dãy số: 3, 5, 3, 7, 3, 5. Số nào xuất hiện nhiều nhất?', answer: '3', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-2', question: 'Tung một đồng xu, liệt kê các kết quả có thể xảy ra.', answer: 'Sấp, ngửa', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-3', question: 'Dãy số: 2, 4, 4, 5, 6. Số lớn nhất là bao nhiêu?', answer: '6', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-4', question: 'Dãy số: 2, 4, 4, 5, 6. Số nhỏ nhất là bao nhiêu?', answer: '2', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-5', question: 'Dãy số: 2, 4, 4, 5, 6. Số nào xuất hiện nhiều nhất?', answer: '4', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-6', question: 'Tung một con xúc xắc, viết tất cả các số chấm có thể xuất hiện.', answer: '1, 2, 3, 4, 5, 6', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-7', question: 'Vì sao khi tung đồng xu, ta không biết chắc chắn sẽ ra sấp hay ngửa?', answer: 'Vì kết quả ngẫu nhiên', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-8', question: 'Trong một bảng số liệu, nếu cam có 5 quả, táo có 8 quả. Hỏi loại nào nhiều hơn?', answer: 'Táo', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-9', question: 'Hãy kể tên 2 mặt của đồng xu.', answer: 'Sấp, ngửa', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spe-10', question: 'Dãy số: 10, 15, 10, 20. Số nào lặp lại nhiều nhất?', answer: '10', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
 ];
 
 const FIXED_STATISTICS_PROBABILITY_APP_QUESTIONS_G3: MathProblem[] = [
-  { id: 'g3spa-1', question: 'Dữ liệu: 2, 2, 3. Số nào nhiều nhất?', answer: '2', options: ['2', '3', 'Không có', '1'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-2', question: 'Có 4 mèo, 6 chó. Con nào nhiều hơn?', answer: 'Chó', options: ['Mèo', 'Chó', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-3', question: 'Tung xúc xắc ra số 1 là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-4', question: 'Dữ liệu: 9, 8, 7. Số bé nhất là:', answer: '7', options: ['7', '8', '9', '6'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-5', question: 'Tung đồng xu ra sấp là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-6', question: 'Dữ liệu: 10, 10, 20, 20, 20. Số nào xuất hiện nhiều nhất?', answer: '20', options: ['10', '20', 'Bằng nhau', '30'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-7', question: 'Trong hộp có 5 bi đỏ, lấy 1 bi đỏ là việc:', answer: 'Chắc chắn', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-8', question: 'Dữ liệu: 15, 25, 35, 5. Số lớn nhất là:', answer: '35', options: ['15', '25', '35', '5'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-9', question: 'Tung xúc xắc ra số 7 là việc:', answer: 'Không thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
-  { id: 'g3spa-10', question: 'Dữ liệu: Cam (4 quả), Táo (4 quả). Số lượng Cam và Táo như thế nào?', answer: 'Bằng nhau', options: ['Cam nhiều hơn', 'Táo nhiều hơn', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-1', question: 'Tung xúc xắc 1 lần, có mấy kết quả có thể xảy ra?', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-2', question: 'Dữ liệu thu thập được giúp ta làm gì?', answer: 'Quan sát và so sánh', options: ['Quan sát và so sánh', 'Vẽ tranh', 'Chơi game', 'Ngủ'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-3', question: 'Khi tung đồng xu, việc ra mặt ngửa là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Sai'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-4', question: 'Cho dãy số: 8, 9, 8, 7, 8. Số nào xuất hiện nhiều nhất?', answer: '8', options: ['7', '8', '9', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-5', question: 'Khi tung xúc xắc, việc xuất hiện mặt 6 chấm là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không xảy ra'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-6', question: 'Trong dãy số: 10, 20, 10, 30. Số ít nhất là:', answer: '20', options: ['10', '20', '30', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-7', question: 'Tung đồng xu 1 lần, có mấy khả năng xảy ra?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-8', question: 'Số nào lớn nhất trong các số: 15, 21, 18, 15?', answer: '21', options: ['12', '21', '18', '15'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-9', question: 'Tung xúc xắc, việc xuất hiện mặt 7 chấm là:', answer: 'Không thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g3spa-10', question: 'Dữ liệu: Cam (5 quả), Táo (8 quả). Loại nào ít hơn?', answer: 'Cam', options: ['Cam', 'Táo', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
 ];
 
 const FIXED_NUMBERS_TO_100000_QUIZ_QUESTIONS_G4: MathProblem[] = [
@@ -1276,6 +1276,344 @@ const FIXED_STATISTICS_PROBABILITY_QUIZ_QUESTIONS_G4: MathProblem[] = [
   { id: 'g4sp-8', question: 'Số nào bé nhất: 5, 8, 2, 9?', answer: '2', options: ['5', '8', '2', '9'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
   { id: 'g4sp-9', question: 'Tung đồng xu ra “ngửa” là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
   { id: 'g4sp-10', question: 'Dữ liệu: 2, 2, 3. Số nào xuất hiện nhiều nhất?', answer: '2', options: ['2', '3', 'Không có', '1'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_ESSAY_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4spe-1', question: 'Ghi lại dữ liệu chiều cao của 5 bạn trong lớp (tự chọn).', answer: 'Dữ liệu chiều cao (ví dụ: 130cm, 132cm...)', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-2', question: 'Dãy: 4, 5, 5, 6, 7. Tìm số xuất hiện nhiều nhất.', answer: '5', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-3', question: 'Tung 1 đồng xu, liệt kê các kết quả có thể xảy ra.', answer: 'Mặt sấp, mặt ngửa', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-4', question: 'Có 8 viên bi: 5 đỏ, 3 xanh. Hỏi có thể lấy được những màu nào?', answer: 'Màu đỏ hoặc màu xanh', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-5', question: 'Dãy: 20, 40, 60, 80. Tìm số lớn nhất và bé nhất.', answer: 'Lớn nhất: 80, Bé nhất: 20', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-6', question: 'Thống kê số lượng học sinh trong tổ của em.', answer: 'Số lượng học sinh cụ thể', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-7', question: 'Tung xúc xắc, liệt kê các mặt có thể xuất hiện.', answer: 'Mặt 1, 2, 3, 4, 5, 6 chấm', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-8', question: 'Trong hộp có 10 bi xanh, việc lấy ra 1 bi đỏ là sự kiện gì?', answer: 'Không thể', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-9', question: 'Dãy số: 15, 10, 25, 30. Sắp xếp từ bé đến lớn.', answer: '10, 15, 25, 30', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spe-10', question: 'Kể tên 3 loại dữ liệu em có thể thu thập được trong vườn trường.', answer: 'Số cây, số hoa, số ghế đá...', options: [], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_STATISTICS_PROBABILITY_APP_QUESTIONS_G4: MathProblem[] = [
+  { id: 'g4spa-1', question: 'Dữ liệu: 3, 3, 4. Số nào nhiều nhất?', answer: '3', options: ['3', '4', 'Không có', '1'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-2', question: 'Có 5 mèo, 3 chó. Con nào nhiều hơn?', answer: 'Mèo', options: ['Mèo', 'Chó', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-3', question: 'Tung xúc xắc ra số 1 là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-4', question: 'Dữ liệu: 6, 5, 4. Số bé nhất là:', answer: '4', options: ['4', '5', '6', '3'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-5', question: 'Tung đồng xu ra sấp là:', answer: 'Có thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-6', question: 'Dữ liệu: 10, 10, 10, 20. Số nào xuất hiện nhiều nhất?', answer: '10', options: ['10', '20', '30', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-7', question: 'Tung xúc xắc ra số 7 là việc:', answer: 'Không thể', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-8', question: 'Dữ liệu: 15, 25, 35. Số lớn nhất là:', answer: '35', options: ['15', '25', '35', '45'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-9', question: 'Trong hộp có 5 bi đỏ, lấy ra 1 bi đỏ là việc:', answer: 'Chắc chắn', options: ['Không thể', 'Có thể', 'Chắc chắn', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+  { id: 'g4spa-10', question: 'Dữ liệu: Lan (5 điểm), Hoa (7 điểm). Ai có điểm thấp hơn?', answer: 'Lan', options: ['Lan', 'Hoa', 'Bằng nhau', 'Không biết'], difficulty: 'easy', topic: 'Thống kê & Xác suất' },
+];
+
+const FIXED_FRACTIONS_MIXED_QUIZ_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5f-1', question: 'Phân số gồm mấy phần?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-2', question: 'Trong phân số 7/5, số 5 gọi là:', answer: 'Mẫu số', options: ['Mẫu số', 'Tử số', 'Tổng', 'Hiệu'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-3', question: 'Trong phân số 7/5, số 7 gọi là:', answer: 'Tử số', options: ['Tử số', 'Mẫu số', 'Tổng', 'Hiệu'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-4', question: '6/6 = ?', answer: '1', options: ['1', '6', '0', '2'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-5', question: 'Phân số nào bé hơn 1?', answer: '5/7', options: ['5/7', '4/3', '5/5', '8/6'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-6', question: 'Phân số nào lớn hơn 1?', answer: '3/2', options: ['3/2', '5/8', '4/7', '4/4'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-7', question: 'Hỗn số gồm có mấy phần?', answer: 'Số tự nhiên và phân số', options: ['1 số tự nhiên', '1 phân số', 'Số tự nhiên và phân số', 'Không có'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-8', question: 'Biểu thức 2 1/3 gọi là gì?', answer: 'Hỗn số', options: ['Phân số', 'Hỗn số', 'Số tự nhiên', 'Số thập phân'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-9', question: 'Phân số 2/2 bằng bao nhiêu?', answer: '1', options: ['1', '2', '0', '3'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-10', question: 'Phân số nào sau đây bằng 1?', answer: '5/5', options: ['4/3', '5/5', '3/2', '7/6'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+];
+
+const FIXED_FRACTIONS_MIXED_ESSAY_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5f-e1', question: 'Viết 3 phân số lớn hơn 1.', answer: '3/2, 4/3, 5/4', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e2', question: 'Đổi hỗn số 2 1/3 thành phân số.', answer: '7/3', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e3', question: 'Rút gọn phân số 9/12.', answer: '3/4', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e4', question: 'So sánh 3/4 và 2/3.', answer: '3/4 > 2/3', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e5', question: 'Một cái bánh chia thành 8 phần bằng nhau, ăn 3 phần. Hỏi đã ăn bao nhiêu phần cái bánh?', answer: '3/8', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e6', question: 'Tìm x: x - 1/2 = 3/2.', answer: '2', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e7', question: 'Viết phân số 5/2 dưới dạng hỗn số.', answer: '2 1/2', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e8', question: 'Tính: 1/2 + 1/3.', answer: '5/6', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e9', question: 'Quy đồng mẫu số hai phân số: 1/4 và 1/5.', answer: '5/20 và 4/20', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-e10', question: 'Sắp xếp các phân số sau theo thứ tự từ lớn đến bé: 1/2, 1/3, 1/4.', answer: '1/2, 1/3, 1/4', options: [], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+];
+
+const FIXED_FRACTIONS_MIXED_APP_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5f-a1', question: '8/8 = ?', answer: '1', options: ['1', '8', '0', '2'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a2', question: 'Phân số nào lớn hơn 1?', answer: '5/3', options: ['3/4', '5/3', '2/2', '2/1'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a3', question: 'Hỗn số 2 3/4 gồm:', answer: '2 và 3/4', options: ['2 và 3/4', '3 và 4', '2 và 3', '4 và 2'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a4', question: 'So sánh: 2/1 và 3/1', answer: '<', options: ['>', '<', '=', 'Không biết'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a5', question: 'Phân số nào bằng 3/2?', answer: '6/4', options: ['6/4', '6/3', '6/5', '6/6'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a6', question: 'Phân số nào sau đây tối giản?', answer: '3/5', options: ['2/4', '3/5', '6/8', '5/10'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a7', question: 'Điền dấu thích hợp: 1/2 ___ 1/3', answer: '>', options: ['>', '<', '=', 'Không biết'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a8', question: '10/2 = ?', answer: '5', options: ['5', '2', '10', '1'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a9', question: 'Rút gọn phân số 4/8 ta được:', answer: '1/2', options: ['1/4', '1/2', '2/3', '1/8'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+  { id: 'g5f-a10', question: 'Tìm x: x + 1/4 = 3/4', answer: '1/2', options: ['1/2', '1/4', '1', '2/4'], difficulty: 'easy', topic: 'Ôn tập phân số & Hỗn số' },
+];
+
+const FIXED_DECIMALS_QUIZ_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5d-1', question: 'Số thập phân gồm mấy phần?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-2', question: 'Trong số 3,5 thì 3 là:', answer: 'Phần nguyên', options: ['Phần thập phân', 'Phần nguyên', 'Tổng', 'Hiệu'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-3', question: 'Trong số 3,5 thì 5 là:', answer: 'Phần thập phân', options: ['Phần nguyên', 'Phần thập phân', 'Tổng', 'Hiệu'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-4', question: '0,5 đọc là:', answer: 'Không phẩy năm', options: ['Không phẩy năm', 'Năm phẩy không', 'Không năm', 'Năm không'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-5', question: '1,2 = ?', answer: '1 + 0,2', options: ['1 + 2', '1 + 0,2', '1 + 0,02', '1 + 2,0'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-6', question: '0,1 = ?', answer: 'Một phần mười', options: ['Một phần mười', 'Một phần trăm', 'Một phần nghìn', 'Một phần hai'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-7', question: 'Số nào lớn hơn?', answer: '0,5', options: ['0,5', '0,3', '0,2', '0,1'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-8', question: '0,7 = ?', answer: '7/10', options: ['7/10', '7/100', '7/1', '70/1000'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-9', question: '1 = ?', answer: '1,0', options: ['0,1', '1,0', '0,01', '0,001'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-10', question: 'Số nào bé nhất?', answer: '0,6', options: ['0,9', '0,8', '0,7', '0,6'], difficulty: 'easy', topic: 'Số thập phân' },
+];
+
+const FIXED_DECIMALS_ESSAY_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5d-e1', question: 'Viết số thập phân: ba phẩy bảy.', answer: '3,7', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e2', question: 'Đổi phân số 3/10 thành số thập phân.', answer: '0,3', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e3', question: 'Tính: 2,5 + 3,4 = ?', answer: '5,9', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e4', question: 'So sánh: 0,75 và 0,8.', answer: '0,75 < 0,8', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e5', question: 'Một chai nước có 1,5 lít, uống hết 0,5 lít. Hỏi còn lại bao nhiêu lít?', answer: '1', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e6', question: 'Viết số thập phân có: 5 đơn vị, 3 phần mười.', answer: '5,3', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e7', question: 'Đổi 1/2 thành số thập phân.', answer: '0,5', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e8', question: 'Số 4,25 đọc là gì?', answer: 'Bốn phẩy hai mươi lăm', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e9', question: 'Tìm x: x + 1,2 = 2,5.', answer: '1,3', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-e10', question: 'Sắp xếp các số sau theo thứ tự từ bé đến lớn: 0,5; 0,2; 0,8.', answer: '0,2; 0,5; 0,8', options: [], difficulty: 'easy', topic: 'Số thập phân' },
+];
+
+const FIXED_DECIMALS_APP_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5d-a1', question: '0,75 = ?', answer: '75/100', options: ['75/10', '75/100', '3/4', '7/5'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a2', question: 'Số nào lớn hơn?', answer: '2,5', options: ['2,5', '2,05', '2,15', '2,01'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a3', question: '5,5 − 2,5 = ?', answer: '3', options: ['2', '3', '3,5', '4'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a4', question: '0,6 × 10 = ?', answer: '6', options: ['6', '60', '0,06', '0,6'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a5', question: '3,2 : 2 = ?', answer: '1,6', options: ['1,5', '1,6', '1,7', '1,8'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a6', question: '0,25 × 100 = ?', answer: '25', options: ['25', '2,5', '0,25', '250'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a7', question: '1,5 + 2,5 = ?', answer: '4', options: ['3', '4', '5', '3,5'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a8', question: '10 : 4 = ?', answer: '2,5', options: ['2', '2,5', '2,25', '3'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a9', question: 'Số nào bé nhất?', answer: '1,02', options: ['1,2', '1,02', '1,21', '1,12'], difficulty: 'easy', topic: 'Số thập phân' },
+  { id: 'g5d-a10', question: '0,1 + 0,01 = ?', answer: '0,11', options: ['0,11', '0,2', '1,1', '0,011'], difficulty: 'easy', topic: 'Số thập phân' },
+];
+
+const FIXED_ADD_SUB_DECIMALS_QUIZ_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5as-1', question: '2,3 + 1,2 = ?', answer: '3,5', options: ['3,4', '3,5', '3,6', '3,7'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-2', question: '5,5 − 2,5 = ?', answer: '3', options: ['2', '3', '3,5', '4'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-3', question: '1,1 + 2,2 = ?', answer: '3,3', options: ['3,1', '3,2', '3,3', '3,4'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-4', question: '4,0 − 1,5 = ?', answer: '2,5', options: ['2,5', '2,4', '2,6', '2,3'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-5', question: '3,5 + 0,5 = ?', answer: '4', options: ['3,8', '4', '4,5', '3,9'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-6', question: '6,2 − 2,2 = ?', answer: '4', options: ['3,8', '4', '4,2', '4,4'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-7', question: '7,1 + 1,9 = ?', answer: '9', options: ['8,8', '9', '9,1', '8,9'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-8', question: '10,0 − 5,0 = ?', answer: '5', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-9', question: '0,5 + 0,5 = ?', answer: '1', options: ['1', '0,5', '0', '2'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-10', question: '2,0 − 1,0 = ?', answer: '1', options: ['1', '2', '0', '3'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+];
+
+const FIXED_ADD_SUB_DECIMALS_ESSAY_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5as-e1', question: 'Tính: 2,45 + 3,55 = ?', answer: '6', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e2', question: 'Tính: 8,75 − 2,25 = ?', answer: '6,5', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e3', question: 'Một chai nước có 2,5 lít, uống hết 1,2 lít. Hỏi còn lại bao nhiêu lít?', answer: '1,3', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e4', question: 'Tính: 4,6 + 3,7 − 2,3 = ?', answer: '6', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e5', question: 'Một cửa hàng có 10,5 kg gạo, bán đi 4,25 kg. Hỏi còn lại bao nhiêu kg?', answer: '6,25', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e6', question: 'Tính: 15,25 + 4,75 = ?', answer: '20', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e7', question: 'Tính: 20 - 5,5 = ?', answer: '14,5', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e8', question: 'Một đoạn dây dài 5,8m, cắt đi 2,4m. Hỏi còn lại bao nhiêu mét?', answer: '3,4', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e9', question: 'Tính: 1,25 + 2,75 + 3,5 = ?', answer: '7,5', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-e10', question: 'Một hình tam giác có các cạnh lần lượt là 3,5cm; 4,2cm và 5,3cm. Tính chu vi hình tam giác đó.', answer: '13', options: [], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+];
+
+const FIXED_ADD_SUB_DECIMALS_APP_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5as-a1', question: '4,5 + 5,5 = ?', answer: '10', options: ['9', '10', '9,5', '10,5'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a2', question: '7,2 − 2,2 = ?', answer: '5', options: ['5', '5,2', '4,8', '5,5'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a3', question: '1,25 + 1,75 = ?', answer: '3', options: ['3', '2,5', '3,5', '4'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a4', question: '6,0 − 2,5 = ?', answer: '3,5', options: ['3,5', '3', '4', '2,5'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a5', question: '0,9 + 0,1 = ?', answer: '1', options: ['1', '0,9', '0,8', '1,1'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a6', question: '10,5 − 5,5 = ?', answer: '5', options: ['4', '5', '6', '4,5'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a7', question: '0,25 + 0,75 = ?', answer: '1', options: ['0,5', '1', '1,25', '1,5'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a8', question: '8,8 − 4,4 = ?', answer: '4,4', options: ['4', '4,2', '4,4', '4,6'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a9', question: '1,5 + 1,5 + 1,5 = ?', answer: '4,5', options: ['3', '3,5', '4', '4,5'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+  { id: 'g5as-a10', question: '10 − 2,25 = ?', answer: '7,75', options: ['7,5', '7,75', '8,25', '8,5'], difficulty: 'easy', topic: 'Cộng, trừ số thập phân' },
+];
+
+const FIXED_MULT_DIV_DECIMALS_QUIZ_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5md-1', question: '2,5 × 2 = ?', answer: '5', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-2', question: '4,0 : 2 = ?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-3', question: '1,5 × 2 = ?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-4', question: '6,0 : 3 = ?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-5', question: '0,5 × 2 = ?', answer: '1', options: ['1', '0,5', '2', '0'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-6', question: '8,0 : 4 = ?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-7', question: '3,0 × 3 = ?', answer: '9', options: ['6', '9', '12', '3'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-8', question: '9,0 : 3 = ?', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-9', question: '0,2 × 5 = ?', answer: '1', options: ['1', '2', '0,5', '5'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-10', question: '10,0 : 5 = ?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+];
+
+const FIXED_MULT_DIV_DECIMALS_ESSAY_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5md-e1', question: 'Tính: 2,5 × 3 = ?', answer: '7,5', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e2', question: 'Tính: 7,5 : 2,5 = ?', answer: '3', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e3', question: 'Một chai có 1,5 lít nước, có 4 chai như vậy. Hỏi có bao nhiêu lít nước?', answer: '6', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e4', question: 'Tính: 3,2 × 2 + 1,6 = ?', answer: '8', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e5', question: 'Một sợi dây dài 8,4 m chia đều thành 4 phần. Hỏi mỗi phần dài bao nhiêu mét?', answer: '2,1', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e6', question: 'Tính: 0,25 × 4 = ?', answer: '1', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e7', question: 'Tính: 10 : 2,5 = ?', answer: '4', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e8', question: 'Một hình chữ nhật có chiều dài 4,5m, chiều rộng 2m. Tính diện tích hình chữ nhật đó.', answer: '9', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e9', question: 'Tìm x: x × 2 = 5,4', answer: '2,7', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-e10', question: 'Tính: 1,5 × 10 = ?', answer: '15', options: [], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+];
+
+const FIXED_MULT_DIV_DECIMALS_APP_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5md-a1', question: '4,5 × 2 = ?', answer: '9', options: ['8', '9', '10', '11'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a2', question: '6,6 : 3 = ?', answer: '2,2', options: ['2,1', '2,2', '2,3', '2,4'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a3', question: '1,2 × 5 = ?', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a4', question: '9,0 : 0,9 = ?', answer: '10', options: ['9', '10', '11', '12'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a5', question: '0,4 × 10 = ?', answer: '4', options: ['4', '0,4', '40', '0,04'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a6', question: '2,4 : 0,6 = ?', answer: '4', options: ['3', '4', '5', '6'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a7', question: '1,25 × 4 = ?', answer: '5', options: ['4', '4,5', '5', '5,5'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a8', question: '10 : 0,5 = ?', answer: '20', options: ['5', '10', '15', '20'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a9', question: '0,5 × 0,5 = ?', answer: '0,25', options: ['0,25', '0,5', '1', '2,5'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+  { id: 'g5md-a10', question: '3,6 : 1,2 = ?', answer: '3', options: ['2', '3', '4', '3,5'], difficulty: 'easy', topic: 'Nhân, chia số thập phân' },
+];
+
+const FIXED_PLANE_GEOMETRY_QUIZ_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5pg-1', question: 'Hình vuông có cạnh 6 cm. Chu vi là:', answer: '24 cm', options: ['12 cm', '24 cm', '36 cm', '18 cm'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-2', question: 'Diện tích hình vuông cạnh 5 cm là:', answer: '25 cm²', options: ['10 cm²', '20 cm²', '25 cm²', '30 cm²'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-3', question: 'HCN có dài 8 cm, rộng 3 cm. Chu vi là:', answer: '22 cm', options: ['22 cm', '24 cm', '20 cm', '18 cm'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-4', question: 'Diện tích HCN dài 7 cm, rộng 4 cm là:', answer: '28 cm²', options: ['28 cm²', '24 cm²', '21 cm²', '30 cm²'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-5', question: 'Tam giác có đáy 6 cm, cao 4 cm. Diện tích là:', answer: '12 cm²', options: ['24 cm²', '12 cm²', '10 cm²', '8 cm²'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-6', question: 'Hình tròn có đặc điểm:', answer: 'Không có cạnh', options: ['Có 4 cạnh', 'Không có cạnh', 'Có 3 cạnh', 'Có 2 cạnh'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-7', question: 'Chu vi tam giác có các cạnh 5, 5, 6 là:', answer: '16', options: ['15', '16', '17', '18'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-8', question: 'Hình vuông có chu vi 20 cm. Cạnh là:', answer: '5 cm', options: ['4 cm', '5 cm', '6 cm', '10 cm'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-9', question: 'HCN có chu vi 18 cm, dài 5 cm. Rộng là:', answer: '4 cm', options: ['4 cm', '3 cm', '2 cm', '5 cm'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-10', question: 'Diện tích hình vuông cạnh 9 cm là:', answer: '81 cm²', options: ['81 cm²', '72 cm²', '90 cm²', '99 cm²'], difficulty: 'easy', topic: 'Hình học phẳng' },
+];
+
+const FIXED_PLANE_GEOMETRY_ESSAY_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5pg-e1', question: 'Một hình chữ nhật có chu vi 28 cm, chiều dài hơn chiều rộng 4 cm. Tính diện tích.', answer: '45', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e2', question: 'Một hình vuông có diện tích 49 cm². Tính chu vi.', answer: '28', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e3', question: 'Một tam giác có đáy 12 cm, diện tích 36 cm². Tính chiều cao.', answer: '6', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e4', question: 'Một mảnh đất hình chữ nhật dài 15 m, rộng 8 m. Tính chu vi và diện tích.', answer: '46 và 120', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e5', question: 'Một hình chữ nhật có chiều dài gấp 3 lần chiều rộng, chu vi 48 cm. Tính diện tích.', answer: '108', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e6', question: 'Một hình thang có đáy lớn 8cm, đáy bé 6cm, chiều cao 5cm. Tính diện tích hình thang đó.', answer: '35', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e7', question: 'Hình chữ nhật có diện tích 48 cm², chiều dài 8cm. Tính chu vi hình chữ nhật đó.', answer: '28', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e8', question: 'Một tam giác vuông có hai cạnh góc vuông lần lượt là 3cm và 4cm. Tính diện tích tam giác đó.', answer: '6', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e9', question: 'Một hình chữ nhật có chu vi 30cm, chiều dài 9cm. Tính diện tích hình chữ nhật đó.', answer: '54', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-e10', question: 'Một hình vuông có chu vi 32cm. Tính diện tích hình vuông đó.', answer: '64', options: [], difficulty: 'easy', topic: 'Hình học phẳng' },
+];
+
+const FIXED_PLANE_GEOMETRY_APP_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5pg-a1', question: 'Một hình vuông có chu vi gấp đôi HCN (dài 6, rộng 4). Cạnh hình vuông là:', answer: '10', options: ['5', '10', '7', '8'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a2', question: 'HCN có diện tích 60 cm², dài hơn rộng 4 cm. Rộng là:', answer: '6', options: ['6', '5', '4', '3'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a3', question: 'Tam giác có diện tích 18 cm², cao 3 cm. Đáy là:', answer: '12', options: ['6', '12', '9', '8'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a4', question: 'Hình vuông có diện tích bằng HCN (dài 8, rộng 2). Cạnh là:', answer: '4', options: ['4', '5', '6', '3'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a5', question: 'Tổng chu vi 2 hình vuông cạnh 4 cm là:', answer: '32', options: ['16', '32', '24', '20'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a6', question: 'Một hình lập phương có cạnh 2 cm. Tổng độ dài các cạnh là:', answer: '24', options: ['12', '24', '16', '20'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a7', question: 'Diện tích hình vuông tăng bao nhiêu lần nếu cạnh tăng gấp đôi?', answer: '4 lần', options: ['2 lần', '4 lần', '3 lần', '8 lần'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a8', question: 'Chu vi hình vuông tăng bao nhiêu lần nếu cạnh tăng gấp đôi?', answer: '2 lần', options: ['2 lần', '4 lần', '3 lần', '1 lần'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a9', question: 'HCN có chu vi 20 cm, diện tích 24 cm². Chiều dài là:', answer: '6', options: ['4', '5', '6', '8'], difficulty: 'easy', topic: 'Hình học phẳng' },
+  { id: 'g5pg-a10', question: 'Hình nào có 4 cạnh bằng nhau và 4 góc vuông?', answer: 'Hình vuông', options: ['Hình chữ nhật', 'Hình vuông', 'Hình thoi', 'Hình tam giác'], difficulty: 'easy', topic: 'Hình học phẳng' },
+];
+
+const FIXED_SOLID_GEOMETRY_QUIZ_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5sg-1', question: 'Hình lập phương có mấy cạnh?', answer: '12', options: ['8', '12', '6', '4'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-2', question: 'Hình hộp chữ nhật có mấy mặt?', answer: '6', options: ['4', '5', '6', '8'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-3', question: 'Thể tích hình lập phương cạnh 3 cm là:', answer: '27 cm³', options: ['9 cm³', '27 cm³', '6 cm³', '12 cm³'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-4', question: 'Thể tích HHCN dài 2 cm, rộng 3 cm, cao 4 cm là:', answer: '24 cm³', options: ['24 cm³', '12 cm³', '9 cm³', '18 cm³'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-5', question: 'Đơn vị đo thể tích là:', answer: 'cm³', options: ['cm', 'cm²', 'cm³', 'm'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-6', question: '1 m³ = ? dm³', answer: '1000', options: ['10', '100', '1000', '10000'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-7', question: 'Hình lập phương có mấy mặt bằng nhau?', answer: '6', options: ['4', '5', '6', '3'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-8', question: 'Hình hộp chữ nhật có bao nhiêu cạnh?', answer: '12', options: ['8', '10', '12', '14'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-9', question: '1 dm³ = ? lít', answer: '1', options: ['1', '10', '100', '1000'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-10', question: 'Hình nào có 6 mặt đều là hình vuông?', answer: 'Hình lập phương', options: ['HHCN', 'Hình lập phương', 'Hình trụ', 'Hình cầu'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+];
+
+const FIXED_UNIFORM_MOTION_QUIZ_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5um-1', question: 'Xe đi 60 km trong 2 giờ. Vận tốc là:', answer: '30 km/h', options: ['20 km/h', '30 km/h', '40 km/h', '50 km/h'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-2', question: 'Xe chạy 40 km/h trong 3 giờ. Quãng đường là:', answer: '120 km', options: ['100 km', '110 km', '120 km', '130 km'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-3', question: 'Đi 100 km với vận tốc 50 km/h. Thời gian là:', answer: '2 giờ', options: ['1 giờ', '2 giờ', '3 giờ', '4 giờ'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-4', question: '1 giờ = ? phút', answer: '60', options: ['30', '60', '100', '24'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-5', question: '2 giờ = ? phút', answer: '120', options: ['100', '120', '140', '60'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-6', question: 'Xe đi 30 km/h trong 2 giờ. Quãng đường là:', answer: '60 km', options: ['50 km', '60 km', '70 km', '80 km'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-7', question: '90 km trong 3 giờ → vận tốc:', answer: '30', options: ['20', '25', '30', '35'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-8', question: '120 km với 60 km/h → thời gian:', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-9', question: '1,5 giờ = ? phút', answer: '90', options: ['60', '90', '120', '150'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-10', question: 'Xe đi 80 km trong 4 giờ → vận tốc:', answer: '20', options: ['10', '20', '30', '40'], difficulty: 'easy', topic: 'Chuyển động đều' },
+];
+
+const FIXED_STATISTICS_CHARTS_QUIZ_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5sc-1', question: 'Cho bảng số liệu: Toán: 10 | Văn: 8 | Anh: 12 | Tin: 6. Môn nào nhiều học sinh thích nhất?', answer: 'Anh', options: ['Toán', 'Văn', 'Anh', 'Tin'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-2', question: 'Trong bảng số liệu trên, môn nào ít học sinh thích nhất?', answer: 'Tin', options: ['Toán', 'Văn', 'Anh', 'Tin'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-3', question: 'Tổng số học sinh thích các môn học trên là:', answer: '36', options: ['30', '36', '34', '32'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-4', question: 'Dựa vào bảng số liệu, môn Toán nhiều hơn môn Văn bao nhiêu bạn?', answer: '2', options: ['1', '2', '3', '4'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-5', question: 'Dựa vào bảng số liệu, môn Anh hơn môn Tin bao nhiêu bạn?', answer: '6', options: ['4', '5', '6', '7'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-6', question: 'Dựa vào bảng số liệu, số bạn thích môn Tin học là:', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-7', question: 'Nếu thêm 2 bạn thích Văn, thì tổng số bạn thích môn Văn sẽ là:', answer: '10', options: ['9', '10', '11', '12'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-8', question: 'Dựa vào bảng số liệu, môn Toán chiếm bao nhiêu học sinh?', answer: '10', options: ['8', '10', '12', '6'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-9', question: 'Dựa vào bảng số liệu, số bạn thích môn Anh gấp mấy lần môn Tin?', answer: '2', options: ['2', '3', '1,5', '1'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-10', question: 'Dựa vào số lượng học sinh thích, môn nào đứng thứ 2?', answer: 'Toán', options: ['Toán', 'Văn', 'Anh', 'Tin'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+];
+
+const FIXED_STATISTICS_CHARTS_ESSAY_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5sc-e1', question: 'Cho dãy số liệu: 6, 8, 10, 6, 5. Tìm số xuất hiện nhiều nhất và tính tổng của dãy số đó.', answer: '6 và 35', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e2', question: 'Một lớp có số bạn thích đá bóng là 12, bóng rổ là 8, cầu lông là 10. Tính tổng số học sinh và cho biết môn nào có nhiều bạn thích nhất.', answer: '30 và đá bóng', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e3', question: 'Tìm số trung bình cộng của các số sau: 5, 7, 9.', answer: '7', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e4', question: 'Trong một tuần, bạn An đọc được lần lượt số cuốn sách là: 4, 5, 6, 7, 8. Tính tổng số sách và trung bình mỗi ngày An đọc bao nhiêu cuốn.', answer: '30 và 6', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e5', question: 'Số học sinh của 3 lớp lần lượt là 30, 32, 34. Tính trung bình số học sinh của mỗi lớp.', answer: '32', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e6', question: 'Một đội công nhân ngày thứ nhất làm được 15m đường, ngày thứ hai làm được 17m. Hỏi trung bình mỗi ngày đội đó làm được bao nhiêu mét đường?', answer: '16', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e7', question: 'Cho bảng số liệu: Cam: 50kg, Táo: 40kg, Lê: 30kg. Tổng khối lượng hoa quả là bao nhiêu kg?', answer: '120', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e8', question: 'Bốn bạn có chiều cao lần lượt là: 130cm, 140cm, 150cm, 140cm. Tìm chiều cao trung bình của bốn bạn đó.', answer: '140', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e9', question: 'Điểm kiểm tra Toán của 5 học sinh là: 8, 9, 10, 8, 5. Tính tổng điểm và điểm trung bình.', answer: '40 và 8', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-e10', question: 'Một cửa hàng ngày đầu bán được 100 quả trứng, ngày sau bán được 120 quả. Tính trung bình số trứng bán được mỗi ngày.', answer: '110', options: [], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+];
+
+const FIXED_SOLID_GEOMETRY_ESSAY_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5sg-e1', question: 'Tính thể tích hình lập phương cạnh 7 cm.', answer: '343', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e2', question: 'Một hình hộp chữ nhật có dài 8 cm, rộng 5 cm, cao 3 cm. Tính thể tích.', answer: '120', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e3', question: 'Một bể nước dạng hình hộp chữ nhật có thể tích 120 lít. Hỏi thể tích đó bằng bao nhiêu dm³?', answer: '120', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e4', question: 'Một hình lập phương có thể tích 125 cm³. Tính độ dài cạnh của hình lập phương đó.', answer: '5', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e5', question: 'Một hình hộp chữ nhật có thể tích 96 cm³, chiều dài 6 cm, chiều rộng 4 cm. Tính chiều cao.', answer: '4', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e6', question: 'Thể tích một hình lập phương là 64 cm³. Tính diện tích một mặt của nó.', answer: '16', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e7', question: 'Một bể nước chứa được 2 m³ nước. Hỏi bể đó chứa được bao nhiêu lít nước?', answer: '2000', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e8', question: 'Tính thể tích HHCN có diện tích đáy 20 cm² và chiều cao 5 cm.', answer: '100', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e9', question: 'Một khối gỗ hình lập phương cạnh 10 cm. Tính thể tích khối gỗ đó.', answer: '1000', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-e10', question: 'Một HHCN có thể tích 150 cm³, chiều cao 6 cm. Tính diện tích đáy.', answer: '25', options: [], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+];
+
+const FIXED_UNIFORM_MOTION_ESSAY_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5um-e1', question: 'Một xe đi 120 km trong 3 giờ. Tính vận tốc.', answer: '40', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e2', question: 'Một xe chạy 50 km/h trong 2,5 giờ. Tính quãng đường.', answer: '125', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e3', question: 'Một người đi xe máy 90 km với vận tốc 45 km/h. Hỏi hết bao lâu?', answer: '2', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e4', question: 'Một ô tô đi 60 km/h trong 1 giờ 30 phút. Tính quãng đường.', answer: '90', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e5', question: 'Một xe đi 150 km trong 2 giờ 30 phút. Tính vận tốc.', answer: '60', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e6', question: 'Một người đi bộ với vận tốc 4 km/h trong 45 phút. Tính quãng đường người đó đi được.', answer: '3', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e7', question: 'Một xe đạp đi được 18 km trong 1 giờ 12 phút. Tính vận tốc của xe đạp đó.', answer: '15', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e8', question: 'Một đoàn tàu đi với vận tốc 33 km/h trên quãng đường 11 km. Hỏi tàu đi hết bao nhiêu phút?', answer: '20', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e9', question: 'Một xe máy đi từ A lúc 7 giờ 30 phút và đến B lúc 9 giờ. Biết vận tốc là 40 km/h, tính quãng đường AB.', answer: '60', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-e10', question: 'Một ô tô đi quãng đường 210 km hết 3 giờ 30 phút. Tính vận tốc của ô tô.', answer: '60', options: [], difficulty: 'easy', topic: 'Chuyển động đều' },
+];
+
+const FIXED_UNIFORM_MOTION_APP_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5um-a1', question: 'Xe đi 60 km/h trong 2 giờ 30 phút. Quãng đường:', answer: '150', options: ['120', '150', '180', '140'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a2', question: 'Xe đi 100 km trong 2 giờ 30 phút. Vận tốc:', answer: '40', options: ['40', '50', '60', '45'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a3', question: 'Đi 180 km với 60 km/h. Thời gian:', answer: '3', options: ['2', '3', '4', '5'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a4', question: 'Xe đi 54 km trong 1,5 giờ. Vận tốc:', answer: '36', options: ['30', '36', '40', '45'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a5', question: 'Xe chạy 80 km/h trong 0,5 giờ. Quãng đường:', answer: '40', options: ['20', '30', '40', '50'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a6', question: 'Xe đạp đi 12 km trong 45 phút. Vận tốc (km/h):', answer: '16', options: ['12', '15', '16', '18'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a7', question: 'Một tàu hỏa chạy với vận tốc 42 km/h trong 1 giờ 20 phút. Quãng đường:', answer: '56', options: ['50', '54', '56', '60'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a8', question: 'Hai xe đi ngược chiều từ A và B cách nhau 150 km. Vận tốc xe 1 là 40km/h, xe 2 là 60km/h. Sau bao lâu họ gặp nhau?', answer: '1.5', options: ['1', '1.5', '2', '2.5'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a9', question: 'Một canô xuôi dòng với vận tốc 25 km/h, vận tốc dòng nước là 3 km/h. Vận tốc thực của canô là:', answer: '22', options: ['22', '25', '28', '20'], difficulty: 'easy', topic: 'Chuyển động đều' },
+  { id: 'g5um-a10', question: 'Một ô tô đi từ A đến B hết 2 giờ, từ B về A hết 3 giờ. Vận tốc đi nhanh hơn vận tốc về bao nhiêu lần?', answer: '1.5', options: ['1.2', '1.5', '2', '1.3'], difficulty: 'easy', topic: 'Chuyển động đều' },
+];
+
+const FIXED_SOLID_GEOMETRY_APP_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5sg-a1', question: 'Hình lập phương cạnh 5 cm. Thể tích là:', answer: '125', options: ['25', '125', '100', '150'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a2', question: 'HHCN có V = 60 cm³, dài 5 cm, rộng 3 cm. Cao là:', answer: '4', options: ['4', '3', '5', '2'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a3', question: 'Một hình lập phương có thể tích 64 cm³. Cạnh là:', answer: '4', options: ['4', '8', '6', '5'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a4', question: 'HHCN có V = 120 cm³, cao 4 cm, rộng 5 cm. Dài là:', answer: '6', options: ['6', '5', '4', '3'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a5', question: '2 m³ = ? dm³', answer: '2000', options: ['200', '2000', '20000', '20'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a6', question: 'Một hình lập phương có cạnh gấp đôi. Thể tích tăng:', answer: '8 lần', options: ['2 lần', '4 lần', '6 lần', '8 lần'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a7', question: 'HHCN có V = 72 cm³, dài 6 cm, cao 3 cm. Rộng là:', answer: '4', options: ['4', '3', '2', '5'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a8', question: '5000 cm³ = ? dm³', answer: '5', options: ['5', '50', '0,5', '500'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a9', question: 'Hình lập phương có cạnh 10 cm. Thể tích là:', answer: '1000', options: ['100', '1000', '10000', '10'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+  { id: 'g5sg-a10', question: '3 dm³ = ? lít', answer: '3', options: ['3', '30', '300', '0,3'], difficulty: 'easy', topic: 'Hình khối & Thể tích' },
+];
+
+const FIXED_STATISTICS_CHARTS_APP_QUESTIONS_G5: MathProblem[] = [
+  { id: 'g5sc-a1', question: 'Tính tổng của các số: 20, 30, 50. Kết quả là:', answer: '100', options: ['80', '90', '100', '110'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a2', question: 'Số trung bình cộng của 4, 6, 8 là:', answer: '6', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a3', question: 'Dữ liệu: 3, 3, 5, 7. Số nào xuất hiện nhiều nhất?', answer: '3', options: ['3', '5', '7', 'Không có'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a4', question: 'Biểu đồ tranh thường được dùng để:', answer: 'Minh họa số liệu', options: ['So sánh', 'Minh họa số liệu', 'Tính toán', 'Viết số'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a5', question: 'Nếu tổng là 40, chia làm 5 phần bằng nhau thì mỗi phần là:', answer: '8', options: ['5', '6', '7', '8'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a6', question: 'Một tổ có 5 bạn cao: 130cm, 135cm, 140cm, 145cm, 150cm. Chiều cao trung bình là:', answer: '140 cm', options: ['135 cm', '140 cm', '145 cm', '130 cm'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a7', question: 'Biểu đồ cột giúp chúng ta thực hiện việc gì dễ dàng nhất?', answer: 'So sánh các số liệu', options: ['Đếm số', 'So sánh các số liệu', 'Nhân số', 'Chia số'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a8', question: 'Cửa hàng ngày đầu bán 20 quả, ngày sau 30 quả, ngày cuối 40 quả. Trung bình mỗi ngày bán:', answer: '30 quả', options: ['25 quả', '30 quả', '35 quả', '40 quả'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a9', question: 'Bảng số liệu: Giỏi 15 bạn, Khá 20 bạn. Tổng số học sinh giỏi và khá là:', answer: '35 bạn', options: ['30 bạn', '35 bạn', '40 bạn', '45 bạn'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
+  { id: 'g5sc-a10', question: 'Số trung bình cộng của 10, 20, 30, 40 là:', answer: '25', options: ['20', '25', '30', '15'], difficulty: 'easy', topic: 'Thống kê & Biểu đồ' },
 ];
 
 const FIXED_FUN_QUESTIONS: MathProblem[] = [
@@ -2283,6 +2621,125 @@ export default function App() {
         questions = FIXED_PARALLELOGRAM_RHOMBUS_APP_QUESTIONS_G4;
       } else if (selectedTopic?.title === 'Phân số') {
         questions = FIXED_FRACTIONS_APP_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_APP_QUESTIONS_G4;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed quiz for Grade 5 "Thử sức"
+    if (user.grade === 5 && (topic.toUpperCase().includes("THỬ SỨC") || topic.toUpperCase().includes("TRẮC NGHIỆM"))) {
+      setIsQuizMode(true);
+      setIsFunPlayMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setTimeLeft(20);
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập phân số & Hỗn số') {
+        questions = FIXED_FRACTIONS_MIXED_QUIZ_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Số thập phân') {
+        questions = FIXED_DECIMALS_QUIZ_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Cộng, trừ số thập phân') {
+        questions = FIXED_ADD_SUB_DECIMALS_QUIZ_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Nhân, chia số thập phân') {
+        questions = FIXED_MULT_DIV_DECIMALS_QUIZ_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Hình học phẳng') {
+        questions = FIXED_PLANE_GEOMETRY_QUIZ_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Hình khối & Thể tích') {
+        questions = FIXED_SOLID_GEOMETRY_QUIZ_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Chuyển động đều') {
+        questions = FIXED_UNIFORM_MOTION_QUIZ_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Thống kê & Biểu đồ') {
+        questions = FIXED_STATISTICS_CHARTS_QUIZ_QUESTIONS_G5;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed essay for Grade 5 "Tự luận"
+    if (user.grade === 5 && topic.toUpperCase().includes("TỰ LUẬN")) {
+      setIsFunPlayMode(true);
+      setIsQuizMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setEssayAnswer('');
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập phân số & Hỗn số') {
+        questions = FIXED_FRACTIONS_MIXED_ESSAY_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Số thập phân') {
+        questions = FIXED_DECIMALS_ESSAY_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Cộng, trừ số thập phân') {
+        questions = FIXED_ADD_SUB_DECIMALS_ESSAY_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Nhân, chia số thập phân') {
+        questions = FIXED_MULT_DIV_DECIMALS_ESSAY_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Hình học phẳng') {
+        questions = FIXED_PLANE_GEOMETRY_ESSAY_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Hình khối & Thể tích') {
+        questions = FIXED_SOLID_GEOMETRY_ESSAY_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Chuyển động đều') {
+        questions = FIXED_UNIFORM_MOTION_ESSAY_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Thống kê & Biểu đồ') {
+        questions = FIXED_STATISTICS_CHARTS_ESSAY_QUESTIONS_G5;
+      }
+      
+      if (questions.length > 0) {
+        setActiveQuestions(questions);
+        setCurrentProblem(questions[0]);
+        setIsCorrect(null);
+        setSelectedOption(null);
+        setExplanation(null);
+        setState('playing');
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Check if it's the fixed application for Grade 5 "Ứng dụng"
+    if (user.grade === 5 && topic.toUpperCase().includes("ỨNG DỤNG")) {
+      setIsQuizMode(true);
+      setIsFunPlayMode(false);
+      setIsConquerMode(false);
+      setQuizIndex(0);
+      setQuizScore(0);
+      setTimeLeft(20);
+      let questions: MathProblem[] = [];
+      if (selectedTopic?.title === 'Ôn tập phân số & Hỗn số') {
+        questions = FIXED_FRACTIONS_MIXED_APP_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Số thập phân') {
+        questions = FIXED_DECIMALS_APP_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Cộng, trừ số thập phân') {
+        questions = FIXED_ADD_SUB_DECIMALS_APP_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Nhân, chia số thập phân') {
+        questions = FIXED_MULT_DIV_DECIMALS_APP_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Hình học phẳng') {
+        questions = FIXED_PLANE_GEOMETRY_APP_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Hình khối & Thể tích') {
+        questions = FIXED_SOLID_GEOMETRY_APP_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Chuyển động đều') {
+        questions = FIXED_UNIFORM_MOTION_APP_QUESTIONS_G5;
+      } else if (selectedTopic?.title === 'Thống kê & Biểu đồ') {
+        questions = FIXED_STATISTICS_CHARTS_APP_QUESTIONS_G5;
       }
       
       if (questions.length > 0) {
@@ -2357,6 +2814,8 @@ export default function App() {
         questions = FIXED_PARALLELOGRAM_RHOMBUS_ESSAY_QUESTIONS_G4;
       } else if (selectedTopic?.title === 'Phân số') {
         questions = FIXED_FRACTIONS_ESSAY_QUESTIONS_G4;
+      } else if (selectedTopic?.title === 'Thống kê & Xác suất') {
+        questions = FIXED_STATISTICS_PROBABILITY_ESSAY_QUESTIONS_G4;
       }
       
       if (questions.length > 0) {
@@ -2465,6 +2924,89 @@ export default function App() {
         correct = cleanInput.includes('5');
       } else if (['gc7', 'gc8', 'gc10'].includes(currentProblem.id as string)) { // Proof questions
         correct = cleanInput.length > 0;
+      } else if (currentProblem.id === 'g5f-e1') { // Viết 3 phân số lớn hơn 1
+        const parts = cleanInput.split(/[,;\s]+/).filter(s => s !== '');
+        correct = parts.length >= 3 && parts.every(p => {
+          if (p.includes('/')) {
+            const [num, den] = p.split('/').map(s => parseInt(s));
+            return !isNaN(num) && !isNaN(den) && den !== 0 && num > den;
+          }
+          return false;
+        });
+      } else if (currentProblem.id === 'g5f-e4') { // So sánh 3/4 và 2/3
+        correct = cleanInput.includes('>') || cleanInput.includes('lớnhơn') || (cleanInput.includes('3/4') && cleanInput.includes('2/3') && cleanInput.indexOf('3/4') < cleanInput.indexOf('2/3') && cleanInput.includes('>'));
+        // Basic check for common ways to express it
+        if (!correct) {
+          correct = cleanInput === '3/4>2/3' || cleanInput === '2/3<3/4';
+        }
+      } else if (currentProblem.id === 'g5d-e4') { // So sánh: 0,75 và 0,8
+        correct = cleanInput.includes('<') || cleanInput.includes('béhơn') || (cleanInput.includes('0,75') && cleanInput.includes('0,8') && cleanInput.indexOf('0,75') < cleanInput.indexOf('0,8') && cleanInput.includes('<'));
+        if (!correct) {
+          correct = cleanInput === '0,75<0,8' || cleanInput === '0,8>0,75';
+        }
+      } else if (currentProblem.id === 'g5d-e5') { // 1,5 - 0,5 = 1
+        correct = cleanInput === '1' || cleanInput === '1,0' || cleanInput === '1l' || cleanInput === '1lít';
+      } else if (currentProblem.id === 'g5d-e10') { // Sắp xếp decimals
+        const parts = cleanInput.split(/[,;\s]+/).filter(s => s !== '');
+        correct = parts.length === 3 && parts[0].includes('0,2') && parts[1].includes('0,5') && parts[2].includes('0,8');
+      } else if (currentProblem.id === 'g5as-e3') { // 1,3 lít
+        correct = cleanInput === '1,3' || cleanInput === '1,3lít' || cleanInput === '1,3l';
+      } else if (currentProblem.id === 'g5as-e5') { // 6,25 kg
+        correct = cleanInput === '6,25' || cleanInput === '6,25kg';
+      } else if (currentProblem.id === 'g5as-e8') { // 3,4 m
+        correct = cleanInput === '3,4' || cleanInput === '3,4m' || cleanInput === '3,4mét';
+      } else if (currentProblem.id === 'g5as-e10') { // 13 cm
+        correct = cleanInput === '13' || cleanInput === '13cm';
+      } else if (currentProblem.id === 'g5md-e3') { // 6 lít
+        correct = cleanInput === '6' || cleanInput === '6lít' || cleanInput === '6l';
+      } else if (currentProblem.id === 'g5md-e5') { // 2,1 m
+        correct = cleanInput === '2,1' || cleanInput === '2,1m' || cleanInput === '2,1mét';
+      } else if (currentProblem.id === 'g5md-e8') { // 9 m2
+        correct = cleanInput === '9' || cleanInput === '9m2' || cleanInput === '9métvuông';
+      } else if (currentProblem.id === 'g5pg-e1') { // 45 cm2
+        correct = cleanInput === '45' || cleanInput === '45cm2' || cleanInput === '45métvuông' || cleanInput.includes('45');
+      } else if (currentProblem.id === 'g5pg-e2') { // 28 cm
+        correct = cleanInput === '28' || cleanInput === '28cm';
+      } else if (currentProblem.id === 'g5pg-e3') { // 6 cm
+        correct = cleanInput === '6' || cleanInput === '6cm';
+      } else if (currentProblem.id === 'g5pg-e4') { // 46 m & 120 m2
+        correct = cleanInput.includes('46') && cleanInput.includes('120');
+      } else if (currentProblem.id === 'g5pg-e5') { // 108 cm2
+        correct = cleanInput === '108' || cleanInput === '108cm2';
+      } else if (currentProblem.id === 'g5sg-e1') { // 343 cm3
+        correct = cleanInput === '343' || cleanInput === '343cm3' || cleanInput === '343cm³';
+      } else if (currentProblem.id === 'g5sg-e2') { // 120 cm3
+        correct = cleanInput === '120' || cleanInput === '120cm3' || cleanInput === '120cm³';
+      } else if (currentProblem.id === 'g5sg-e3') { // 120 dm3
+        correct = cleanInput === '120' || cleanInput === '120dm3' || cleanInput === '120dm³';
+      } else if (currentProblem.id === 'g5sg-e7') { // 2000 lít
+        correct = cleanInput === '2000' || cleanInput === '2000lít' || cleanInput === '2000l';
+      } else if (currentProblem.id === 'g5um-e1') { // 40 km/h
+        correct = cleanInput === '40' || cleanInput === '40km/h' || cleanInput === '40km/giờ';
+      } else if (currentProblem.id === 'g5um-e2') { // 125 km
+        correct = cleanInput === '125' || cleanInput === '125km';
+      } else if (currentProblem.id === 'g5um-e3') { // 2 giờ
+        correct = cleanInput === '2' || cleanInput === '2giờ' || cleanInput === '2g';
+      } else if (currentProblem.id === 'g5um-e4') { // 90 km
+        correct = cleanInput === '90' || cleanInput === '90km';
+      } else if (currentProblem.id === 'g5um-e5') { // 60 km/h
+        correct = cleanInput === '60' || cleanInput === '60km/h' || cleanInput === '60km/giờ';
+      } else if (currentProblem.id === 'g5um-e10') { // 60 km/h
+        correct = cleanInput === '60' || cleanInput === '60km/h' || cleanInput === '60km/giờ';
+      } else if (currentProblem.id === 'g5sc-e1') { // 6 và 35
+        correct = cleanInput.includes('6') && cleanInput.includes('35');
+      } else if (currentProblem.id === 'g5sc-e2') { // 30 và đá bóng
+        correct = cleanInput.includes('30') && (cleanInput.includes('đábóng') || cleanInput.includes('dabong'));
+      } else if (currentProblem.id === 'g3spe-2' || currentProblem.id === 'g3spe-9') { // Sấp, ngửa
+        correct = cleanInput.includes('sấp') && cleanInput.includes('ngửa');
+      } else if (currentProblem.id === 'g3spe-6') { // 1, 2, 3, 4, 5, 6
+        correct = ['1', '2', '3', '4', '5', '6'].every(s => cleanInput.includes(s));
+      } else if (currentProblem.id === 'g3spe-7') { // Vì kết quả ngẫu nhiên
+        correct = cleanInput.includes('ngẫunhiên') || cleanInput.includes('khôngbiếttrước');
+      } else if (currentProblem.id === 'g5sc-e4') { // 30 và 6
+        correct = cleanInput.includes('30') && cleanInput.includes('6');
+      } else if (currentProblem.id === 'g5sc-e9') { // 40 và 8
+        correct = cleanInput.includes('40') && cleanInput.includes('8');
       } else {
         correct = cleanInput === cleanAnswer;
       }
